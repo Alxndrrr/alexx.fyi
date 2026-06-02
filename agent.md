@@ -148,6 +148,12 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added `_includes/date.html` for written English dates with ordinal suffixes.
 - Removed circular borders/backgrounds around footer social icons.
 
+### Update: YouTube Loading
+
+- Added `loading="lazy"`, `fetchpriority="low"`, fixed width/height, and `referrerpolicy` to `_includes/youtube.html`.
+- Added preconnect hints for YouTube embed/static hosts in `_layouts/default.html`.
+- Removed the optional YouTube `title` parameter from post/manual examples; the include keeps a default iframe title internally.
+
 ### Update: Intro Include
 
 - Moved homepage intro content from `_config.yml` to `_includes/intro.html`.

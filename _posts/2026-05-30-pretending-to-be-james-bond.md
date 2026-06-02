@@ -10,4 +10,4 @@ Yes, I just bought the new James Bond game: 007 First Light. It’s the first Bo
 
 I’ve just started the game, but so far it feels like a very fun action/adventure game. And you get to play as James Bond! How cool is that?
 
-{% include youtube.html id="gDvbGANDH4E" title="007 First Light" %}
+{% include youtube.html id="gDvbGANDH4E" %}

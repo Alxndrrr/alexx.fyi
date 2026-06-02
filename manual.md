@@ -201,10 +201,12 @@ The break marker is `<!--more-->`. If you leave it out, the full post content ap
 Use the YouTube include inside any post:
 
 ```liquid
-{% include youtube.html id="dQw4w9WgXcQ" title="Example YouTube embed" %}
+{% include youtube.html id="dQw4w9WgXcQ" %}
 ```
 
 Use only the video ID, not the full YouTube URL. The theme makes the video responsive automatically.
+
+The include also adds iframe loading improvements like lazy loading, fixed dimensions, low fetch priority, and a privacy-friendly `youtube-nocookie.com` embed URL.
 
 ## Create a Regular Page
 
