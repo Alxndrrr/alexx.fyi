@@ -97,6 +97,7 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added support for `type: content` in post front matter, with `type: excerpt` kept as a backwards-compatible alias.
 - Content preview posts render on the homepage as title, content before `<!--more-->`, optional continue reading link, categories, and date.
 - Converted `_posts/2026-05-29-making-a-quieter-homepage.md` into an example content preview post.
+- Switched the homepage preview for content posts from `post.excerpt` to `post.content` split on `<!--more-->`, so front matter excerpts do not override the visible preview.
 
 ### Update: Header Layout
 

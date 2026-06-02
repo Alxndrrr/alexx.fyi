@@ -175,7 +175,6 @@ type: content
 categories:
   - essay
   - notes
-excerpt: This short text appears under the title on the homepage.
 ---
 
 This part appears on the homepage.
@@ -185,7 +184,7 @@ This part appears on the homepage.
 This part only appears after someone opens the full post.
 ```
 
-The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown.
+The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown. For `type: content` posts, do not use front matter `excerpt:` for the homepage preview; the preview comes from the post body.
 
 ## Create a Regular Page
 

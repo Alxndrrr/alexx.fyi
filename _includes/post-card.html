@@ -16,14 +16,15 @@
     </a>
   </article>
 {% elsif post.type == "content" or post.type == "excerpt" %}
+  {% assign content_parts = post.content | split: site.excerpt_separator %}
   <article class="post-card post-card--content">
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
     <div class="post-card__content-preview">
-      {{ post.excerpt }}
+      {{ content_parts[0] }}
     </div>
-    {% if post.excerpt != post.content %}
+    {% if post.content contains site.excerpt_separator %}
       <a class="continue-reading-link" href="{{ post.url | relative_url }}">Continue reading</a>
     {% endif %}
     {% if post.categories %}
