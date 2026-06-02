@@ -89,3 +89,4 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Microposts render as full-content clickable blocks in the homepage post list.
 - Micropost detail pages hide the title.
 - Added one sample micropost at `_posts/2026-06-02-micro-note-after-rain.md`.
+- Adjusted the sample micropost timestamp to the start of the day so Jekyll does not treat it as a future post during GitHub Pages builds.

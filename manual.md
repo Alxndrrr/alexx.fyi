@@ -140,7 +140,8 @@ Create a post in `_posts/` and add `type: micropost` to the front matter:
 ```markdown
 ---
 type: micropost
-date: 2026-06-02 12:00:00 +0200
+title: My Micropost Title
+date: 2026-06-02 00:01:00 +0000
 categories:
   - micro
   - note
@@ -151,6 +152,8 @@ Your short text goes here.
 ```
 
 The entire micropost block on the homepage links to the full post page.
+
+The `title` is still useful for SEO, feeds, and browser titles, but the theme hides it visually for microposts.
 
 ## Create a Regular Page
 

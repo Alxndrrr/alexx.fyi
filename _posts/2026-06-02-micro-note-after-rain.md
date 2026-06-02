@@ -1,6 +1,7 @@
 ---
 type: micropost
-date: 2026-06-02 12:00:00 +0200
+title: Micro Note after Rain
+date: 2026-06-02 00:01:00 +0000
 categories:
   - micro
   - note
