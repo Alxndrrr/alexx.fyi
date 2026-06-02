@@ -172,6 +172,6 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 ### Update: Avatar Variants
 
-- Added green, white, red, purple, and black avatar variants to `assets/img/`.
-- Added `micro_logo` to `_config.yml` and set micropost cards/pages to use the purple avatar variant.
+- Added the 2025 avatar variants for the theme colors `#2e2c37`, `#ff0073`, and `#5200ff` to `assets/img/`.
+- Added `micro_logo` to `_config.yml` and set micropost cards/pages to use the purple `#5200ff` avatar variant.
 - Made micropost avatar crops explicitly square and circular so the non-round source images render as round avatars.
