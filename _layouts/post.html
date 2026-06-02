@@ -3,9 +3,10 @@ layout: default
 ---
 
 {% if page.type == "micropost" %}
+  {% assign micro_logo = site.micro_logo | default: site.logo %}
   <article class="article article--post article--micro">
     <div class="micro-box">
-      <img class="micro-box__avatar" src="{{ site.logo | relative_url }}" alt="">
+      <img class="micro-box__avatar" src="{{ micro_logo | relative_url }}" alt="">
       <div class="micro-box__body">
         {% if page.categories %}
           <ul class="tag-list" aria-label="Categories">

@@ -1,8 +1,9 @@
 {% assign post = include.post %}
+{% assign micro_logo = site.micro_logo | default: site.logo %}
 {% if post.type == "micropost" %}
   <article class="post-card post-card--micro">
     <a class="post-card__micro-link" href="{{ post.url | relative_url }}">
-      <img class="post-card__micro-avatar" src="{{ site.logo | relative_url }}" alt="">
+      <img class="post-card__micro-avatar" src="{{ micro_logo | relative_url }}" alt="">
       <div class="post-card__micro-body">
         {% if post.categories %}
           <ul class="tag-list" aria-label="Categories">

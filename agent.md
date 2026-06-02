@@ -169,3 +169,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Added `_pages/colophon.md` with the hardware, software, apps, author, and gaming colophon content from the old static page.
 - Added colophon-specific two-column definition list styling to `_sass/_alexx.scss`, adapted to the current alexx.fyi color, font, and spacing variables.
+
+### Update: Avatar Variants
+
+- Added green, white, red, purple, and black avatar variants to `assets/img/`.
+- Added `micro_logo` to `_config.yml` and set micropost cards/pages to use the purple avatar variant.
+- Made micropost avatar crops explicitly square and circular so the non-round source images render as round avatars.
