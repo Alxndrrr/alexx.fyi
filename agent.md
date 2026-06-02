@@ -129,3 +129,4 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Changed the blog page into a yearly archive grouped by post year.
 - Rendered archive posts as a compact bullet list with pixel-style square bullets.
 - Changed the header to place the site name on the far left and the menu on the far right.
+- Moved the nav outside the title wrapper and made the header a two-column grid so the menu can actually align right.
