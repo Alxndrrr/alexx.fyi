@@ -186,3 +186,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added optional external-link support for homepage micropost cards.
 - A micropost front matter `external_url` value links the homepage box to the external source, such as Threads; without it, the box links to the local micropost page.
 - Avoided using `url` for this because Jekyll reserves `url` for each post's generated permalink.
+
+### Update: Currently Box
+
+- Added `_includes/currently.html` for editable homepage "currently" items.
+- Added a dark pink currently box below the intro block with Font Awesome icons and one squared-off lower-left corner.

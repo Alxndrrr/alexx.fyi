@@ -143,7 +143,7 @@ img {
   display: grid;
   gap: 1rem;
   grid-template-columns: auto 1fr;
-  margin-bottom: 2.25rem;
+  margin-bottom: 1rem;
   padding: 1.1rem;
   text-align: left;
 }
@@ -175,6 +175,37 @@ img {
 .intro-block__text a:hover,
 .intro-block__text a:focus {
   color: var(--color-accent-yellow);
+}
+
+.currently-block {
+  background: rgba(255, 0, 115, 0.16);
+  border-radius: 8px 8px 8px 0;
+  margin-bottom: 2.25rem;
+  padding: 1rem 1.1rem;
+}
+
+.currently-list {
+  display: grid;
+  gap: 0.55rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.currently-list li {
+  align-items: baseline;
+  color: #ffffff;
+  display: grid;
+  font-size: 0.95rem;
+  gap: 0.65rem;
+  grid-template-columns: 1rem 1fr;
+  line-height: 1.45;
+}
+
+.currently-list i {
+  color: var(--color-accent-yellow);
+  font-size: 0.82rem;
+  text-align: center;
 }
 
 .section-title,

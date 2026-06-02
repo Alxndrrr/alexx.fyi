@@ -49,6 +49,19 @@ You can use regular HTML in that file:
 
 The homepage automatically loads that file into the intro box.
 
+## Change the Currently Box
+
+Edit `_includes/currently.html`.
+
+This file controls the small currently box below the homepage intro. You can add or remove items and use Font Awesome icons:
+
+```html
+<li>
+  <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+  <span>Reading Ready Player One</span>
+</li>
+```
+
 ## Change the Menu
 
 Open `_config.yml` and edit `nav`:
