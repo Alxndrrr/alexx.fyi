@@ -131,3 +131,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Changed the header to place the site name on the far left and the menu on the far right.
 - Moved the nav outside the title wrapper and made the header a two-column grid so the menu can actually align right.
 - Removed the small-screen stacking fallback and made the header/menu nowrap so the title and menu stay on one row.
+
+### Update: Video Content Post
+
+- Added `_posts/2026-06-02-youtube-embed-test.md` as a `type: content` post with full homepage content.
+- Added responsive `.video-embed` styling for YouTube iframes.

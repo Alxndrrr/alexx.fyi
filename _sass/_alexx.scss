@@ -435,6 +435,24 @@ img {
   margin: 0;
 }
 
+.video-embed {
+  aspect-ratio: 16 / 9;
+  background: #0f0e14;
+  border: 2px solid var(--color-accent-purple);
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 rgba(255, 0, 115, 0.32);
+  margin: 1rem 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.video-embed iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .continue-reading-link {
   color: var(--color-muted);
   font-family: var(--font-detail);
