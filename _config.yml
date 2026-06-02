@@ -10,10 +10,10 @@ author:
   email: "hello@example.com"
   threads: "https://www.threads.net/"
 
-logo: "/assets/img/logo.svg"
+logo: "/assets/img/avatar.png"
 
-theme_color: "#111111"
-accent_color: "#f15a24"
+theme_color: "#18171c"
+accent_color: "#ff0073"
 
 permalink: /blog/:year/:month/:day/:title/
 

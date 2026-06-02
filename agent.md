@@ -44,8 +44,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Replaced the Dutch example page with `_pages/about.md`.
 - Added seven total dummy blog posts.
 - Changed the visual style to a centered, narrow dark mode layout.
-- Added Tanker for headings, post titles, and the site name.
-- Added DM Sans for page and blog content.
+- Added Tanker for headings, post titles, and the menu.
+- Initially added DM Sans for page and blog content; later replaced it with the old Pika-style font stack.
 
 ### Update: GitHub Pages Visibility Fix
 
@@ -57,3 +57,16 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Set `url` to `https://alxndrrr.github.io` and `baseurl` to `/alexx.fyi`.
 - This makes assets and internal links resolve correctly on the standard GitHub Pages project URL.
+
+### Update: Old Pika Style
+
+- Read the pasted old Pika CSS and translated its visual system to the Jekyll theme.
+- Changed the palette to dark purple-black, neon pink, yellow, and purple.
+- Added Jersey 10 for the site name, Space Grotesk for body content, and Pixelify Sans for metadata, tags, and footer details.
+- Kept Tanker for headings, post titles, and the menu.
+- Added the old pixel-style yellow site-name shadow, pink tags, purple metadata, yellow content links with purple underlines, and pink regular page titles.
+
+### Update: Avatar Logo
+
+- Changed `logo` in `_config.yml` from `/assets/img/logo.svg` to `/assets/img/avatar.png`.
+- The header now uses the uploaded avatar image as the site logo.

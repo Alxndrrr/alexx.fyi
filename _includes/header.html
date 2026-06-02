@@ -4,7 +4,7 @@
     <span class="brand__name">{{ site.title }}</span>
   </a>
 
-  <nav class="site-nav" aria-label="Hoofdmenu">
+  <nav class="site-nav" aria-label="Main menu">
     {% for item in site.nav %}
       <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
     {% endfor %}

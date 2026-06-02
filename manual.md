@@ -21,7 +21,7 @@ Then open `http://localhost:4000`.
 - `_includes/`: reusable parts like the header, footer, and post cards.
 - `_posts/`: all blog posts.
 - `_pages/`: regular pages like `About`.
-- `assets/img/logo.svg`: the logo.
+- `assets/img/avatar.png`: the avatar used as the logo.
 
 ## Change the Name, Intro, and Social Links
 
@@ -63,19 +63,22 @@ The main visual settings are at the top:
 
 ```css
 :root {
-  --color-paper: #111111;
-  --color-panel: #171717;
-  --color-ink: #f3efe7;
-  --color-muted: #aaa39a;
-  --color-line: #303030;
-  --color-accent: #f15a24;
-  --font-body: "DM Sans", sans-serif;
+  --color-paper: #18171c;
+  --color-ink: #e8e8e8;
+  --color-muted: #b7a7ff;
+  --color-line: #2e2c37;
+  --color-accent: #ff0073;
+  --color-accent-yellow: #ffbd37;
+  --color-accent-purple: #5200ff;
+  --font-body: "Space Grotesk", sans-serif;
   --font-display: "Tanker", Impact, sans-serif;
+  --font-site: "Jersey 10", "Pixelify Sans", monospace;
+  --font-detail: "Pixelify Sans", monospace;
   --content-width: 38rem;
 }
 ```
 
-The site uses Tanker for headings, titles, and the site name. It uses DM Sans for page and blog content.
+The site uses Jersey 10 for the site name, Tanker for menu items and headings, Space Grotesk for page and blog content, and Pixelify Sans for metadata, tags, and footer details.
 
 To make the centered layout wider or narrower, change:
 
@@ -85,12 +88,12 @@ To make the centered layout wider or narrower, change:
 
 ## Replace the Logo
 
-Replace `assets/img/logo.svg` with your own file.
+Replace `assets/img/avatar.png` with your own file.
 
 If the filename changes, update this in `_config.yml`:
 
 ```yml
-logo: "/assets/img/logo.svg"
+logo: "/assets/img/avatar.png"
 ```
 
 ## Create a New Blog Post
