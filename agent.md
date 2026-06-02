@@ -136,3 +136,5 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Added `_posts/2026-06-02-youtube-embed-test.md` as a `type: content` post with full homepage content.
 - Added responsive `.video-embed` styling for YouTube iframes.
+- Moved the YouTube embed markup into `_includes/youtube.html` so posts can embed videos with a clean Liquid include.
+- Changed the video post timestamp to the start of the day so Jekyll does not hide it as a future post.

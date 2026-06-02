@@ -186,6 +186,16 @@ This part only appears after someone opens the full post.
 
 The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown. For `type: content` posts, do not use front matter `excerpt:` for the homepage preview; the preview comes from the post body.
 
+## Embed a YouTube Video
+
+Use the YouTube include inside any post:
+
+```liquid
+{% include youtube.html id="dQw4w9WgXcQ" title="Example YouTube embed" %}
+```
+
+Use only the video ID, not the full YouTube URL. The theme makes the video responsive automatically.
+
 ## Create a Regular Page
 
 Create a Markdown file inside `_pages/`.
