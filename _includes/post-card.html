@@ -11,4 +11,9 @@
       {% endfor %}
     </ul>
   {% endif %}
+  {% if post.excerpt %}
+    <div class="post-card__excerpt">
+      {{ post.excerpt | markdownify }}
+    </div>
+  {% endif %}
 </article>

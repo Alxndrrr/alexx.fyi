@@ -1,6 +1,6 @@
 ---
 title: Dummy Post about Projects
-date: 2026-06-06
+date: 2026-05-30
 categories:
   - projects
   - process

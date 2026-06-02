@@ -1,6 +1,6 @@
 ---
 title: A Pocket-Sized Reading List
-date: 2026-06-04
+date: 2026-05-28
 categories:
   - links
   - reading

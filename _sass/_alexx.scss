@@ -230,6 +230,16 @@ img {
   text-transform: uppercase;
 }
 
+.post-card__excerpt {
+  color: var(--color-muted);
+  margin: 0.75rem auto 0;
+  max-width: 30rem;
+}
+
+.post-card__excerpt p {
+  margin: 0;
+}
+
 /* Article pages for blogs and regular pages. */
 .article {
   display: grid;

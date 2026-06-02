@@ -1,6 +1,6 @@
 ---
 title: Notes on Personal Infrastructure
-date: 2026-06-07
+date: 2026-05-31
 categories:
   - systems
   - personal

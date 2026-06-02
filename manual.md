@@ -126,6 +126,8 @@ Your post starts here.
 
 The layout automatically shows the date above the title and the categories below it.
 
+Jekyll hides posts with future dates by default. If a post does not appear on the homepage, check that the `date` value is today or earlier.
+
 ## Create a Regular Page
 
 Create a Markdown file inside `_pages/`.
@@ -168,3 +170,25 @@ The blog list is generated automatically from `_posts/`.
 6. Save.
 
 GitHub Pages will build the site automatically.
+
+## GitHub Pages Project URL
+
+This site is configured for the standard GitHub Pages project URL:
+
+```yml
+url: "https://alxndrrr.github.io"
+baseurl: "/alexx.fyi"
+```
+
+That means the site is expected to load at:
+
+```text
+https://alxndrrr.github.io/alexx.fyi/
+```
+
+If you later use a custom domain like `https://alexx.fyi`, change it to:
+
+```yml
+url: "https://alexx.fyi"
+baseurl: ""
+```

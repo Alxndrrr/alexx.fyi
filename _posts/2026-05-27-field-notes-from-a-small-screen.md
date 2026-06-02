@@ -1,6 +1,6 @@
 ---
 title: Field Notes from a Small Screen
-date: 2026-06-03
+date: 2026-05-27
 categories:
   - mobile
   - notes

@@ -1,6 +1,6 @@
 ---
 title: A Short Entry for Later
-date: 2026-06-08
+date: 2026-06-01
 categories:
   - journal
   - fragments

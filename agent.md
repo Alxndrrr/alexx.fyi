@@ -46,3 +46,14 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Changed the visual style to a centered, narrow dark mode layout.
 - Added Tanker for headings, post titles, and the site name.
 - Added DM Sans for page and blog content.
+
+### Update: GitHub Pages Visibility Fix
+
+- Moved dummy post dates to dates on or before 2026-06-02, because Jekyll hides future-dated posts by default.
+- Added a small inline dark fallback in `_layouts/default.html` so the page remains dark even before the compiled stylesheet loads.
+- Added post excerpts to homepage cards so dummy post content is visible on the homepage.
+
+### Update: GitHub Pages Project URL
+
+- Set `url` to `https://alxndrrr.github.io` and `baseurl` to `/alexx.fyi`.
+- This makes assets and internal links resolve correctly on the standard GitHub Pages project URL.
