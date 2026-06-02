@@ -39,9 +39,9 @@ defaults:
       layout: "page"
 
 nav:
-  - title: Home
-    url: /
   - title: Blog
     url: /blog/
   - title: About
     url: /about/
+  - title: Colophon
+    url: /colophon/
