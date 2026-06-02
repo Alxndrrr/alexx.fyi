@@ -159,3 +159,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Moved homepage intro content from `_config.yml` to `_includes/intro.html`.
 - Updated `_layouts/home.html` to include `_includes/intro.html`.
 - Updated the manual to explain that intro content can use regular HTML.
+
+### Update: Homepage Post Rhythm
+
+- Increased the homepage post list gap slightly.
+- Added extra top spacing when a micropost is followed by a regular/content post, so short boxed updates feel visually separate from longer blog entries.

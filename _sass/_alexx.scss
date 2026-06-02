@@ -310,7 +310,7 @@ img {
 /* Blog cards: date above title, categories below title. */
 .post-list {
   display: grid;
-  gap: 1rem;
+  gap: 1.35rem;
 }
 
 .post-card {
@@ -357,6 +357,10 @@ img {
   border: 2px solid var(--color-line);
   border-radius: 8px;
   padding: 1rem;
+}
+
+.post-card--micro + .post-card:not(.post-card--micro) {
+  margin-top: 0.9rem;
 }
 
 .post-card__micro-link {
