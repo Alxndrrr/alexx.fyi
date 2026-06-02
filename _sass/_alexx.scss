@@ -443,6 +443,7 @@ img {
 
 .post-card--content,
 .post-card--excerpt {
+  border-bottom: 0;
   display: grid;
   gap: 0.7rem;
 }
