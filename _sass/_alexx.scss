@@ -98,6 +98,8 @@ img {
     1px 1px 0 var(--color-accent-purple),
     2px 2px 0 var(--color-accent-purple),
     3px 3px 0 var(--color-accent-purple);
+  transform: rotate(-3deg);
+  transform-origin: center;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -224,8 +226,8 @@ img {
 .micro-box__content {
   color: var(--color-ink);
   font-family: var(--font-micro);
-  font-size: 1.05rem;
-  font-weight: 400;
+  font-size: 0.98rem;
+  font-weight: 300;
   letter-spacing: 0;
   line-height: 1.55;
 }
@@ -411,8 +413,8 @@ img {
 .post-card__micro-content {
   color: var(--color-ink);
   font-family: var(--font-micro);
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.95rem;
+  font-weight: 300;
   letter-spacing: 0;
   line-height: 1.55;
 }
