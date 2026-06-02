@@ -155,6 +155,32 @@ The entire micropost block on the homepage links to the full post page.
 
 The `title` is still useful for SEO, feeds, and browser titles, but the theme hides it visually for microposts.
 
+## Create an Excerpt Post
+
+Excerpt posts use a different homepage list style:
+
+1. Title
+2. Excerpt
+3. Continue reading link
+4. Categories
+5. Date
+
+Add `type: excerpt` to the front matter:
+
+```markdown
+---
+title: My Excerpt Post
+date: 2026-06-02
+type: excerpt
+categories:
+  - essay
+  - notes
+excerpt: This short text appears under the title on the homepage.
+---
+
+Your full post starts here.
+```
+
 ## Create a Regular Page
 
 Create a Markdown file inside `_pages/`.

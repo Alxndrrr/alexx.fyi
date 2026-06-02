@@ -1,6 +1,7 @@
 ---
 title: Making a Quieter Homepage
 date: 2026-05-29
+type: excerpt
 categories:
   - design
   - homepage

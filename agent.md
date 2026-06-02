@@ -90,3 +90,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Micropost detail pages hide the title.
 - Added one sample micropost at `_posts/2026-06-02-micro-note-after-rain.md`.
 - Adjusted the sample micropost timestamp to the start of the day so Jekyll does not treat it as a future post during GitHub Pages builds.
+
+### Update: Excerpt Post Type
+
+- Added support for `type: excerpt` in post front matter.
+- Excerpt posts render on the homepage as title, excerpt, continue reading link, categories, and date.
+- Converted `_posts/2026-05-29-making-a-quieter-homepage.md` into an example excerpt post.

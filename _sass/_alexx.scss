@@ -297,6 +297,48 @@ img {
   border-color: var(--color-accent);
 }
 
+.post-card--excerpt {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.post-card--excerpt h2 {
+  margin-bottom: 0;
+}
+
+.post-card__excerpt {
+  color: var(--color-ink);
+  max-width: 36rem;
+}
+
+.post-card__excerpt p {
+  margin: 0;
+}
+
+.continue-reading-link {
+  color: var(--color-muted);
+  font-family: var(--font-detail);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.continue-reading-link:hover,
+.continue-reading-link:focus {
+  color: #d7ceff;
+  text-decoration: none;
+}
+
+.post-card--excerpt .tag-list {
+  margin-top: 0.1rem;
+}
+
+.post-card--excerpt time {
+  margin-bottom: 0;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;

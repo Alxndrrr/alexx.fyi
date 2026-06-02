@@ -15,6 +15,26 @@
       {% endif %}
     </a>
   </article>
+{% elsif post.type == "excerpt" %}
+  <article class="post-card post-card--excerpt">
+    <h2>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    {% if post.excerpt %}
+      <div class="post-card__excerpt">
+        {{ post.excerpt | markdownify }}
+      </div>
+    {% endif %}
+    <a class="continue-reading-link" href="{{ post.url | relative_url }}">Continue reading</a>
+    {% if post.categories %}
+      <ul class="tag-list" aria-label="Categories">
+        {% for category in post.categories %}
+          <li>{{ category }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
+  </article>
 {% else %}
   <article class="post-card">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
