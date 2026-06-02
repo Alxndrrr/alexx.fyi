@@ -7,6 +7,6 @@ categories:
   - Books
 ---
 
-I’m reading Ready Player One, and it’s making me want to pick up Dungeon Crawler Carl again… even though I couldn’t finish it last year.
+I’m reading _**Ready Player One**_, and it’s making me want to pick up Dungeon Crawler Carl again… even though I couldn’t finish it last year.
 
 So… should I?! 

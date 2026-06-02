@@ -53,13 +53,14 @@ The homepage automatically loads that file into the intro box.
 
 Edit `_includes/currently.html`.
 
-This file controls the small currently box below the homepage intro. You can add or remove items and use Font Awesome icons:
+This file controls the small currently box below the homepage intro. It uses a small label and one sentence with optional Font Awesome icons:
 
 ```html
-<li>
+<p class="currently-label">// currently</p>
+<p class="currently-sentence">
   <i class="fa-solid fa-book-open" aria-hidden="true"></i>
-  <span>Reading Ready Player One</span>
-</li>
+  Currently reading Ready Player One.
+</p>
 ```
 
 ## Change the Menu
