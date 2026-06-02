@@ -15,17 +15,17 @@
       {% endif %}
     </a>
   </article>
-{% elsif post.type == "excerpt" %}
-  <article class="post-card post-card--excerpt">
+{% elsif post.type == "content" or post.type == "excerpt" %}
+  <article class="post-card post-card--content">
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
-    {% if post.excerpt %}
-      <div class="post-card__excerpt">
-        {{ post.excerpt | markdownify }}
-      </div>
+    <div class="post-card__content-preview">
+      {{ post.excerpt }}
+    </div>
+    {% if post.excerpt != post.content %}
+      <a class="continue-reading-link" href="{{ post.url | relative_url }}">Continue reading</a>
     {% endif %}
-    <a class="continue-reading-link" href="{{ post.url | relative_url }}">Continue reading</a>
     {% if post.categories %}
       <ul class="tag-list" aria-label="Categories">
         {% for category in post.categories %}

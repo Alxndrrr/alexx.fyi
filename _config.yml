@@ -16,6 +16,7 @@ theme_color: "#18171c"
 accent_color: "#ff0073"
 
 permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
 
 plugins:
   - jekyll-feed

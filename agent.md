@@ -91,8 +91,16 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added one sample micropost at `_posts/2026-06-02-micro-note-after-rain.md`.
 - Adjusted the sample micropost timestamp to the start of the day so Jekyll does not treat it as a future post during GitHub Pages builds.
 
-### Update: Excerpt Post Type
+### Update: Content Preview Post Type
 
-- Added support for `type: excerpt` in post front matter.
-- Excerpt posts render on the homepage as title, excerpt, continue reading link, categories, and date.
-- Converted `_posts/2026-05-29-making-a-quieter-homepage.md` into an example excerpt post.
+- Added `excerpt_separator: "<!--more-->"` in `_config.yml`.
+- Added support for `type: content` in post front matter, with `type: excerpt` kept as a backwards-compatible alias.
+- Content preview posts render on the homepage as title, content before `<!--more-->`, optional continue reading link, categories, and date.
+- Converted `_posts/2026-05-29-making-a-quieter-homepage.md` into an example content preview post.
+
+### Update: Header Layout
+
+- Changed the header to a two-column layout with avatar on the left and title/menu stacked on the right.
+- Made the title slightly smaller.
+- Increased the menu text size.
+- Sized the avatar to visually match the height of the title plus menu.

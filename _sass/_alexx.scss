@@ -64,7 +64,7 @@ img {
   top: 1rem;
 }
 
-/* Header: logo on the left, site name next to it, menu below. */
+/* Header: avatar on the left, title and menu stacked on the right. */
 .site-header {
   margin: 0 auto;
   max-width: var(--content-width);
@@ -72,28 +72,44 @@ img {
   text-align: left;
 }
 
-.brand {
-  align-items: center;
-  display: flex;
-  gap: 0.8rem;
-  justify-content: flex-start;
+.site-header__inner {
+  align-items: stretch;
+  border-bottom: 1px solid var(--color-line);
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: auto 1fr;
+  padding-bottom: 1rem;
+}
+
+.brand__logo-link {
+  display: block;
   text-decoration: none;
 }
 
 .brand__logo {
   border: 1px solid var(--color-line);
   border-radius: 50%;
-  height: 3rem;
-  width: 3rem;
+  height: clamp(4.4rem, 18vw, 5.4rem);
+  object-fit: cover;
+  width: clamp(4.4rem, 18vw, 5.4rem);
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
 }
 
 .brand__name {
   color: var(--color-accent-yellow);
+  display: inline-block;
   font-family: var(--font-site);
-  font-size: clamp(2rem, 12vw, 4rem);
+  font-size: clamp(1.9rem, 10vw, 3.2rem);
   font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 0.9;
+  text-decoration: none;
   text-shadow:
     1px 1px 0 var(--color-accent-purple),
     2px 2px 0 var(--color-accent-purple),
@@ -102,19 +118,17 @@ img {
 }
 
 .site-nav {
-  border-bottom: 1px solid var(--color-line);
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem 1rem;
+  gap: 0.45rem 1rem;
   justify-content: flex-start;
-  margin-top: 1rem;
-  padding-bottom: 1rem;
+  margin-top: 0.45rem;
 }
 
 .site-nav a {
   color: #ffffff;
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: clamp(1.1rem, 4vw, 1.35rem);
   font-weight: 400;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -297,20 +311,29 @@ img {
   border-color: var(--color-accent);
 }
 
+.post-card--content,
 .post-card--excerpt {
   display: grid;
   gap: 0.7rem;
 }
 
+.post-card--content h2,
 .post-card--excerpt h2 {
   margin-bottom: 0;
 }
 
+.post-card__content-preview,
 .post-card__excerpt {
   color: var(--color-ink);
   max-width: 36rem;
 }
 
+.post-card__content-preview > :first-child,
+.post-card__excerpt p {
+  margin-top: 0;
+}
+
+.post-card__content-preview > :last-child,
 .post-card__excerpt p {
   margin: 0;
 }
@@ -331,10 +354,12 @@ img {
   text-decoration: none;
 }
 
+.post-card--content .tag-list,
 .post-card--excerpt .tag-list {
   margin-top: 0.1rem;
 }
 
+.post-card--content time,
 .post-card--excerpt time {
   margin-bottom: 0;
 }

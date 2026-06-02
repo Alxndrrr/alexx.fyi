@@ -155,31 +155,37 @@ The entire micropost block on the homepage links to the full post page.
 
 The `title` is still useful for SEO, feeds, and browser titles, but the theme hides it visually for microposts.
 
-## Create an Excerpt Post
+## Create a Content Preview Post
 
-Excerpt posts use a different homepage list style:
+Content preview posts use a different homepage list style:
 
 1. Title
-2. Excerpt
-3. Continue reading link
+2. Post content until the break marker
+3. Continue reading link, only when a break marker is used
 4. Categories
 5. Date
 
-Add `type: excerpt` to the front matter:
+Add `type: content` to the front matter:
 
 ```markdown
 ---
-title: My Excerpt Post
+title: My Content Preview Post
 date: 2026-06-02
-type: excerpt
+type: content
 categories:
   - essay
   - notes
 excerpt: This short text appears under the title on the homepage.
 ---
 
-Your full post starts here.
+This part appears on the homepage.
+
+<!--more-->
+
+This part only appears after someone opens the full post.
 ```
+
+The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown.
 
 ## Create a Regular Page
 

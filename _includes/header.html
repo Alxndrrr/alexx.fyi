@@ -1,12 +1,16 @@
 <header class="site-header">
-  <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-    <img class="brand__logo" src="{{ site.logo | relative_url }}" alt="">
-    <span class="brand__name">{{ site.title }}</span>
-  </a>
+  <div class="site-header__inner">
+    <a class="brand__logo-link" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <img class="brand__logo" src="{{ site.logo | relative_url }}" alt="">
+    </a>
 
-  <nav class="site-nav" aria-label="Main menu">
-    {% for item in site.nav %}
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    {% endfor %}
-  </nav>
+    <div class="brand__text">
+      <a class="brand__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main menu">
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
 </header>
