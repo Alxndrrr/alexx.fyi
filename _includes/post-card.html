@@ -1,7 +1,7 @@
 {% assign post = include.post %}
 {% assign micro_logo = site.micro_logo | default: site.logo %}
 {% if post.type == "micropost" %}
-  {% assign micro_external_url = post.data.url | default: post.external_url | default: post.link %}
+  {% assign micro_external_url = post.external_url | default: post.link %}
   {% assign micro_href = post.url | relative_url %}
   {% if micro_external_url %}
     {% assign micro_href = micro_external_url %}

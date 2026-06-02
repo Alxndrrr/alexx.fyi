@@ -184,4 +184,5 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 ### Update: Micropost External Links
 
 - Added optional external-link support for homepage micropost cards.
-- A micropost front matter `url` value links the homepage box to the external source, such as Threads; without it, the box links to the local micropost page.
+- A micropost front matter `external_url` value links the homepage box to the external source, such as Threads; without it, the box links to the local micropost page.
+- Avoided using `url` for this because Jekyll reserves `url` for each post's generated permalink.

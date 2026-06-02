@@ -1,7 +1,7 @@
 ---
 title: Should I Re-start Dungeon Crawler Carl?!
 type: micropost
-url: "https://www.threads.net/@yourname/post/example"
+external_url: "https://www.threads.net/@yourname/post/example"
 date: 2026-05-30
 categories:
   - Books

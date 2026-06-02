@@ -152,7 +152,7 @@ Create a post in `_posts/` and add `type: micropost` to the front matter:
 type: micropost
 title: My Micropost Title
 date: 2026-06-02 00:01:00 +0000
-url: "https://www.threads.net/@yourname/post/example"
+external_url: "https://www.threads.net/@yourname/post/example"
 categories:
   - micro
   - note
@@ -162,9 +162,11 @@ excerpt: A short summary for feeds and search engines.
 Your short text goes here.
 ```
 
-The entire micropost block on the homepage links to the URL when `url:` is set. This is useful when the micropost also exists on Threads or somewhere else.
+The entire micropost block on the homepage links to the URL when `external_url:` is set. This is useful when the micropost also exists on Threads or somewhere else.
 
-If you leave `url:` out, the micropost block links to the full post page on this site.
+If you leave `external_url:` out, the micropost block links to the full post page on this site.
+
+Do not use `url:` for this. Jekyll already uses `url` internally for the post's own permalink.
 
 The `title` is still useful for SEO, feeds, and browser titles, but the theme hides it visually for microposts.
 
