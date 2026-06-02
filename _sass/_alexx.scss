@@ -1,19 +1,21 @@
 /* ==========================================================================
    alexx.fyi theme
-   Mobile-first CSS. Begin klein, voeg ruimte toe voor grotere schermen.
+   Mobile-first CSS. Start compact, then add room for larger screens.
    ========================================================================== */
 
 :root {
-  --color-paper: #f7f3ea;
-  --color-ink: #1d1b18;
-  --color-muted: #746b61;
-  --color-line: #ded6ca;
-  --color-accent: #d54f2f;
-  --color-accent-soft: #f2d5ca;
-  --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-display: Georgia, "Times New Roman", serif;
+  --color-paper: #111111;
+  --color-panel: #171717;
+  --color-panel-soft: #1d1d1d;
+  --color-ink: #f3efe7;
+  --color-muted: #aaa39a;
+  --color-line: #303030;
+  --color-accent: #f15a24;
+  --color-accent-soft: #2b1d16;
+  --font-body: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Tanker", Impact, sans-serif;
   --space-page: clamp(1rem, 5vw, 2.5rem);
-  --content-width: 44rem;
+  --content-width: 38rem;
 }
 
 * {
@@ -58,31 +60,35 @@ img {
   top: 1rem;
 }
 
-/* Header: logo links, naam rechts daarvan, menu eronder. */
+/* Header: logo on the left, site name next to it, menu below. */
 .site-header {
   margin: 0 auto;
   max-width: var(--content-width);
-  padding: 1.25rem var(--space-page) 0.75rem;
+  padding: 1.4rem var(--space-page) 0.75rem;
+  text-align: center;
 }
 
 .brand {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   gap: 0.8rem;
+  justify-content: center;
   text-decoration: none;
 }
 
 .brand__logo {
   border: 1px solid var(--color-line);
   border-radius: 50%;
-  height: 3.1rem;
-  width: 3.1rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .brand__name {
   font-family: var(--font-display);
-  font-size: clamp(1.7rem, 9vw, 2.5rem);
-  line-height: 1;
+  font-size: clamp(2.2rem, 13vw, 4rem);
+  letter-spacing: 0;
+  line-height: 0.9;
+  text-transform: uppercase;
 }
 
 .site-nav {
@@ -90,14 +96,17 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem 1rem;
+  justify-content: center;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
 
 .site-nav a {
   color: var(--color-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  font-weight: 700;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .site-nav a:hover,
@@ -108,16 +117,17 @@ img {
 .site-main {
   margin: 0 auto;
   max-width: var(--content-width);
-  padding: 1.25rem var(--space-page) 2rem;
+  padding: 1.25rem var(--space-page) 2.25rem;
 }
 
-/* Introblok op de homepage. */
+/* Intro block on the homepage. */
 .intro-block {
-  background: #fffaf2;
+  background: var(--color-panel);
   border: 1px solid var(--color-line);
   border-radius: 8px;
   margin-bottom: 2.25rem;
   padding: 1.1rem;
+  text-align: center;
 }
 
 .eyebrow {
@@ -140,23 +150,27 @@ img {
 .page-header h1,
 .article__header h1 {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 11vw, 3.6rem);
-  line-height: 1.02;
+  font-size: clamp(2.5rem, 14vw, 4.8rem);
+  letter-spacing: 0;
+  line-height: 0.9;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .section-title {
-  font-size: clamp(1.65rem, 8vw, 2.4rem);
+  font-size: clamp(2rem, 10vw, 3rem);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .page-header {
   border-bottom: 1px solid var(--color-line);
   margin-bottom: 1.5rem;
   padding-bottom: 1.25rem;
+  text-align: center;
 }
 
-/* Blogkaartjes: datum boven titel, categorieen onder titel. */
+/* Blog cards: date above title, categories below title. */
 .post-list {
   display: grid;
   gap: 1rem;
@@ -165,6 +179,7 @@ img {
 .post-card {
   border-bottom: 1px solid var(--color-line);
   padding: 0 0 1.15rem;
+  text-align: center;
 }
 
 .post-card time,
@@ -177,9 +192,11 @@ img {
 
 .post-card h2 {
   font-family: var(--font-display);
-  font-size: clamp(1.45rem, 7vw, 2rem);
-  line-height: 1.12;
+  font-size: clamp(2rem, 11vw, 3.2rem);
+  letter-spacing: 0;
+  line-height: 0.9;
   margin: 0 0 0.7rem;
+  text-transform: uppercase;
 }
 
 .post-card h2 a {
@@ -196,6 +213,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -204,13 +222,15 @@ img {
 .tag-list li {
   background: var(--color-accent-soft);
   border-radius: 999px;
-  color: #6d2817;
+  color: #ffb199;
   font-size: 0.78rem;
+  font-weight: 700;
   line-height: 1;
   padding: 0.42rem 0.55rem;
+  text-transform: uppercase;
 }
 
-/* Artikelpagina's voor blogs en gewone pagina's. */
+/* Article pages for blogs and regular pages. */
 .article {
   display: grid;
   gap: 1.4rem;
@@ -219,6 +239,7 @@ img {
 .article__header {
   border-bottom: 1px solid var(--color-line);
   padding-bottom: 1.2rem;
+  text-align: center;
 }
 
 .article__header .tag-list {
@@ -232,13 +253,15 @@ img {
 .article__content h2,
 .article__content h3 {
   font-family: var(--font-display);
+  letter-spacing: 0;
   line-height: 1.15;
   margin: 2rem 0 0.7rem;
+  text-transform: uppercase;
 }
 
 .article__content p,
 .article__content li {
-  color: #302c27;
+  color: #ddd7cf;
 }
 
 .article__content blockquote {
@@ -249,17 +272,19 @@ img {
 }
 
 .article__content code {
-  background: #eee5d9;
+  background: var(--color-panel-soft);
   border-radius: 4px;
   padding: 0.1rem 0.28rem;
 }
 
-/* Footer met Font Awesome iconen. */
+/* Footer with Font Awesome icons. */
 .site-footer {
   align-items: center;
   border-top: 1px solid var(--color-line);
   color: var(--color-muted);
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: space-between;
   margin: 1rem auto 0;
   max-width: var(--content-width);
@@ -288,7 +313,8 @@ img {
 
 .social-nav a:hover,
 .social-nav a:focus {
-  background: var(--color-ink);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
   color: var(--color-paper);
 }
 

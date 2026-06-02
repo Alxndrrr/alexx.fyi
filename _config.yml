@@ -2,18 +2,18 @@ title: alexx.fyi
 description: Personal blog and pages for alexx.fyi
 url: ""
 baseurl: ""
-lang: nl
+lang: en
 
 author:
   name: Alexx
-  intro: "Hoi, ik ben Alexx. Dit is mijn plek voor losse gedachten, notities, projecten en dingen die ik graag wil bewaren."
+  intro: "Hi, I am Alexx. This is my place for notes, small essays, projects, links, and the things I want to keep thinking about."
   email: "hello@example.com"
   threads: "https://www.threads.net/"
 
 logo: "/assets/img/logo.svg"
 
-theme_color: "#f7f3ea"
-accent_color: "#d54f2f"
+theme_color: "#111111"
+accent_color: "#f15a24"
 
 permalink: /blog/:year/:month/:day/:title/
 
@@ -43,5 +43,5 @@ nav:
     url: /
   - title: Blog
     url: /blog/
-  - title: Over
-    url: /over/
+  - title: About
+    url: /about/

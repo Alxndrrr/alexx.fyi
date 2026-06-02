@@ -1,49 +1,47 @@
-# Handleiding alexx.fyi
+# alexx.fyi Manual
 
-Deze Jekyll-site is mobile-first gebouwd en geschikt voor GitHub Pages.
+This Jekyll site is mobile-first, centered, dark styled, and ready for GitHub Pages.
 
-## Lokaal bekijken
+## Preview Locally
 
-Installeer eerst Ruby en Bundler als je die nog niet hebt.
+Install Ruby and Bundler first if you do not already have them.
 
 ```powershell
 bundle install
 bundle exec jekyll serve
 ```
 
-Open daarna `http://localhost:4000`.
+Then open `http://localhost:4000`.
 
-## Belangrijkste bestanden
+## Key Files
 
-- `_config.yml`: sitegegevens, menu, social links en algemene instellingen.
-- `_sass/_alexx.scss`: alle styling van het theme.
-- `_layouts/`: templates voor homepage, posts en gewone pagina's.
-- `_includes/`: herbruikbare onderdelen zoals header, footer en postkaartjes.
-- `_posts/`: alle blogposts.
-- `_pages/`: gewone pagina's zoals `Over`.
-- `assets/img/logo.svg`: het logo.
+- `_config.yml`: site title, author intro, navigation, social links, plugins, and general settings.
+- `_sass/_alexx.scss`: all theme styling, including dark mode colors, width, layout, and typography.
+- `_layouts/`: templates for the homepage, posts, archives, and regular pages.
+- `_includes/`: reusable parts like the header, footer, and post cards.
+- `_posts/`: all blog posts.
+- `_pages/`: regular pages like `About`.
+- `assets/img/logo.svg`: the logo.
 
-## Naam, intro en social links aanpassen
+## Change the Name, Intro, and Social Links
 
-Open `_config.yml`.
-
-Pas deze velden aan:
+Open `_config.yml` and edit:
 
 ```yml
 title: alexx.fyi
 
 author:
   name: Alexx
-  intro: "Je intro tekst."
+  intro: "Your intro text."
   email: "hello@example.com"
-  threads: "https://www.threads.net/jouwnaam"
+  threads: "https://www.threads.net/yourname"
 ```
 
-De intro verschijnt automatisch op de homepage.
+The intro appears automatically on the homepage.
 
-## Menu aanpassen
+## Change the Menu
 
-Open `_config.yml` en wijzig `nav`:
+Open `_config.yml` and edit `nav`:
 
 ```yml
 nav:
@@ -51,140 +49,122 @@ nav:
     url: /
   - title: Blog
     url: /blog/
-  - title: Over
-    url: /over/
+  - title: About
+    url: /about/
 ```
 
-Voeg een nieuw item toe wanneer je een nieuwe pagina in het menu wilt tonen.
+Add a new item when you want another page in the main menu.
 
-## Kleuren en fonts aanpassen
+## Change Colors, Fonts, and Width
 
 Open `_sass/_alexx.scss`.
 
-Bovenaan staan de CSS-variabelen:
+The main visual settings are at the top:
 
 ```css
 :root {
-  --color-paper: #f7f3ea;
-  --color-ink: #1d1b18;
-  --color-muted: #746b61;
-  --color-line: #ded6ca;
-  --color-accent: #d54f2f;
+  --color-paper: #111111;
+  --color-panel: #171717;
+  --color-ink: #f3efe7;
+  --color-muted: #aaa39a;
+  --color-line: #303030;
+  --color-accent: #f15a24;
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Tanker", Impact, sans-serif;
+  --content-width: 38rem;
 }
 ```
 
-Deze kleuren sturen bijna de hele site. Verander vooral `--color-paper`, `--color-ink` en `--color-accent` voor een andere sfeer.
+The site uses Tanker for headings, titles, and the site name. It uses DM Sans for page and blog content.
 
-## Logo vervangen
+To make the centered layout wider or narrower, change:
 
-Vervang `assets/img/logo.svg` door je eigen bestand.
+```css
+--content-width: 38rem;
+```
 
-Als je bestandsnaam anders is, pas dan in `_config.yml` dit veld aan:
+## Replace the Logo
+
+Replace `assets/img/logo.svg` with your own file.
+
+If the filename changes, update this in `_config.yml`:
 
 ```yml
 logo: "/assets/img/logo.svg"
 ```
 
-## Nieuwe blog maken
+## Create a New Blog Post
 
-Maak een nieuw Markdown-bestand in `_posts/`.
+Create a new Markdown file inside `_posts/`.
 
-De bestandsnaam moet dit patroon volgen:
-
-```text
-YYYY-MM-DD-titel-van-je-blog.md
-```
-
-Voorbeeld:
+The filename must use this pattern:
 
 ```text
-2026-06-10-mijn-nieuwe-blog.md
+YYYY-MM-DD-title-of-your-post.md
 ```
 
-Gebruik bovenaan deze front matter:
+Example:
+
+```text
+2026-06-10-my-new-post.md
+```
+
+Use this front matter:
 
 ```markdown
 ---
-title: Mijn nieuwe blog
+title: My New Post
 date: 2026-06-10
 categories:
-  - notities
-  - persoonlijk
-excerpt: Korte samenvatting voor feeds en zoekmachines.
+  - notes
+  - personal
+excerpt: A short summary for feeds and search engines.
 ---
 
-Hier begint je blogtekst.
+Your post starts here.
 ```
 
-De site zet automatisch de datum boven de titel en de categorieen onder de titel.
+The layout automatically shows the date above the title and the categories below it.
 
-## Nieuwe gewone pagina maken
+## Create a Regular Page
 
-Maak een Markdown-bestand in `_pages/`.
+Create a Markdown file inside `_pages/`.
 
-Voorbeeld `contact.md`:
+Example `contact.md`:
 
 ```markdown
 ---
 title: Contact
-description: Waar je mij kunt vinden.
+description: Where to find me.
 ---
 
-Schrijf hier je pagina.
+Write your page here.
 ```
 
-De pagina komt dan op `/contact/`.
+That page will be available at `/contact/`.
 
-Wil je de pagina in het menu zetten, voeg hem dan toe aan `nav` in `_config.yml`.
+To add it to the menu, add it to `nav` in `_config.yml`.
 
-## Homepage aanpassen
+## Change the Homepage
 
-De homepage gebruikt `_layouts/home.html`.
+The homepage uses `_layouts/home.html`.
 
-De introtekst komt uit `_config.yml`:
+The intro text comes from `_config.yml`:
 
 ```yml
 author:
-  intro: "Je intro tekst."
+  intro: "Your intro text."
 ```
 
-De bloglijst wordt automatisch gevuld met alles uit `_posts/`.
+The blog list is generated automatically from `_posts/`.
 
-## Publiceren op GitHub Pages
+## Publish on GitHub Pages
 
-1. Zet deze bestanden in een GitHub repository.
-2. Ga in GitHub naar `Settings`.
+1. Put these files in a GitHub repository.
+2. Go to `Settings`.
 3. Open `Pages`.
-4. Kies de branch waarop je site staat, meestal `main`.
-5. Kies `/root` als map.
-6. Sla op.
+4. Choose the branch that contains the site, usually `main`.
+5. Choose `/root` as the folder.
+6. Save.
 
-GitHub Pages bouwt de site daarna automatisch.
-
-## Veelvoorkomende aanpassingen
-
-### Datumweergave aanpassen
-
-Zoek in `_layouts/post.html` en `_includes/post-card.html` naar:
-
-```liquid
-{{ page.date | date: "%d-%m-%Y" }}
-```
-
-of:
-
-```liquid
-{{ post.date | date: "%d-%m-%Y" }}
-```
-
-Pas het datumformaat aan als je een andere weergave wilt.
-
-### Breedte van de site aanpassen
-
-Open `_sass/_alexx.scss` en wijzig:
-
-```css
---content-width: 44rem;
-```
-
-Een hogere waarde maakt de site breder op grotere schermen.
+GitHub Pages will build the site automatically.

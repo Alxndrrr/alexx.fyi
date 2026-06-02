@@ -1,38 +1,48 @@
 # Agent Log
 
-Dit bestand houdt bij wat er is gemaakt, waarom het is gemaakt en wat elk onderdeel doet.
+This file tracks what was created, why it was created, and what each part does.
 
 ## 2026-06-02
 
-### Doel
+### Goal
 
-Een mobile-first Jekyll theme maken voor `alexx.fyi` dat direct op GitHub Pages gebruikt kan worden.
+Create a mobile-first Jekyll theme for `alexx.fyi` that can be uploaded to GitHub Pages.
 
-### Gemaakt
+### Created
 
-- `_config.yml`: centrale instellingen voor titel, auteur, navigatie, social links, permalink-structuur, plugins en defaults.
-- `Gemfile`: gebruikt de `github-pages` gem zodat lokaal bouwen zo dicht mogelijk bij GitHub Pages blijft.
-- `_layouts/default.html`: basisframe met head, header, main en footer.
-- `_layouts/home.html`: homepage met introblok en de nieuwste blogposts.
-- `_layouts/archive.html`: blogoverzicht voor alle posts.
-- `_layouts/post.html`: blogtemplate met datum boven titel en categorieen onder titel.
-- `_layouts/page.html`: template voor gewone pagina's.
-- `_includes/header.html`: logo, naam en hoofdmenu.
-- `_includes/footer.html`: footer met Font Awesome iconen voor Threads, RSS en mail.
-- `_includes/post-card.html`: herbruikbaar blok voor blogvermeldingen.
-- `_sass/_alexx.scss`: alle theme-styling, mobile-first en voorzien van CSS-commentaar per onderdeel.
-- `assets/css/main.scss`: Jekyll-ingang voor de SCSS.
-- `assets/img/logo.svg`: eenvoudig aanpasbaar voorbeeldlogo.
-- `index.md`: homepage die de home-layout gebruikt.
-- `blog.md`: blogoverzicht.
-- `_pages/over.md`: voorbeeld van een gewone pagina.
-- `_posts/2026-06-02-welkom-op-alexx-fyi.md`: voorbeeldblogpost.
-- `manual.md`: handleiding voor aanpassen en publiceren.
+- `_config.yml`: central settings for title, author, navigation, social links, permalink structure, plugins, and defaults.
+- `Gemfile`: uses the `github-pages` gem so local builds stay close to GitHub Pages.
+- `_layouts/default.html`: base frame with head, header, main content, and footer.
+- `_layouts/home.html`: homepage with intro block and the latest blog posts.
+- `_layouts/archive.html`: blog archive for all posts.
+- `_layouts/post.html`: blog template with date above the title and categories below the title.
+- `_layouts/page.html`: template for regular pages.
+- `_includes/header.html`: logo, site name, and main menu.
+- `_includes/footer.html`: footer with Font Awesome icons for Threads, RSS, and mail.
+- `_includes/post-card.html`: reusable block for post listings.
+- `_sass/_alexx.scss`: all theme styling, mobile-first and commented by section.
+- `assets/css/main.scss`: Jekyll entry file for SCSS.
+- `assets/img/logo.svg`: simple editable sample logo.
+- `index.md`: homepage using the home layout.
+- `blog.md`: blog archive page.
+- `_pages/about.md`: example regular page.
+- Seven dummy blog posts in `_posts/`.
+- `manual.md`: guide for editing, posting, and publishing.
 
-### Waarom deze opzet
+### Why This Structure
 
-De site is opgezet als een volledige Jekyll-site die ook als theme-stramien werkt. De layouts en includes houden structuur en herbruikbare onderdelen gescheiden. De SCSS staat grotendeels in een enkel helder bestand zodat kleuren, fonts, spacing en componenten makkelijk terug te vinden zijn.
+The site is structured as a complete Jekyll site that also works as a reusable theme pattern. Layouts and includes keep structure and reusable parts separate. The SCSS is intentionally concentrated in one clear file so colors, fonts, spacing, and components are easy to find.
 
-### Wat het doet
+### What It Does
 
-De homepage toont bovenin het logo met de naam ernaast, daaronder het menu, dan een introblok en daarna de blogposts. Blogposts tonen automatisch datum, titel en categorieen. Gewone pagina's gebruiken een rustig artikelstramien. De footer toont social links met Font Awesome.
+The homepage shows the logo at the top, the site name beside it, the menu below, an intro block, and then blog posts. Blog posts automatically show the date, title, and categories. Regular pages use a calm article layout. The footer shows social links with Font Awesome.
+
+### Update: English, Dark Mode, and Dummy Content
+
+- Changed the site language to English.
+- Updated the regular page navigation to use `About`.
+- Replaced the Dutch example page with `_pages/about.md`.
+- Added seven total dummy blog posts.
+- Changed the visual style to a centered, narrow dark mode layout.
+- Added Tanker for headings, post titles, and the site name.
+- Added DM Sans for page and blog content.
