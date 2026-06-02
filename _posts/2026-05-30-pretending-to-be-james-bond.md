@@ -1,5 +1,5 @@
 ---
-title: Let's Do This Blogging Thing
+title: Pretending To Be James Bond
 type: content
 date: 2026-05-30
 categories:
