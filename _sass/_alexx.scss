@@ -73,14 +73,16 @@ img {
 }
 
 .site-header__inner {
+  align-items: baseline;
   border-bottom: 1px solid var(--color-line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  justify-content: space-between;
   padding-bottom: 1rem;
 }
 
 .brand__text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   min-width: 0;
 }
 
@@ -104,8 +106,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem 1rem;
-  justify-content: flex-start;
-  margin-top: 0.45rem;
+  justify-content: flex-end;
+  margin-top: 0;
 }
 
 .site-nav a {
@@ -156,6 +158,10 @@ img {
 .article__header p {
   color: var(--color-muted);
   margin: 0;
+}
+
+.intro-block__text p {
+  color: #ffffff;
 }
 
 .intro-block__text a {
@@ -248,6 +254,57 @@ img {
   margin-bottom: 1.5rem;
   padding-bottom: 1.25rem;
   text-align: left;
+}
+
+/* Archive page: compact yearly list of posts. */
+.archive-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.archive-year h2 {
+  color: var(--color-accent-yellow);
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 6vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0 0 0.7rem;
+}
+
+.archive-year ul {
+  display: grid;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.archive-year li {
+  align-items: center;
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: 0.65rem 1fr;
+}
+
+.archive-year li::before {
+  background: var(--color-accent);
+  box-shadow: 2px 2px 0 var(--color-accent-purple);
+  content: "";
+  display: block;
+  height: 0.55rem;
+  width: 0.55rem;
+}
+
+.archive-year a {
+  color: var(--color-ink);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.archive-year a:hover,
+.archive-year a:focus {
+  color: var(--color-accent-yellow);
 }
 
 /* Blog cards: date above title, categories below title. */

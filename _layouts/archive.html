@@ -9,8 +9,18 @@ layout: default
   {% endif %}
 </section>
 
-<section class="post-list" aria-label="Alle blogposts">
-  {% for post in site.posts %}
-    {% include post-card.html post=post %}
+<section class="archive-list" aria-label="Blog archive">
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in posts_by_year %}
+    <section class="archive-year" aria-labelledby="archive-{{ year.name }}">
+      <h2 id="archive-{{ year.name }}">{{ year.name }}</h2>
+      <ul>
+        {% for post in year.items %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   {% endfor %}
 </section>

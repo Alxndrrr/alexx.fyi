@@ -122,3 +122,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Moved the avatar into the homepage intro box.
 - Removed the visible `Intro` label from the homepage intro box.
 - Changed the intro box to a blue/purple panel using the existing purple accent.
+
+### Update: Archive and Header Row
+
+- Made intro box text white.
+- Changed the blog page into a yearly archive grouped by post year.
+- Rendered archive posts as a compact bullet list with pixel-style square bullets.
+- Changed the header to place the site name on the far left and the menu on the far right.
