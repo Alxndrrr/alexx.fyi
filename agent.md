@@ -164,3 +164,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Increased the homepage post list gap slightly.
 - Added extra top spacing when a micropost is followed by a regular/content post, so short boxed updates feel visually separate from longer blog entries.
+
+### Update: Colophon Page
+
+- Added `_pages/colophon.md` with the hardware, software, apps, author, and gaming colophon content from the old static page.
+- Added colophon-specific two-column definition list styling to `_sass/_alexx.scss`, adapted to the current alexx.fyi color, font, and spacing variables.

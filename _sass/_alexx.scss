@@ -573,6 +573,72 @@ img {
   padding: 0.1rem 0.28rem;
 }
 
+/* Colophon page: compact two-column definition lists. */
+.colophon-section {
+  --colophon-width: 28rem;
+  margin: 2rem 0;
+}
+
+.colophon-section > h2 {
+  align-items: center;
+  color: var(--color-accent);
+  display: flex;
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  gap: 0.75rem;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  margin: 0 auto 1rem;
+  max-width: var(--colophon-width);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.colophon-section > h2::before,
+.colophon-section > h2::after {
+  background: var(--color-accent-purple);
+  content: "";
+  flex: 1;
+  height: 2px;
+}
+
+.colophon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: var(--colophon-width);
+}
+
+.colophon dt,
+.colophon dd {
+  line-height: 1.4;
+  margin: 0;
+  padding: 0.65rem 0;
+}
+
+.colophon dt {
+  border-right: 1px solid var(--color-line);
+  color: var(--color-muted);
+  font-family: var(--font-detail);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding-right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.colophon dd {
+  color: var(--color-ink);
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.colophon dd a {
+  color: var(--color-accent);
+}
+
 mark,
 .highlight-bg-red,
 .highlight-bg-orange,
