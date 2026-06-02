@@ -371,11 +371,27 @@ img {
   background: #1d1c22;
   border: 1px solid #282631;
   border-radius: 8px;
+  margin-top: 1.6rem;
   padding: 1rem;
+  position: relative;
 }
 
 .post-card--micro + .post-card:not(.post-card--micro) {
   margin-top: 0.9rem;
+}
+
+.post-card__micro-label {
+  color: var(--color-accent-yellow);
+  font-family: var(--font-detail);
+  font-size: 0.82rem;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: -1.15rem;
 }
 
 .post-card__micro-link {
