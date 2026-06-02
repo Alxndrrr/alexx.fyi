@@ -208,6 +208,17 @@ img {
   padding: 1rem;
 }
 
+.micro-box__label {
+  color: var(--color-accent-yellow);
+  font-family: var(--font-detail);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin: 0 0 0.6rem;
+  text-transform: uppercase;
+}
+
 .micro-box__avatar {
   aspect-ratio: 1;
   border: 1px solid var(--color-line);
@@ -226,7 +237,7 @@ img {
 .micro-box__content {
   color: var(--color-ink);
   font-family: var(--font-micro);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: 300;
   letter-spacing: 0;
   line-height: 1.55;
@@ -456,10 +467,10 @@ img {
 
 .post-card--content,
 .post-card--excerpt {
-  border-bottom: 0;
+  border-bottom: 1px solid var(--color-line);
   display: grid;
   gap: 0.7rem;
-  padding-bottom: 0;
+  padding-bottom: 1.15rem;
 }
 
 .post-card--content h2,
