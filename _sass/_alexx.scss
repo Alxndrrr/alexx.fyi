@@ -64,7 +64,7 @@ img {
   top: 1rem;
 }
 
-/* Header: avatar on the left, title and menu stacked on the right. */
+/* Header: site title with menu below. */
 .site-header {
   margin: 0 auto;
   max-width: var(--content-width);
@@ -73,25 +73,8 @@ img {
 }
 
 .site-header__inner {
-  align-items: stretch;
   border-bottom: 1px solid var(--color-line);
-  display: grid;
-  gap: 0.9rem;
-  grid-template-columns: auto 1fr;
   padding-bottom: 1rem;
-}
-
-.brand__logo-link {
-  display: block;
-  text-decoration: none;
-}
-
-.brand__logo {
-  border: 1px solid var(--color-line);
-  border-radius: 50%;
-  height: clamp(4.4rem, 18vw, 5.4rem);
-  object-fit: cover;
-  width: clamp(4.4rem, 18vw, 5.4rem);
 }
 
 .brand__text {
@@ -105,7 +88,7 @@ img {
   color: var(--color-accent-yellow);
   display: inline-block;
   font-family: var(--font-site);
-  font-size: clamp(1.9rem, 10vw, 3.2rem);
+  font-size: clamp(1.9rem, 10vw, 3rem);
   font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 0.9;
@@ -148,22 +131,24 @@ img {
 
 /* Intro block on the homepage. */
 .intro-block {
-  background: var(--color-panel);
-  border: 1px solid var(--color-line);
+  align-items: center;
+  background: rgba(82, 0, 255, 0.22);
+  border: 2px solid var(--color-accent-purple);
   border-radius: 8px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto 1fr;
   margin-bottom: 2.25rem;
   padding: 1.1rem;
   text-align: left;
 }
 
-.eyebrow {
-  color: var(--color-accent);
-  font-family: var(--font-detail);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  margin: 0 0 0.45rem;
-  text-transform: uppercase;
+.intro-block__avatar {
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  height: clamp(4rem, 16vw, 5rem);
+  object-fit: cover;
+  width: clamp(4rem, 16vw, 5rem);
 }
 
 .intro-block__text p,
@@ -188,7 +173,7 @@ img {
 .article__header h1 {
   color: var(--color-accent-yellow);
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 14vw, 4.8rem);
+  font-size: clamp(2rem, 9vw, 3rem);
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 0.9;
@@ -291,7 +276,7 @@ img {
 .post-card h2 {
   color: var(--color-accent-yellow);
   font-family: var(--font-display);
-  font-size: clamp(2rem, 11vw, 3.2rem);
+  font-size: clamp(1.75rem, 8vw, 2.6rem);
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 0.9;

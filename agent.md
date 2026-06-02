@@ -114,3 +114,11 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Removed hover border styling from micropost boxes.
 - Applied the same micropost box layout to individual micropost pages.
 - Removed underline hover styling from homepage blog title links.
+
+### Update: Smaller Titles and Intro Box
+
+- Made homepage post titles, blog page titles, and regular page titles smaller and consistent.
+- Removed the avatar from the header/menu.
+- Moved the avatar into the homepage intro box.
+- Removed the visible `Intro` label from the homepage intro box.
+- Changed the intro box to a blue/purple panel using the existing purple accent.
