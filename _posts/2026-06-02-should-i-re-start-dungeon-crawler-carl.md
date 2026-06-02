@@ -1,7 +1,7 @@
 ---
 title: Should I Re-start Dungeon Crawler Carl?!
 type: micropost
-date: 2026-06-02
+date: 2026-05-30
 categories:
   - Books
 ---
