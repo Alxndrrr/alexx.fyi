@@ -70,3 +70,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Changed `logo` in `_config.yml` from `/assets/img/logo.svg` to `/assets/img/avatar.png`.
 - The header now uses the uploaded avatar image as the site logo.
+
+### Update: CSS Cache Busting
+
+- Added a build-time version query to the `main.css` link in `_layouts/default.html`.
+- This helps GitHub Pages and browsers load the latest compiled CSS instead of a cached older stylesheet.

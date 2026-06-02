@@ -17,7 +17,7 @@
     <link href="https://api.fontshare.com/v2/css?f[]=tanker@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% feed_meta %}
   </head>
   <body>
