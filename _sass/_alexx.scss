@@ -325,7 +325,7 @@ img {
 /* Blog cards: date above title, categories below title. */
 .post-list {
   display: grid;
-  gap: 1.35rem;
+  gap: 1.85rem;
 }
 
 .post-card {
@@ -371,13 +371,12 @@ img {
   background: #1d1c22;
   border: 1px solid #282631;
   border-radius: 8px;
-  margin-top: 1.6rem;
   padding: 1rem;
   position: relative;
 }
 
 .post-card--micro + .post-card:not(.post-card--micro) {
-  margin-top: 0.9rem;
+  margin-top: 0.15rem;
 }
 
 .post-card__micro-label {
@@ -388,10 +387,8 @@ img {
   left: 0;
   letter-spacing: 0.04em;
   line-height: 1;
-  margin: 0;
-  position: absolute;
+  margin: 0 0 0.75rem;
   text-transform: uppercase;
-  top: -1.15rem;
 }
 
 .post-card__micro-link {
@@ -462,6 +459,7 @@ img {
   border-bottom: 0;
   display: grid;
   gap: 0.7rem;
+  padding-bottom: 0;
 }
 
 .post-card--content h2,
