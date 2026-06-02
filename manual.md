@@ -23,7 +23,7 @@ Then open `http://localhost:4000`.
 - `_pages/`: regular pages like `About`.
 - `assets/img/avatar.png`: the avatar used as the logo.
 
-## Change the Name, Intro, and Social Links
+## Change the Name and Social Links
 
 Open `_config.yml` and edit:
 
@@ -32,12 +32,22 @@ title: alexx.fyi
 
 author:
   name: Alexx
-  intro: "Your intro text."
   email: "hello@example.com"
   threads: "https://www.threads.net/yourname"
 ```
 
-The intro appears automatically on the homepage.
+## Change the Homepage Intro
+
+Edit `_includes/intro.html`.
+
+You can use regular HTML in that file:
+
+```html
+<p>Hi, I am Alexx.</p>
+<p>This is <strong>my place</strong> for notes and projects.</p>
+```
+
+The homepage automatically loads that file into the intro box.
 
 ## Change the Menu
 
@@ -219,12 +229,7 @@ To add it to the menu, add it to `nav` in `_config.yml`.
 
 The homepage uses `_layouts/home.html`.
 
-The intro text comes from `_config.yml`:
-
-```yml
-author:
-  intro: "Your intro text."
-```
+The intro text comes from `_includes/intro.html`.
 
 The blog list is generated automatically from `_posts/`.
 

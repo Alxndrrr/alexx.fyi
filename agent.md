@@ -147,3 +147,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Removed the line underneath the header/menu.
 - Added `_includes/date.html` for written English dates with ordinal suffixes.
 - Removed circular borders/backgrounds around footer social icons.
+
+### Update: Intro Include
+
+- Moved homepage intro content from `_config.yml` to `_includes/intro.html`.
+- Updated `_layouts/home.html` to include `_includes/intro.html`.
+- Updated the manual to explain that intro content can use regular HTML.
