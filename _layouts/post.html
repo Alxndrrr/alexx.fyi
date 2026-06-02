@@ -2,22 +2,41 @@
 layout: default
 ---
 
-<article class="article article--post{% if page.type == 'micropost' %} article--micro{% endif %}">
-  <header class="article__header">
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%m-%Y" }}</time>
-    {% unless page.type == "micropost" %}
+{% if page.type == "micropost" %}
+  <article class="article article--post article--micro">
+    <div class="micro-box">
+      <img class="micro-box__avatar" src="{{ site.logo | relative_url }}" alt="">
+      <div class="micro-box__body">
+        {% if page.categories %}
+          <ul class="tag-list" aria-label="Categories">
+            {% for category in page.categories %}
+              <li>{{ category }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        <div class="article__content micro-box__content">
+          {{ content }}
+        </div>
+      </div>
+      <time class="micro-box__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%m-%Y" }}</time>
+    </div>
+  </article>
+{% else %}
+  <article class="article article--post">
+    <header class="article__header">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%m-%Y" }}</time>
       <h1>{{ page.title }}</h1>
-    {% endunless %}
-    {% if page.categories %}
-      <ul class="tag-list" aria-label="Categories">
-        {% for category in page.categories %}
-          <li>{{ category }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </header>
+      {% if page.categories %}
+        <ul class="tag-list" aria-label="Categories">
+          {% for category in page.categories %}
+            <li>{{ category }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </header>
 
-  <div class="article__content">
-    {{ content }}
-  </div>
-</article>
+    <div class="article__content">
+      {{ content }}
+    </div>
+  </article>
+{% endif %}

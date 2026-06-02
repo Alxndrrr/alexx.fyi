@@ -2,17 +2,20 @@
 {% if post.type == "micropost" %}
   <article class="post-card post-card--micro">
     <a class="post-card__micro-link" href="{{ post.url | relative_url }}">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
-      <div class="post-card__micro-content">
-        {{ post.content | markdownify }}
+      <img class="post-card__micro-avatar" src="{{ site.logo | relative_url }}" alt="">
+      <div class="post-card__micro-body">
+        {% if post.categories %}
+          <ul class="tag-list" aria-label="Categories">
+            {% for category in post.categories %}
+              <li>{{ category }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        <div class="post-card__micro-content">
+          {{ post.content | markdownify }}
+        </div>
       </div>
-      {% if post.categories %}
-        <ul class="tag-list" aria-label="Categories">
-          {% for category in post.categories %}
-            <li>{{ category }}</li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
     </a>
   </article>
 {% elsif post.type == "content" or post.type == "excerpt" %}

@@ -105,3 +105,12 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Made the title slightly smaller.
 - Increased the menu text size.
 - Sized the avatar to visually match the height of the title plus menu.
+
+### Update: Micropost Design
+
+- Removed `<!--more-->` from the example content post so it shows fully on the homepage for now.
+- Updated homepage micropost cards to show avatar on the left and tags/content on the right.
+- Moved micropost date to the bottom-right of the box in muted grey.
+- Removed hover border styling from micropost boxes.
+- Applied the same micropost box layout to individual micropost pages.
+- Removed underline hover styling from homepage blog title links.

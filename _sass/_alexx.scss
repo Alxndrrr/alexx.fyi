@@ -204,18 +204,52 @@ img {
   color: var(--color-accent-yellow);
 }
 
-.article--micro .article__header {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-
-.article--micro .article__content {
+.micro-box {
   background: var(--color-panel-soft);
   border: 2px solid var(--color-line);
   border-radius: 8px;
-  font-size: clamp(1.1rem, 4vw, 1.35rem);
-  line-height: 1.45;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: auto 1fr;
   padding: 1rem;
+}
+
+.micro-box__avatar {
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  height: clamp(3rem, 13vw, 4rem);
+  object-fit: cover;
+  width: clamp(3rem, 13vw, 4rem);
+}
+
+.micro-box__body {
+  min-width: 0;
+}
+
+.micro-box__content {
+  color: var(--color-ink);
+  font-family: var(--font-detail);
+  font-size: clamp(1.1rem, 4vw, 1.25rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  margin-top: 0.65rem;
+}
+
+.micro-box__content p {
+  margin: 0;
+}
+
+.micro-box__date {
+  align-self: end;
+  color: #8c8794;
+  display: block;
+  font-family: var(--font-detail);
+  font-size: 0.95rem;
+  font-weight: 600;
+  grid-column: 2;
+  justify-self: end;
+  letter-spacing: 0.04em;
 }
 
 .section-title {
@@ -273,8 +307,7 @@ img {
 .post-card h2 a:hover,
 .post-card h2 a:focus {
   color: var(--color-accent);
-  text-decoration: underline;
-  text-decoration-color: var(--color-accent-yellow);
+  text-decoration: none;
 }
 
 .post-card--micro {
@@ -286,7 +319,9 @@ img {
 
 .post-card__micro-link {
   color: inherit;
-  display: block;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: auto 1fr;
   text-decoration: none;
 }
 
@@ -295,20 +330,38 @@ img {
   color: inherit;
 }
 
+.post-card__micro-avatar {
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  height: clamp(3rem, 13vw, 4rem);
+  object-fit: cover;
+  width: clamp(3rem, 13vw, 4rem);
+}
+
+.post-card__micro-body {
+  min-width: 0;
+}
+
 .post-card__micro-content {
   color: var(--color-ink);
-  font-size: clamp(1.05rem, 4vw, 1.25rem);
-  line-height: 1.45;
-  margin: 0.5rem 0 0.8rem;
+  font-family: var(--font-detail);
+  font-size: clamp(1.05rem, 4vw, 1.2rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  margin-top: 0.65rem;
 }
 
 .post-card__micro-content p {
   margin: 0;
 }
 
-.post-card--micro:hover,
-.post-card--micro:focus-within {
-  border-color: var(--color-accent);
+.post-card--micro time {
+  align-self: end;
+  color: #8c8794;
+  grid-column: 2;
+  justify-self: end;
+  margin: 0;
 }
 
 .post-card--content,
