@@ -131,6 +131,27 @@ The layout automatically shows the date above the title and the categories below
 
 Jekyll hides posts with future dates by default. If a post does not appear on the homepage, check that the `date` value is today or earlier.
 
+## Create a Micropost
+
+Microposts are short posts that appear in full on the homepage. They do not show a title in the post list or on the post page.
+
+Create a post in `_posts/` and add `type: micropost` to the front matter:
+
+```markdown
+---
+type: micropost
+date: 2026-06-02 12:00:00 +0200
+categories:
+  - micro
+  - note
+excerpt: A short summary for feeds and search engines.
+---
+
+Your short text goes here.
+```
+
+The entire micropost block on the homepage links to the full post page.
+
 ## Create a Regular Page
 
 Create a Markdown file inside `_pages/`.

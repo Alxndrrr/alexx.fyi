@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<article class="article article--post">
+<article class="article article--post{% if page.type == 'micropost' %} article--micro{% endif %}">
   <header class="article__header">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d-%m-%Y" }}</time>
-    <h1>{{ page.title }}</h1>
+    {% unless page.type == "micropost" %}
+      <h1>{{ page.title }}</h1>
+    {% endunless %}
     {% if page.categories %}
       <ul class="tag-list" aria-label="Categories">
         {% for category in page.categories %}

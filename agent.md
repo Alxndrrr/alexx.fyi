@@ -82,3 +82,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Left-aligned the header brand, menu, homepage post titles, page titles, blog titles, tags, and intro block.
 - Removed the `Latest posts` heading from the homepage.
 - Removed homepage post excerpts so the line below tags no longer appears.
+
+### Update: Microposts
+
+- Added support for `type: micropost` in post front matter.
+- Microposts render as full-content clickable blocks in the homepage post list.
+- Micropost detail pages hide the title.
+- Added one sample micropost at `_posts/2026-06-02-micro-note-after-rain.md`.

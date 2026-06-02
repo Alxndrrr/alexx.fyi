@@ -1,6 +1,6 @@
 ---
 title: Welcome to alexx.fyi
-date: 2026-06-02
+date: 2026-06-02 09:00:00 +0200
 categories:
   - notes
   - personal
