@@ -1,9 +1,14 @@
 {% assign post = include.post %}
 {% assign micro_logo = site.micro_logo | default: site.logo %}
 {% if post.type == "micropost" %}
+  {% assign micro_external_url = post.data.url | default: post.external_url | default: post.link %}
+  {% assign micro_href = post.url | relative_url %}
+  {% if micro_external_url %}
+    {% assign micro_href = micro_external_url %}
+  {% endif %}
   <article class="post-card post-card--micro">
     <p class="post-card__micro-label">Micropost...</p>
-    <a class="post-card__micro-link" href="{{ post.url | relative_url }}">
+    <a class="post-card__micro-link" href="{{ micro_href }}"{% if micro_external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
       <div class="post-card__micro-body">
         <div class="post-card__micro-content">
           {{ post.content | markdownify }}

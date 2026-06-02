@@ -180,3 +180,8 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Added Roboto Mono to the Google Fonts import and exposed it as `--font-micro`.
 - Updated micropost cards and micropost pages so the text sits on the left, the smaller avatar sits on the right, and the categories/date sit together at the bottom-left.
+
+### Update: Micropost External Links
+
+- Added optional external-link support for homepage micropost cards.
+- A micropost front matter `url` value links the homepage box to the external source, such as Threads; without it, the box links to the local micropost page.
