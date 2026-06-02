@@ -368,34 +368,34 @@ img {
 }
 
 .post-card--micro {
-  background: #1d1c22;
-  border: 1px solid #282631;
-  border-radius: 8px;
-  padding: 1rem;
-  position: relative;
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .post-card--micro + .post-card:not(.post-card--micro) {
-  margin-top: 0.15rem;
+  margin-top: 0;
 }
 
 .post-card__micro-label {
   color: var(--color-accent-yellow);
   font-family: var(--font-detail);
-  font-size: 0.82rem;
-  font-weight: 700;
-  left: 0;
+  font-size: 0.78rem;
+  font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.6rem;
   text-transform: uppercase;
 }
 
 .post-card__micro-link {
+  background: #1d1c22;
+  border: 1px solid #282631;
+  border-radius: 8px;
   color: inherit;
   display: grid;
   gap: 1.15rem;
   grid-template-columns: 1fr auto;
+  padding: 1rem;
   text-decoration: none;
 }
 
