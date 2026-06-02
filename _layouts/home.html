@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<section class="intro-block" aria-labelledby="intro-title">
+  <p class="eyebrow" id="intro-title">Intro</p>
+  <div class="intro-block__text">
+    {{ site.author.intro | markdownify }}
+  </div>
+</section>
+
+<section class="post-list" aria-labelledby="latest-posts">
+  <h1 id="latest-posts" class="section-title">Nieuwste blogs</h1>
+  {% for post in site.posts %}
+    {% include post-card.html post=post %}
+  {% endfor %}
+</section>

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="article">
+  <header class="article__header">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+      <p>{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="article__content">
+    {{ content }}
+  </div>
+</article>

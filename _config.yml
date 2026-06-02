@@ -1,0 +1,47 @@
+title: alexx.fyi
+description: Personal blog and pages for alexx.fyi
+url: ""
+baseurl: ""
+lang: nl
+
+author:
+  name: Alexx
+  intro: "Hoi, ik ben Alexx. Dit is mijn plek voor losse gedachten, notities, projecten en dingen die ik graag wil bewaren."
+  email: "hello@example.com"
+  threads: "https://www.threads.net/"
+
+logo: "/assets/img/logo.svg"
+
+theme_color: "#f7f3ea"
+accent_color: "#d54f2f"
+
+permalink: /blog/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+nav:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Over
+    url: /over/

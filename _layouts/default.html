@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'nl' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="{{ site.theme_color | default: '#f7f3ea' }}">
+    {% seo %}
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Naar inhoud</a>
+    {% include header.html %}
+
+    <main id="content" class="site-main">
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

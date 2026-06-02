@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section class="page-header">
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}
+    <p>{{ page.description }}</p>
+  {% endif %}
+</section>
+
+<section class="post-list" aria-label="Alle blogposts">
+  {% for post in site.posts %}
+    {% include post-card.html post=post %}
+  {% endfor %}
+</section>

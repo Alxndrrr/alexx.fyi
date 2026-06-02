@@ -1,0 +1,310 @@
+/* ==========================================================================
+   alexx.fyi theme
+   Mobile-first CSS. Begin klein, voeg ruimte toe voor grotere schermen.
+   ========================================================================== */
+
+:root {
+  --color-paper: #f7f3ea;
+  --color-ink: #1d1b18;
+  --color-muted: #746b61;
+  --color-line: #ded6ca;
+  --color-accent: #d54f2f;
+  --color-accent-soft: #f2d5ca;
+  --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+  --space-page: clamp(1rem, 5vw, 2.5rem);
+  --content-width: 44rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.18em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.skip-link {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  left: 1rem;
+  padding: 0.6rem 0.8rem;
+  position: absolute;
+  top: -4rem;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Header: logo links, naam rechts daarvan, menu eronder. */
+.site-header {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1.25rem var(--space-page) 0.75rem;
+}
+
+.brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.8rem;
+  text-decoration: none;
+}
+
+.brand__logo {
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  height: 3.1rem;
+  width: 3.1rem;
+}
+
+.brand__name {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 9vw, 2.5rem);
+  line-height: 1;
+}
+
+.site-nav {
+  border-bottom: 1px solid var(--color-line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.site-nav a {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--color-ink);
+}
+
+.site-main {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1.25rem var(--space-page) 2rem;
+}
+
+/* Introblok op de homepage. */
+.intro-block {
+  background: #fffaf2;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  margin-bottom: 2.25rem;
+  padding: 1.1rem;
+}
+
+.eyebrow {
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 0.45rem;
+  text-transform: uppercase;
+}
+
+.intro-block__text p,
+.page-header p,
+.article__header p {
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.section-title,
+.page-header h1,
+.article__header h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 11vw, 3.6rem);
+  line-height: 1.02;
+  margin: 0;
+}
+
+.section-title {
+  font-size: clamp(1.65rem, 8vw, 2.4rem);
+  margin-bottom: 1rem;
+}
+
+.page-header {
+  border-bottom: 1px solid var(--color-line);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+}
+
+/* Blogkaartjes: datum boven titel, categorieen onder titel. */
+.post-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-card {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0 0 1.15rem;
+}
+
+.post-card time,
+.article__header time {
+  color: var(--color-muted);
+  display: block;
+  font-size: 0.88rem;
+  margin-bottom: 0.35rem;
+}
+
+.post-card h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 7vw, 2rem);
+  line-height: 1.12;
+  margin: 0 0 0.7rem;
+}
+
+.post-card h2 a {
+  text-decoration: none;
+}
+
+.post-card h2 a:hover,
+.post-card h2 a:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tag-list li {
+  background: var(--color-accent-soft);
+  border-radius: 999px;
+  color: #6d2817;
+  font-size: 0.78rem;
+  line-height: 1;
+  padding: 0.42rem 0.55rem;
+}
+
+/* Artikelpagina's voor blogs en gewone pagina's. */
+.article {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.article__header {
+  border-bottom: 1px solid var(--color-line);
+  padding-bottom: 1.2rem;
+}
+
+.article__header .tag-list {
+  margin-top: 0.9rem;
+}
+
+.article__content > * {
+  margin-top: 0;
+}
+
+.article__content h2,
+.article__content h3 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  margin: 2rem 0 0.7rem;
+}
+
+.article__content p,
+.article__content li {
+  color: #302c27;
+}
+
+.article__content blockquote {
+  border-left: 4px solid var(--color-accent);
+  color: var(--color-muted);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+.article__content code {
+  background: #eee5d9;
+  border-radius: 4px;
+  padding: 0.1rem 0.28rem;
+}
+
+/* Footer met Font Awesome iconen. */
+.site-footer {
+  align-items: center;
+  border-top: 1px solid var(--color-line);
+  color: var(--color-muted);
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  max-width: var(--content-width);
+  padding: 1.25rem var(--space-page) 2rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.social-nav {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.social-nav a {
+  align-items: center;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  display: inline-flex;
+  height: 2.3rem;
+  justify-content: center;
+  text-decoration: none;
+  width: 2.3rem;
+}
+
+.social-nav a:hover,
+.social-nav a:focus {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+@media (min-width: 42rem) {
+  .site-header,
+  .site-main,
+  .site-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .intro-block {
+    padding: 1.4rem;
+  }
+
+  .post-card {
+    padding-bottom: 1.35rem;
+  }
+}
