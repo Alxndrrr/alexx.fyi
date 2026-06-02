@@ -1,7 +1,7 @@
 ---
 title: The Hyperfixation Snowball Effect
 type: content
-date: 2025-05-31
+date: 2026-05-31
 categories:
   - Blog
 ---
