@@ -138,3 +138,12 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added responsive `.video-embed` styling for YouTube iframes.
 - Moved the YouTube embed markup into `_includes/youtube.html` so posts can embed videos with a clean Liquid include.
 - Changed the video post timestamp to the start of the day so Jekyll does not hide it as a future post.
+
+### Update: Visual Simplification
+
+- Simplified YouTube embed styling by removing colored borders and shadows.
+- Made tag labels smaller across mobile and desktop.
+- Removed the border around the homepage intro box.
+- Removed the line underneath the header/menu.
+- Added `_includes/date.html` for written English dates with ordinal suffixes.
+- Removed circular borders/backgrounds around footer social icons.

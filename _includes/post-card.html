@@ -15,7 +15,7 @@
           {{ post.content | markdownify }}
         </div>
       </div>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
     </a>
   </article>
 {% elsif post.type == "content" or post.type == "excerpt" %}
@@ -37,11 +37,11 @@
         {% endfor %}
       </ul>
     {% endif %}
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
   </article>
 {% else %}
   <article class="post-card">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
