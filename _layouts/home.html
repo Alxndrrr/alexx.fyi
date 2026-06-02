@@ -9,8 +9,7 @@ layout: default
   </div>
 </section>
 
-<section class="post-list" aria-labelledby="latest-posts">
-  <h1 id="latest-posts" class="section-title">Latest posts</h1>
+<section class="post-list" aria-label="Blog posts">
   {% for post in site.posts %}
     {% include post-card.html post=post %}
   {% endfor %}

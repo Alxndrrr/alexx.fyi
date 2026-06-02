@@ -75,3 +75,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Added a build-time version query to the `main.css` link in `_layouts/default.html`.
 - This helps GitHub Pages and browsers load the latest compiled CSS instead of a cached older stylesheet.
+
+### Update: Layout Alignment
+
+- Increased `--content-width` from `38rem` to `44rem`.
+- Left-aligned the header brand, menu, homepage post titles, page titles, blog titles, tags, and intro block.
+- Removed the `Latest posts` heading from the homepage.
+- Removed homepage post excerpts so the line below tags no longer appears.

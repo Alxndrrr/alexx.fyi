@@ -74,7 +74,7 @@ The main visual settings are at the top:
   --font-display: "Tanker", Impact, sans-serif;
   --font-site: "Jersey 10", "Pixelify Sans", monospace;
   --font-detail: "Pixelify Sans", monospace;
-  --content-width: 38rem;
+  --content-width: 44rem;
 }
 ```
 
@@ -83,7 +83,7 @@ The site uses Jersey 10 for the site name, Tanker for menu items and headings, S
 To make the centered layout wider or narrower, change:
 
 ```css
---content-width: 38rem;
+--content-width: 44rem;
 ```
 
 ## Replace the Logo
