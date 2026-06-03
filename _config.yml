@@ -21,6 +21,7 @@ home_post_limit: 10
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
 
 collections:

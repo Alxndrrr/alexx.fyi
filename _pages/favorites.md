@@ -1,5 +1,6 @@
 ---
 title: Favorites
+description: "A personal collection of favorite movies, TV shows and games."
 favorite_index: true
 ---
 

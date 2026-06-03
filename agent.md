@@ -221,3 +221,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - `_includes/post-card.html` now reads `homepage_type`, with old `type` kept as a fallback.
 - `_layouts/post.html` now reads `blogpost_type`, with old `type` kept as a fallback.
 - Added default `homepage_type: standard` and `blogpost_type: standard` for posts in `_config.yml`.
+
+### Update: Basic SEO Metadata
+
+- Added `jekyll-sitemap` to `_config.yml` so GitHub Pages can generate `/sitemap.xml`.
+- Added `robots.txt` with a sitemap reference generated through `absolute_url`.
+- Added `description` front matter to existing pages and posts for better snippets and social metadata through `jekyll-seo-tag`.

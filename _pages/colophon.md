@@ -1,5 +1,6 @@
 ---
 title: Colophon
+description: "The hardware, apps, gaming gear and personal setup behind alexx.fyi."
 ---
 
 <section class="colophon-section">

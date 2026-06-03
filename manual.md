@@ -161,6 +161,7 @@ Use this front matter:
 ```markdown
 ---
 title: My New Post
+description: "A short SEO description for search results and social previews."
 date: 2026-06-10
 homepage_type: standard
 blogpost_type: standard
@@ -186,6 +187,7 @@ Create a post in `_posts/` and add `homepage_type: micropost` and `blogpost_type
 ```markdown
 ---
 title: My Micropost Title
+description: "A short summary for feeds, search engines and social previews."
 date: 2026-06-02 00:01:00 +0000
 homepage_type: micropost
 blogpost_type: micropost
@@ -224,6 +226,7 @@ Add `homepage_type: content` to the front matter. Keep `blogpost_type: standard`
 ```markdown
 ---
 title: My Content Preview Post
+description: "A short SEO description for search results and social previews."
 date: 2026-06-02
 homepage_type: content
 blogpost_type: standard

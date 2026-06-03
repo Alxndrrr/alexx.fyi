@@ -1,5 +1,6 @@
 ---
 title: Pretending To Be James Bond
+description: "Thoughts after buying 007 First Light and returning to James Bond games after many years."
 homepage_type: content
 blogpost_type: standard
 date: 2026-05-30

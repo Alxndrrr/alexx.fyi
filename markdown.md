@@ -4,6 +4,7 @@
 Gebruik altijd deze twee YAML velden:
 
 ```yaml
+description: "Korte omschrijving voor SEO en social previews."
 homepage_type: standard
 blogpost_type: standard
 ```

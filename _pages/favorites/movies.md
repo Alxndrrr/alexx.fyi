@@ -1,5 +1,6 @@
 ---
 title: Movies
+description: "Favorite movies collected by Alex van der Weij."
 permalink: /favorites/movies/
 favorite_parent: Favorites
 favorite_parent_url: /favorites/

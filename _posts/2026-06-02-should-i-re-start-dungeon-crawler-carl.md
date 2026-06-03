@@ -1,5 +1,6 @@
 ---
 title: Should I Re-start Dungeon Crawler Carl?!
+description: "A quick micropost about reading Ready Player One and considering another try at Dungeon Crawler Carl."
 homepage_type: micropost
 blogpost_type: micropost
 external_url: "https://www.threads.com/@alxndrr.nl/post/DZEi3DHiId-"

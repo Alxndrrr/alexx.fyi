@@ -1,5 +1,6 @@
 ---
 title: Let's Do This Blogging Thing
+description: "A first post about restarting the blog yet again, this time in flawed English."
 homepage_type: content
 blogpost_type: standard
 date: 2026-05-29

@@ -1,5 +1,6 @@
 ---
 title: Games
+description: "Favorite games collected by Alex van der Weij."
 permalink: /favorites/games/
 favorite_parent: Favorites
 favorite_parent_url: /favorites/

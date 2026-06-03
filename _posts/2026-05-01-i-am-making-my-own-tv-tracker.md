@@ -1,8 +1,9 @@
 ---
 title: I Am Making My Own TV Tracker
+description: "A short note about building Remake, a TV tracker app for binge-watchers."
 homepage_type: micropost
 blogpost_type: micropost
-date: 2026-05-30
+date: 2026-05-01
 categories:
   - Tech
 ---

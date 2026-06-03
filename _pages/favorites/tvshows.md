@@ -1,5 +1,6 @@
 ---
 title: TV Shows
+description: "Favorite TV shows collected by Alex van der Weij."
 permalink: /favorites/tvshows/
 favorite_parent: Favorites
 favorite_parent_url: /favorites/
