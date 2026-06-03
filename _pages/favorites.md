@@ -40,6 +40,15 @@ These are my all time favorite movies, tv shows and games.
         <span>2015</span>
       </figcaption>
     </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/warrior.jpg' | relative_url }}" alt="Warrior poster">
+      </div>
+      <figcaption>
+        <strong>Warrior</strong>
+        <span>2011</span>
+      </figcaption>
+    </figure>
   </div>
 </section>
 
@@ -58,15 +67,6 @@ These are my all time favorite movies, tv shows and games.
       <figcaption>
         <strong>Game of Thrones</strong>
         <span>2011-2019</span>
-      </figcaption>
-    </figure>
-    <figure class="favorite-card">
-      <div class="favorite-card__poster">
-        <img src="{{ '/assets/img/favorites/warrior.jpg' | relative_url }}" alt="Warrior poster">
-      </div>
-      <figcaption>
-        <strong>Warrior</strong>
-        <span>2019-2023</span>
       </figcaption>
     </figure>
     <figure class="favorite-card">

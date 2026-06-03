@@ -18,15 +18,6 @@ favorite_parent_url: /favorites/
     </figure>
     <figure class="favorite-card">
       <div class="favorite-card__poster">
-        <img src="{{ '/assets/img/favorites/warrior.jpg' | relative_url }}" alt="Warrior poster">
-      </div>
-      <figcaption>
-        <strong>Warrior</strong>
-        <span>2019-2023</span>
-      </figcaption>
-    </figure>
-    <figure class="favorite-card">
-      <div class="favorite-card__poster">
         <img src="{{ '/assets/img/favorites/1883.jpg' | relative_url }}" alt="1883 poster">
       </div>
       <figcaption>
