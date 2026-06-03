@@ -841,13 +841,13 @@ img {
 .article__content h2 {
   color: var(--color-accent-yellow);
   font-size: clamp(1.8rem, 7vw, 2.55rem);
-  margin: 2.25rem 0 0.8rem;
+  margin: 2.25rem 0 0.45rem;
 }
 
 .article__content h3 {
   color: var(--color-accent);
   font-size: clamp(1.35rem, 5.5vw, 1.9rem);
-  margin: 1.8rem 0 0.65rem;
+  margin: 1.8rem 0 0.38rem;
 }
 
 .article__content h4 {
@@ -856,7 +856,7 @@ img {
   font-size: clamp(1.08rem, 4.5vw, 1.38rem);
   font-weight: 400;
   letter-spacing: 0.02em;
-  margin: 1.6rem 0 0.55rem;
+  margin: 1.6rem 0 0.3rem;
   text-transform: uppercase;
 }
 
@@ -940,15 +940,16 @@ img {
   border: 0;
   border-radius: 0;
   box-shadow: none;
-  color: var(--color-muted);
+  color: var(--color-accent-yellow);
   font-family: var(--font-detail);
-  font-size: 0.96rem;
+  font-size: clamp(1.04rem, 4vw, 1.2rem);
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 1.5;
   margin: 1.65rem 0;
   padding: 0;
   position: relative;
+  text-align: center;
 }
 
 .article__content blockquote::before {
@@ -974,13 +975,19 @@ img {
 .article__content figure > img,
 .article__content > img {
   background: var(--color-panel-soft);
-  border: 1px solid var(--color-line);
   border-radius: 8px;
   box-shadow: 0.45rem 0.45rem 0 rgba(82, 0, 255, 0.2);
-  clip-path: polygon(0 0, calc(100% - 1.35rem) 0, 100% 1.35rem, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, calc(100% - 1.85rem) 0, 100% 1.85rem, 100% 100%, 0 100%);
   margin: 1.4rem auto;
   max-width: calc(100% - 0.55rem);
   width: calc(100% - 0.55rem);
+}
+
+.article__content hr {
+  background: var(--color-accent-purple);
+  border: 0;
+  height: 0.18rem;
+  margin: 2rem 0;
 }
 
 /* Favorites page: poster grids for movies, shows, games, and more. */
@@ -1166,8 +1173,8 @@ mark,
   border-radius: 0.35em;
   display: inline-block;
   font-family: var(--font-detail);
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   line-height: 1.05;
   margin-block: 0.08em;
   padding: 0.06em 0.3em 0.12em;
