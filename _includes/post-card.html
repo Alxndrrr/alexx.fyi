@@ -1,6 +1,7 @@
 {% assign post = include.post %}
+{% assign homepage_type = post.homepage_type | default: post.type | default: "standard" %}
 {% assign micro_logo = site.micro_logo | default: site.logo %}
-{% if post.type == "micropost" %}
+{% if homepage_type == "micropost" %}
   {% assign micro_external_url = post.external_url | default: post.link %}
   {% assign micro_href = post.url | relative_url %}
   {% if micro_external_url %}
@@ -41,7 +42,7 @@
       {% endif %}
     </a>
   </article>
-{% elsif post.type == "content" or post.type == "excerpt" %}
+{% elsif homepage_type == "content" or homepage_type == "excerpt" %}
   {% assign content_parts = post.content | split: site.excerpt_separator %}
   <article class="post-card post-card--content">
     <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>

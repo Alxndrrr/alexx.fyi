@@ -1,7 +1,8 @@
 ---
 title: Markdown Style Preview
 date: 2026-06-03 12:00:00 +0200
-type: content
+homepage_type: content
+blogpost_type: standard
 categories:
   - Blog
   - Design

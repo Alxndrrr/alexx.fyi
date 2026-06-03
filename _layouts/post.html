@@ -2,7 +2,9 @@
 layout: default
 ---
 
-{% if page.type == "micropost" %}
+{% assign blogpost_type = page.blogpost_type | default: page.type | default: "standard" %}
+
+{% if blogpost_type == "micropost" %}
   {% assign micro_logo = site.micro_logo | default: site.logo %}
   {% assign micro_external_url = page.external_url | default: page.link %}
   {% assign micro_service_icon = "" %}

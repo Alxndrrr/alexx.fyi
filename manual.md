@@ -162,6 +162,8 @@ Use this front matter:
 ---
 title: My New Post
 date: 2026-06-10
+homepage_type: standard
+blogpost_type: standard
 categories:
   - notes
   - personal
@@ -179,13 +181,14 @@ Jekyll hides posts with future dates by default. If a post does not appear on th
 
 Microposts are short posts that appear in full on the homepage. They do not show a title in the post list or on the post page.
 
-Create a post in `_posts/` and add `type: micropost` to the front matter:
+Create a post in `_posts/` and add `homepage_type: micropost` and `blogpost_type: micropost` to the front matter:
 
 ```markdown
 ---
-type: micropost
 title: My Micropost Title
 date: 2026-06-02 00:01:00 +0000
+homepage_type: micropost
+blogpost_type: micropost
 external_url: "https://www.threads.net/@yourname/post/example"
 categories:
   - micro
@@ -210,19 +213,20 @@ The `title` is still useful for SEO, feeds, and browser titles, but the theme hi
 
 Content preview posts use a different homepage list style:
 
-1. Title
-2. Post content until the break marker
-3. Continue reading link, only when a break marker is used
-4. Categories
-5. Date
+1. Date
+2. Title
+3. Post content until the break marker
+4. Continue reading link, only when a break marker is used
+5. Categories
 
-Add `type: content` to the front matter:
+Add `homepage_type: content` to the front matter. Keep `blogpost_type: standard` for the regular post page design:
 
 ```markdown
 ---
 title: My Content Preview Post
 date: 2026-06-02
-type: content
+homepage_type: content
+blogpost_type: standard
 categories:
   - essay
   - notes
@@ -235,7 +239,7 @@ This part appears on the homepage.
 This part only appears after someone opens the full post.
 ```
 
-The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown. For `type: content` posts, do not use front matter `excerpt:` for the homepage preview; the preview comes from the post body.
+The break marker is `<!--more-->`. If you leave it out, the full post content appears on the homepage and no continue reading link is shown. For `homepage_type: content` posts, do not use front matter `excerpt:` for the homepage preview; the preview comes from the post body.
 
 ## Embed a YouTube Video
 

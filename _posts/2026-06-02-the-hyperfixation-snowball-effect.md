@@ -1,5 +1,7 @@
 ---
 title: The Hyperfixation Snowball Effect
+homepage_type: standard
+blogpost_type: standard
 date: 2026-05-31
 categories:
   - Blog

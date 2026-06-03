@@ -1,6 +1,7 @@
 ---
 title: Let's Do This Blogging Thing
-type: content
+homepage_type: content
+blogpost_type: standard
 date: 2026-05-29
 categories:
   - Blog

@@ -1,6 +1,7 @@
 ---
 title: Pretending To Be James Bond
-type: content
+homepage_type: content
+blogpost_type: standard
 date: 2026-05-30
 categories:
   - Blog

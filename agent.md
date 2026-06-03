@@ -214,3 +214,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added reusable favorites sections and poster cards to `_pages/favorites.md`.
 - Styled favorites grids with 3 columns on mobile and 5 columns on desktop.
 - Added bottom-aligned posters, rounded poster corners, ellipsis titles, and metadata styling.
+
+### Update: Post Type Split
+
+- Replaced the overloaded post `type` concept with `homepage_type` for homepage card rendering and `blogpost_type` for individual post page rendering.
+- `_includes/post-card.html` now reads `homepage_type`, with old `type` kept as a fallback.
+- `_layouts/post.html` now reads `blogpost_type`, with old `type` kept as a fallback.
+- Added default `homepage_type: standard` and `blogpost_type: standard` for posts in `_config.yml`.

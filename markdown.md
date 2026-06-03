@@ -1,9 +1,21 @@
 # Markdown Cheatsheet
 
-### Type posts
-Dit zijn de type posts doe ik kan toevoegen
-- Content = volledige blog op homepage, tenzij <!--more--> gebruikt wordt
-- Micropost = een micropost of threads post
+### Post types
+Gebruik altijd deze twee YAML velden:
+
+```yaml
+homepage_type: standard
+blogpost_type: standard
+```
+
+Homepage types:
+- `standard` = alleen datum, titel en categorieen op de homepage
+- `content` = volledige blog op homepage, tenzij `<!--more-->` gebruikt wordt
+- `micropost` = een micropost of Threads/Bluesky post
+
+Blogpost types:
+- `standard` = gewone blogpostpagina
+- `micropost` = micropostpagina
 
 ### Standaard opmaak
 
@@ -74,11 +86,11 @@ Gebruik meerdere regels code zo:
 Deze site heeft extra stijlen voor gemarkeerde tekst:
 
 ```html
-<mark>Roze markering</mark>
+<span class="highlight-pink">Roze markering</span>
 
-<span class="highlight-bg-orange">Paarse markering</span>
+<span class="highlight-purple">Paarse markering</span>
 
-<span class="highlight-bg-yellow">Gele markering</span>
+<span class="highlight-yellow">Gele markering</span>
 ```
 
 ## YouTube-video
@@ -91,7 +103,7 @@ Gebruik alleen de video-ID:
 
 ## Content Preview Break
 
-Bij een `type: content` post kun je hiermee bepalen waar de homepage-preview stopt:
+Bij een `homepage_type: content` post kun je hiermee bepalen waar de homepage-preview stopt:
 
 ```markdown
 Tekst die op de homepage verschijnt.
