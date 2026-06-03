@@ -151,7 +151,7 @@ img {
 
 .intro-block::before,
 .intro-block::after {
-  border-right: 2rem solid transparent;
+  border-right: 1.3rem solid transparent;
   content: "";
   height: 0;
   left: 0;
@@ -161,12 +161,12 @@ img {
 }
 
 .intro-block::before {
-  border-top: 2rem solid var(--color-paper);
+  border-top: 1.3rem solid var(--color-paper);
   top: 0;
 }
 
 .intro-block::after {
-  border-bottom: 2rem solid var(--color-paper);
+  border-bottom: 1.3rem solid var(--color-paper);
   bottom: 0;
 }
 
@@ -217,15 +217,15 @@ img {
 }
 
 .currently-block::before {
-  border-right: 2rem solid transparent;
-  border-top: 2rem solid var(--color-paper);
+  border-right: 1.3rem solid transparent;
+  border-top: 1.3rem solid var(--color-paper);
   left: 0;
   top: 0;
 }
 
 .currently-block::after {
-  border-bottom: 2rem solid var(--color-paper);
-  border-left: 2rem solid transparent;
+  border-bottom: 1.3rem solid var(--color-paper);
+  border-left: 1.3rem solid transparent;
   bottom: 0;
   right: 0;
 }
