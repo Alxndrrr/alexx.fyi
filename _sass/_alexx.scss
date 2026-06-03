@@ -278,15 +278,15 @@ img {
     }
 
     .layout-home .home-scroll-step--header {
-      min-height: clamp(6.5rem, 18vh, 9rem);
+      padding-bottom: clamp(1.5rem, 8vh, 4rem);
     }
 
     .layout-home .home-scroll-step--intro {
-      min-height: clamp(7.5rem, 20vh, 10rem);
+      padding-bottom: clamp(1.25rem, 7vh, 3.5rem);
     }
 
     .layout-home .home-scroll-step--currently {
-      min-height: clamp(6rem, 16vh, 8rem);
+      padding-bottom: clamp(1rem, 6vh, 3rem);
     }
 
     .layout-home .home-scroll-step > .site-header,

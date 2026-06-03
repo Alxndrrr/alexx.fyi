@@ -221,4 +221,5 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added a clearly marked CSS-only experiment in `_sass/_alexx.scss` between `Experimental homepage scroll stack: START` and `END`.
 - Wrapped the homepage header, intro box, and currently box in `.home-scroll-step` containers so each sticky block has a limited scroll range and can leave the viewport again.
 - The homepage header, intro box, and currently box use `position: sticky` within their own step containers, with layered z-index values so the next block pushes over the previous one.
+- The scroll range uses small `padding-bottom` values on each step rather than fixed `min-height`, so the effect keeps the natural block spacing closer on mobile and desktop.
 - To remove the experiment, delete the marked CSS block, remove the `.home-scroll-step` wrappers from `_layouts/default.html` and `_layouts/home.html`, and optionally remove the layout-specific body class from `_layouts/default.html`.
