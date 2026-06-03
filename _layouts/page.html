@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="article article--page">
+<article class="article article--page{% if page.favorite_parent %} article--favorite{% endif %}">
   <header class="article__header">
     {% if page.favorite_parent %}
       <nav class="favorite-breadcrumb" aria-label="Breadcrumb">
