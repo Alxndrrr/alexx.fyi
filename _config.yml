@@ -63,6 +63,9 @@ social_links:
   - title: Threads
     url: "https://www.threads.net/@alxndrr.nl"
     icon: "fa-brands fa-threads"
+  - title: Bluesky
+    url: "https://www.bsky.app/@alxndrr"
+    icon: "fa-brands fa-bluesky"
   - title: RSS
     url: "/feed.xml"
     icon: "fa-solid fa-rss"
