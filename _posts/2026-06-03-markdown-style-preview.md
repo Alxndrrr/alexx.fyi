@@ -11,6 +11,8 @@ This is a dummy post to preview the full blog styling. It includes **bold text**
 
 ![A baseball field with a dust storm in the background, from Interstellar]({{ '/assets/img/posts/interstellar-back.jpg' | relative_url }})
 
+<!--more-->
+
 ## Heading Level Two
 
 This paragraph lives under an H2. It is here to test spacing, line-height, link styling, and how the content feels when it starts to become a real article instead of a tiny note.
