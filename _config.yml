@@ -61,11 +61,11 @@ mobile_nav:
 
 social_links:
   - title: Threads
-    url: "https://www.threads.net/"
+    url: "https://www.threads.net/@alxndrr.nl"
     icon: "fa-brands fa-threads"
   - title: RSS
     url: "/feed.xml"
     icon: "fa-solid fa-rss"
   - title: Mail
-    url: "mailto:hello@example.com"
+    url: "mailto:hi@alexx.fyi"
     icon: "fa-solid fa-envelope"
