@@ -17,7 +17,3 @@ But we keep on trying, so here we are. The 19th season of my blog.
 
 ### Here's the catch
 It’s in very flawed English this time.
-
-- This is a list
-- This is a list
-- Oh is this a list?
