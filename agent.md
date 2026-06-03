@@ -53,10 +53,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added a small inline dark fallback in `_layouts/default.html` so the page remains dark even before the compiled stylesheet loads.
 - Added post excerpts to homepage cards so dummy post content is visible on the homepage.
 
-### Update: GitHub Pages Project URL
+### Update: GitHub Pages Custom Domain
 
-- Set `url` to `https://alxndrrr.github.io` and `baseurl` to `/alexx.fyi`.
-- This makes assets and internal links resolve correctly on the standard GitHub Pages project URL.
+- Set `url` to `https://www.alexx.fyi` and `baseurl` to an empty string.
+- Added a root `CNAME` file with `www.alexx.fyi` so GitHub Pages keeps the custom domain attached to the repository.
 
 ### Update: Old Pika Style
 

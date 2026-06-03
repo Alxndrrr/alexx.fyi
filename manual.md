@@ -325,24 +325,23 @@ home_post_limit: 10
 
 GitHub Pages will build the site automatically.
 
-## GitHub Pages Project URL
+## Custom Domain
 
-This site is configured for the standard GitHub Pages project URL:
+This site is configured for the custom GitHub Pages domain:
 
 ```yml
-url: "https://alxndrrr.github.io"
-baseurl: "/alexx.fyi"
+url: "https://www.alexx.fyi"
+baseurl: ""
 ```
 
 That means the site is expected to load at:
 
 ```text
-https://alxndrrr.github.io/alexx.fyi/
+https://www.alexx.fyi/
 ```
 
-If you later use a custom domain like `https://alexx.fyi`, change it to:
+The repository should also include a root `CNAME` file containing:
 
-```yml
-url: "https://alexx.fyi"
-baseurl: ""
+```text
+www.alexx.fyi
 ```
