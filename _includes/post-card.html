@@ -47,7 +47,7 @@
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
-    <div class="post-card__content-preview">
+    <div class="post-card__content-preview article__content article__content--preview">
       {{ content_parts[0] }}
     </div>
     {% if post.content contains site.excerpt_separator %}

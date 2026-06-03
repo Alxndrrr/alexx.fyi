@@ -259,7 +259,7 @@ img {
 }
 
 .currently-sentence i {
-  color: var(--color-accent-yellow);
+  color: var(--color-accent);
   font-size: 0.82rem;
   margin-right: 0.25rem;
 }
@@ -707,36 +707,19 @@ img {
   max-width: 36rem;
 }
 
-.post-card__content-preview h2,
-.post-card__content-preview h3 {
-  color: var(--color-accent);
-  font-family: var(--font-display);
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  line-height: 1.15;
-  text-transform: uppercase;
-}
-
 .post-card__content-preview h2 {
-  color: var(--color-accent-yellow);
   font-size: clamp(1.55rem, 6vw, 2.15rem);
   margin: 1.55rem 0 0.65rem;
 }
 
 .post-card__content-preview h3 {
-  color: var(--color-accent);
   font-size: clamp(1.25rem, 5vw, 1.65rem);
   margin: 1.35rem 0 0.55rem;
 }
 
 .post-card__content-preview h4 {
-  color: var(--color-muted);
-  font-family: var(--font-detail);
   font-size: 0.86rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
   margin: 1.2rem 0 0.45rem;
-  text-transform: uppercase;
 }
 
 .post-card__content-preview > :first-child,
@@ -911,7 +894,7 @@ img {
 }
 
 .article__content ul li::before {
-  background: var(--color-accent);
+  background: var(--color-accent-yellow);
   box-shadow: 2px 2px 0 var(--color-accent-purple);
   content: "";
   height: 0.45rem;
@@ -934,6 +917,7 @@ img {
   left: 0;
   line-height: 1;
   position: absolute;
+  text-shadow: 2px 2px 0 var(--color-accent-purple);
   top: 0.45em;
 }
 
@@ -941,8 +925,8 @@ img {
   color: var(--color-accent-yellow);
   text-decoration-line: underline;
   text-decoration-color: var(--color-accent-purple);
-  text-decoration-thickness: 0.14em;
-  text-underline-offset: 0.22em;
+  text-decoration-thickness: 0.18em;
+  text-underline-offset: 0.32em;
 }
 
 .article__content a:hover,
@@ -952,26 +936,28 @@ img {
 }
 
 .article__content blockquote {
-  background: rgba(82, 0, 255, 0.18);
+  background: linear-gradient(135deg, rgba(82, 0, 255, 0.2), rgba(255, 0, 115, 0.12));
   border: 1px solid var(--color-line);
-  border-left: 0.35rem solid var(--color-accent);
+  border-left: 0.35rem solid var(--color-accent-yellow);
   border-radius: 8px;
+  box-shadow: 4px 4px 0 rgba(82, 0, 255, 0.22);
   color: var(--color-muted);
-  margin: 1.5rem 0;
-  padding: 1rem 1.1rem;
+  margin: 1.65rem 0;
+  padding: 1.05rem 1.15rem 1.1rem;
   position: relative;
 }
 
 .article__content blockquote::before {
-  color: var(--color-accent-yellow);
+  color: var(--color-accent);
   content: "“";
   font-family: var(--font-display);
-  font-size: 2.4rem;
+  font-size: 2.55rem;
   left: 0.75rem;
   line-height: 1;
-  opacity: 0.65;
+  opacity: 0.8;
   position: absolute;
   top: 0.2rem;
+  text-shadow: 2px 2px 0 var(--color-accent-purple);
 }
 
 .article__content blockquote > * {
@@ -987,6 +973,17 @@ img {
   border-radius: 4px;
   font-family: var(--font-detail);
   padding: 0.1rem 0.28rem;
+}
+
+.article__content p > img,
+.article__content figure > img,
+.article__content > img {
+  background: var(--color-panel-soft);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  box-shadow: 0.45rem 0.45rem 0 rgba(82, 0, 255, 0.2);
+  clip-path: polygon(0 0, calc(100% - 1.35rem) 0, 100% 1.35rem, 100% 100%, 0 100%);
+  margin: 1.4rem 0;
 }
 
 /* Favorites page: poster grids for movies, shows, games, and more. */
