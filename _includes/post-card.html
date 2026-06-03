@@ -16,12 +16,21 @@
     {% assign micro_service_icon = "fa-brands fa-bluesky" %}
     {% assign micro_service_label = "Bluesky" %}
   {% endif %}
+  {% assign micro_rendered_content = post.content | markdownify %}
+  {% assign micro_has_inline_link = false %}
+  {% if micro_rendered_content contains "<a " %}
+    {% assign micro_has_inline_link = true %}
+  {% endif %}
   <article class="post-card post-card--micro">
     <p class="post-card__micro-label">Micropost...</p>
+    {% if micro_has_inline_link %}
+    <div class="post-card__micro-link">
+    {% else %}
     <a class="post-card__micro-link" href="{{ micro_href }}"{% if micro_external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
+    {% endif %}
       <div class="post-card__micro-body">
         <div class="post-card__micro-content">
-          {{ post.content | markdownify }}
+          {{ micro_rendered_content }}
         </div>
         <footer class="post-card__micro-meta">
           {% if post.categories %}
@@ -36,11 +45,21 @@
       </div>
       <img class="post-card__micro-avatar" src="{{ micro_logo | relative_url }}" alt="">
       {% if micro_service_icon %}
-        <span class="post-card__micro-source" aria-label="External post on {{ micro_service_label }}">
-          <i class="{{ micro_service_icon }}" aria-hidden="true"></i>
-        </span>
+        {% if micro_has_inline_link %}
+          <a class="post-card__micro-source" href="{{ micro_href }}" aria-label="External post on {{ micro_service_label }}"{% if micro_external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
+            <i class="{{ micro_service_icon }}" aria-hidden="true"></i>
+          </a>
+        {% else %}
+          <span class="post-card__micro-source" aria-label="External post on {{ micro_service_label }}">
+            <i class="{{ micro_service_icon }}" aria-hidden="true"></i>
+          </span>
+        {% endif %}
       {% endif %}
+    {% if micro_has_inline_link %}
+    </div>
+    {% else %}
     </a>
+    {% endif %}
   </article>
 {% elsif homepage_type == "content" or homepage_type == "excerpt" %}
   {% assign content_parts = post.content | split: site.excerpt_separator %}

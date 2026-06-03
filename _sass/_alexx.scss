@@ -429,6 +429,31 @@ img {
   margin-top: 0.75rem;
 }
 
+.micro-box__content p:has(img),
+.post-card__micro-content p:has(img) {
+  margin-top: 0.95rem;
+}
+
+.article__content.micro-box__content p > img,
+.post-card__micro-content p > img {
+  border-radius: 8px;
+  box-shadow: 0.35rem 0.35rem 0 rgba(82, 0, 255, 0.18);
+  clip-path: none;
+  display: block;
+  margin: 0.95rem 0 0;
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.micro-box__content a,
+.post-card__micro-content a {
+  color: var(--color-accent-yellow);
+  text-decoration-color: var(--color-accent-purple);
+  text-decoration-thickness: 0.14em;
+  text-underline-offset: 0.24em;
+}
+
 .micro-box__meta {
   align-items: center;
   display: flex;
@@ -688,6 +713,7 @@ img {
   opacity: 0.72;
   position: absolute;
   right: 1.15rem;
+  text-decoration: none;
   z-index: 3;
 }
 
