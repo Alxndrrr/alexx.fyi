@@ -16,32 +16,10 @@ Doorgestreept = ~~streep~~
 Links = [Linktekst](https://example.com)
 Bulletlist = met streepjes onder elkaar -
 
+<span class="highlight-pink">Pink highlight</span>
+<span class="highlight-purple">Purple highlight</span>
+<span class="highlight-yellow">Yellow highlight</span>
 
-## Koppen
-
-```markdown
-# Grote titel
-## Tussenkop
-### Kleine tussenkop
-```
-
-## Tekst
-
-```markdown
-Normale tekst.
-
-**Vetgedrukte tekst**
-
-*Schuingedrukte tekst*
-
-~~Doorgestreepte tekst~~
-```
-
-## Links
-
-```markdown
-[Linktekst](https://example.com)
-```
 
 ## Afbeeldingen
 
