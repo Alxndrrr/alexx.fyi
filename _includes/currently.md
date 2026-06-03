@@ -1,0 +1,10 @@
+{: .currently-label}
+// currently
+
+{: .currently-sentence}
+<i class="fa-solid fa-book-open" aria-hidden="true"></i>
+Reading **Ready Player One**,
+<i class="fa-solid fa-tv" aria-hidden="true"></i>
+re-watching **Orange Is The New Black** and
+<i class="fa-solid fa-headphones" aria-hidden="true"></i>
+listening to the **Harry Potter** full-cast edition audiobooks.

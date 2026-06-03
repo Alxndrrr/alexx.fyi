@@ -5,9 +5,9 @@ baseurl: "/alexx.fyi"
 lang: en
 
 author:
-  name: Alexx
-  email: "hello@example.com"
-  threads: "https://www.threads.net/"
+  name: Alex van der Weij
+  email: "hi@alexx.fyi"
+  threads: "https://www.threads.net/@alxndrr.nl"
 
 logo: "/assets/img/avatar.png"
 micro_logo: "/assets/img/avatar.png"

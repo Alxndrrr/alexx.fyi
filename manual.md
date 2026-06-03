@@ -51,16 +51,17 @@ The homepage automatically loads that file into the intro box.
 
 ## Change the Currently Box
 
-Edit `_includes/currently.html`.
+Edit `_includes/currently.md`.
 
 This file controls the small currently box below the homepage intro. It uses a small label and one sentence with optional Font Awesome icons:
 
-```html
-<p class="currently-label">// currently</p>
-<p class="currently-sentence">
-  <i class="fa-solid fa-book-open" aria-hidden="true"></i>
-  Currently reading Ready Player One.
-</p>
+```markdown
+{: .currently-label}
+// currently
+
+{: .currently-sentence}
+<i class="fa-solid fa-book-open" aria-hidden="true"></i>
+Currently reading **Ready Player One**.
 ```
 
 ## Change the Menu

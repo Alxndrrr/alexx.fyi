@@ -10,7 +10,8 @@ layout: default
 </section>
 
 <section class="currently-block" aria-label="Currently">
-  {% include currently.html %}
+  {% capture currently_content %}{% include currently.md %}{% endcapture %}
+  {{ currently_content | markdownify }}
 </section>
 
 <section class="post-list" aria-label="Blog posts">

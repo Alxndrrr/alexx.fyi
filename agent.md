@@ -189,9 +189,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 ### Update: Currently Box
 
-- Added `_includes/currently.html` for editable homepage "currently" items.
+- Added `_includes/currently.md` for editable homepage "currently" items.
 - Added a dark pink currently box below the intro block with Font Awesome icons and one squared-off lower-left corner.
 - Changed the currently content to a single sentence with a small `// currently` system-style label.
+- Updated the homepage to render the currently include through `markdownify`, so Markdown formatting works inside the currently content.
 - Adjusted the intro/currently corner radii so the intro has a squared lower-right corner and the currently box has a squared upper-right corner.
 
 ### Update: Mobile Menu and Micropost Sources
