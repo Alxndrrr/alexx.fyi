@@ -8,7 +8,7 @@
   {% endif %}
   {% assign micro_service_icon = "" %}
   {% assign micro_service_label = "" %}
-  {% if micro_external_url contains "threads.net" %}
+  {% if micro_external_url contains "threads.net" or micro_external_url contains "threads.com" %}
     {% assign micro_service_icon = "fa-brands fa-threads" %}
     {% assign micro_service_label = "Threads" %}
   {% elsif micro_external_url contains "bsky.app" or micro_external_url contains "bluesky" %}
