@@ -137,12 +137,9 @@ img {
 
 /* Intro block on the homepage. */
 .intro-block {
-  --corner-cut: 1.6rem;
-  --corner-soft: 0.28rem;
   align-items: center;
   background: rgba(82, 0, 255, 0.22);
   border-radius: 8px;
-  clip-path: polygon(var(--corner-cut) 0, 100% 0, 100% 100%, var(--corner-cut) 100%, 0 calc(100% - var(--corner-cut)), 0 var(--corner-cut));
   display: grid;
   gap: 1rem;
   grid-template-columns: auto 1fr;
@@ -154,22 +151,23 @@ img {
 
 .intro-block::before,
 .intro-block::after {
+  border-right: 1.15rem solid transparent;
   content: "";
-  inset: 0;
+  height: 0;
+  left: 0;
   pointer-events: none;
   position: absolute;
+  width: 0;
 }
 
 .intro-block::before {
-  background:
-    radial-gradient(circle at var(--corner-cut) 0, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
-    radial-gradient(circle at 0 var(--corner-cut), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
+  border-top: 1.15rem solid var(--color-paper);
+  top: 0;
 }
 
 .intro-block::after {
-  background:
-    radial-gradient(circle at var(--corner-cut) 100%, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
-    radial-gradient(circle at 0 calc(100% - var(--corner-cut)), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
+  border-bottom: 1.15rem solid var(--color-paper);
+  bottom: 0;
 }
 
 .intro-block__avatar {
@@ -202,11 +200,8 @@ img {
 }
 
 .currently-block {
-  --corner-cut: 1.6rem;
-  --corner-soft: 0.28rem;
   background: rgba(255, 0, 115, 0.16);
   border-radius: 8px;
-  clip-path: polygon(var(--corner-cut) 0, 100% 0, 100% calc(100% - var(--corner-cut)), calc(100% - var(--corner-cut)) 100%, 0 100%, 0 var(--corner-cut));
   margin-bottom: 2.25rem;
   padding: 1rem 1.1rem;
   position: relative;
@@ -215,21 +210,24 @@ img {
 .currently-block::before,
 .currently-block::after {
   content: "";
-  inset: 0;
+  height: 0;
   pointer-events: none;
   position: absolute;
+  width: 0;
 }
 
 .currently-block::before {
-  background:
-    radial-gradient(circle at var(--corner-cut) 0, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
-    radial-gradient(circle at 0 var(--corner-cut), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
+  border-right: 1.15rem solid transparent;
+  border-top: 1.15rem solid var(--color-paper);
+  left: 0;
+  top: 0;
 }
 
 .currently-block::after {
-  background:
-    radial-gradient(circle at calc(100% - var(--corner-cut)) 100%, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
-    radial-gradient(circle at 100% calc(100% - var(--corner-cut)), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
+  border-bottom: 1.15rem solid var(--color-paper);
+  border-left: 1.15rem solid transparent;
+  bottom: 0;
+  right: 0;
 }
 
 .currently-label {
