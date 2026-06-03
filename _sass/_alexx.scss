@@ -137,9 +137,12 @@ img {
 
 /* Intro block on the homepage. */
 .intro-block {
+  --corner-cut: 1.6rem;
+  --corner-soft: 0.28rem;
   align-items: center;
   background: rgba(82, 0, 255, 0.22);
   border-radius: 8px;
+  clip-path: polygon(var(--corner-cut) 0, 100% 0, 100% 100%, var(--corner-cut) 100%, 0 calc(100% - var(--corner-cut)), 0 var(--corner-cut));
   display: grid;
   gap: 1rem;
   grid-template-columns: auto 1fr;
@@ -151,23 +154,22 @@ img {
 
 .intro-block::before,
 .intro-block::after {
-  background: var(--color-paper);
-  border-radius: 0.2rem;
   content: "";
-  height: 1.35rem;
-  left: -0.68rem;
+  inset: 0;
   pointer-events: none;
   position: absolute;
-  transform: rotate(45deg);
-  width: 1.35rem;
 }
 
 .intro-block::before {
-  top: -0.68rem;
+  background:
+    radial-gradient(circle at var(--corner-cut) 0, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
+    radial-gradient(circle at 0 var(--corner-cut), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
 }
 
 .intro-block::after {
-  bottom: -0.68rem;
+  background:
+    radial-gradient(circle at var(--corner-cut) 100%, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
+    radial-gradient(circle at 0 calc(100% - var(--corner-cut)), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
 }
 
 .intro-block__avatar {
@@ -200,8 +202,11 @@ img {
 }
 
 .currently-block {
+  --corner-cut: 1.6rem;
+  --corner-soft: 0.28rem;
   background: rgba(255, 0, 115, 0.16);
   border-radius: 8px;
+  clip-path: polygon(var(--corner-cut) 0, 100% 0, 100% calc(100% - var(--corner-cut)), calc(100% - var(--corner-cut)) 100%, 0 100%, 0 var(--corner-cut));
   margin-bottom: 2.25rem;
   padding: 1rem 1.1rem;
   position: relative;
@@ -209,24 +214,22 @@ img {
 
 .currently-block::before,
 .currently-block::after {
-  background: var(--color-paper);
-  border-radius: 0.2rem;
   content: "";
-  height: 1.35rem;
+  inset: 0;
   pointer-events: none;
   position: absolute;
-  transform: rotate(45deg);
-  width: 1.35rem;
 }
 
 .currently-block::before {
-  left: -0.68rem;
-  top: -0.68rem;
+  background:
+    radial-gradient(circle at var(--corner-cut) 0, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
+    radial-gradient(circle at 0 var(--corner-cut), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
 }
 
 .currently-block::after {
-  bottom: -0.68rem;
-  right: -0.68rem;
+  background:
+    radial-gradient(circle at calc(100% - var(--corner-cut)) 100%, var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem)),
+    radial-gradient(circle at 100% calc(100% - var(--corner-cut)), var(--color-paper) 0 var(--corner-soft), transparent calc(var(--corner-soft) + 0.02rem));
 }
 
 .currently-label {

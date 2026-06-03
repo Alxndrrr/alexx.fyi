@@ -44,5 +44,7 @@ nav:
     url: /blog/
   - title: About
     url: /about/
+  - title: Favorites
+    url: /favorites/
   - title: Colophon
     url: /colophon/
