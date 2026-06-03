@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <p class="site-footer__tagline">Running on nostalgia, LEGO and afternoon naps.</p>
   <div class="site-footer__bar">
-    <p>&copy; {{ site.author.name | default: site.title }} {{ site.time | date: "%Y" }}</p>
+    <p><span class="site-footer__copyright-symbol">&copy;</span> {{ site.author.name | default: site.title }} {{ site.time | date: "%Y" }}</p>
     {% if site.social_links %}
       <nav class="social-nav" aria-label="Social links">
         {% for item in site.social_links %}

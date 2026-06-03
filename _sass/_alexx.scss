@@ -1034,6 +1034,15 @@ mark,
   letter-spacing: 0.04em;
 }
 
+.site-footer__copyright-symbol {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 1.12em;
+  font-weight: 700;
+  line-height: 1;
+  transform: translateY(0.04em);
+}
+
 .social-nav {
   display: flex;
   gap: 0.45rem;
