@@ -149,25 +149,16 @@ img {
   text-align: left;
 }
 
-.intro-block::before,
-.intro-block::after {
-  border-right: 1.3rem solid transparent;
-  content: "";
-  height: 0;
-  left: 0;
-  pointer-events: none;
-  position: absolute;
-  width: 0;
-}
-
-.intro-block::before {
-  border-top: 1.3rem solid var(--color-paper);
-  top: 0;
-}
-
 .intro-block::after {
   border-bottom: 1.3rem solid var(--color-paper);
+  border-left: 1.3rem solid transparent;
   bottom: 0;
+  content: "";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  width: 0;
 }
 
 .intro-block__avatar {
@@ -217,9 +208,9 @@ img {
 }
 
 .currently-block::before {
-  border-right: 1.3rem solid transparent;
+  border-left: 1.3rem solid transparent;
   border-top: 1.3rem solid var(--color-paper);
-  left: 0;
+  right: 0;
   top: 0;
 }
 
