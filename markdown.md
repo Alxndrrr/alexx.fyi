@@ -12,8 +12,9 @@ Dik gedrukt = **dik gedrukt**
 Schuint = *schuin*
 Doorgestreept = ~~streep~~
 
-### Links
-[Linktekst](https://example.com)
+
+Links = [Linktekst](https://example.com)
+Bulletlist = met streepjes onder elkaar -
 
 
 ## Koppen
