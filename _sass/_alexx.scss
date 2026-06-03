@@ -139,13 +139,35 @@ img {
 .intro-block {
   align-items: center;
   background: rgba(82, 0, 255, 0.22);
-  border-radius: 8px 8px 0 8px;
+  border-radius: 8px;
   display: grid;
   gap: 1rem;
   grid-template-columns: auto 1fr;
   margin-bottom: 0.45rem;
   padding: 1.1rem;
+  position: relative;
   text-align: left;
+}
+
+.intro-block::before,
+.intro-block::after {
+  border-right: 0.72rem solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+}
+
+.intro-block::before {
+  border-top: 0.72rem solid var(--color-paper);
+  top: 0;
+}
+
+.intro-block::after {
+  border-bottom: 0.72rem solid var(--color-paper);
+  bottom: 0;
 }
 
 .intro-block__avatar {
@@ -179,9 +201,33 @@ img {
 
 .currently-block {
   background: rgba(255, 0, 115, 0.16);
-  border-radius: 8px 0 8px 8px;
+  border-radius: 8px;
   margin-bottom: 2.25rem;
   padding: 1rem 1.1rem;
+  position: relative;
+}
+
+.currently-block::before,
+.currently-block::after {
+  content: "";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+}
+
+.currently-block::before {
+  border-right: 0.72rem solid transparent;
+  border-top: 0.72rem solid var(--color-paper);
+  left: 0;
+  top: 0;
+}
+
+.currently-block::after {
+  border-bottom: 0.72rem solid var(--color-paper);
+  border-left: 0.72rem solid transparent;
+  bottom: 0;
+  right: 0;
 }
 
 .currently-label {
