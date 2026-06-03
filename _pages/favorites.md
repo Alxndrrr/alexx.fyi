@@ -1,5 +1,6 @@
 ---
 title: Favorites
+favorite_index: true
 ---
 
 These are my all time favorite movies, tv shows and games.
