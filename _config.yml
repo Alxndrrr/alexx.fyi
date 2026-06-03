@@ -17,6 +17,7 @@ accent_color: "#ff0073"
 
 permalink: /blog/:year/:month/:day/:title/
 excerpt_separator: "<!--more-->"
+home_post_limit: 10
 
 plugins:
   - jekyll-feed

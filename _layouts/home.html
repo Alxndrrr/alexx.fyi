@@ -15,7 +15,8 @@ layout: default
 </section>
 
 <section class="post-list" aria-label="Blog posts">
-  {% for post in site.posts %}
+  {% assign home_post_limit = site.home_post_limit | default: 10 %}
+  {% for post in site.posts limit: home_post_limit %}
     {% include post-card.html post=post %}
   {% endfor %}
 </section>

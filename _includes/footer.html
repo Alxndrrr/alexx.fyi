@@ -1,13 +1,16 @@
 <footer class="site-footer">
-  <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-  {% if site.social_links %}
-    <nav class="social-nav" aria-label="Social links">
-      {% for item in site.social_links %}
-        {% assign social_url_start = item.url | slice: 0, 4 %}
-        <a href="{% if social_url_start == 'http' or item.url contains 'mailto:' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" aria-label="{{ item.title }}">
-          <i class="{{ item.icon }}" aria-hidden="true"></i>
-        </a>
-      {% endfor %}
-    </nav>
-  {% endif %}
+  <p class="site-footer__tagline">Running on nostalgia, LEGO and afternoon naps.</p>
+  <div class="site-footer__bar">
+    <p>&copy; {{ site.author.name | default: site.title }} {{ site.time | date: "%Y" }}</p>
+    {% if site.social_links %}
+      <nav class="social-nav" aria-label="Social links">
+        {% for item in site.social_links %}
+          {% assign social_url_start = item.url | slice: 0, 4 %}
+          <a href="{% if social_url_start == 'http' or item.url contains 'mailto:' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" aria-label="{{ item.title }}">
+            <i class="{{ item.icon }}" aria-hidden="true"></i>
+          </a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </div>
 </footer>

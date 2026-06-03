@@ -202,3 +202,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Reused `social_links` for the footer icons.
 - Added automatic Threads/Bluesky source icons for micropost cards when `external_url` points to those services.
 - Added a `1.5rem` lower-right cut corner to micropost boxes.
+
+### Update: Homepage Limit, Article Content, and Footer
+
+- Added `home_post_limit` to `_config.yml` and applied it to the homepage post loop.
+- Styled headings, bullet lists, numbered lists, and blockquotes inside post/page content.
+- Reworked the footer into two layers: a yellow pixel-font tagline above a copyright/social row.

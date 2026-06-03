@@ -276,6 +276,12 @@ The intro text comes from `_includes/intro.html`.
 
 The blog list is generated automatically from `_posts/`.
 
+To limit how many posts appear on the homepage, edit this in `_config.yml`:
+
+```yml
+home_post_limit: 10
+```
+
 ## Publish on GitHub Pages
 
 1. Put these files in a GitHub repository.
