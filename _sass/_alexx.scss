@@ -630,23 +630,6 @@ img {
   color: inherit;
 }
 
-@media (max-width: 41.99rem) {
-  .post-card__micro-link {
-    border-left: 0;
-    border-radius: 0;
-    border-right: 0;
-    margin-left: calc(-1 * var(--space-page));
-    margin-right: calc(-1 * var(--space-page));
-  }
-}
-
-@media (min-width: 42rem) {
-  .post-card__micro-link {
-    margin-left: -1.25rem;
-    margin-right: -1.25rem;
-  }
-}
-
 .post-card__micro-avatar {
   aspect-ratio: 1;
   border: 1px solid var(--color-line);
