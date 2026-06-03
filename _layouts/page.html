@@ -4,7 +4,15 @@ layout: default
 
 <article class="article article--page">
   <header class="article__header">
-    <h1>{{ page.title }}</h1>
+    {% if page.favorite_parent %}
+      <nav class="favorite-breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ page.favorite_parent_url | default: '/favorites/' | relative_url }}">{{ page.favorite_parent }}</a>
+        <span aria-hidden="true">/</span>
+        <h1>{{ page.title }}</h1>
+      </nav>
+    {% else %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
     {% if page.description %}
       <p>{{ page.description }}</p>
     {% endif %}

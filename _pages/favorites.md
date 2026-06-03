@@ -5,7 +5,12 @@ title: Favorites
 These are my all time favorite movies, tv shows and games.
 
 <section class="favorites-section">
-  <h2>Movies</h2>
+  <h2>
+    <a class="favorites-section__link" href="{{ '/favorites/movies/' | relative_url }}">
+      <span>Movies</span>
+      <span class="favorites-section__arrow" aria-hidden="true">→</span>
+    </a>
+  </h2>
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
@@ -38,7 +43,12 @@ These are my all time favorite movies, tv shows and games.
 </section>
 
 <section class="favorites-section">
-  <h2>TV Shows</h2>
+  <h2>
+    <a class="favorites-section__link" href="{{ '/favorites/tvshows/' | relative_url }}">
+      <span>TV Shows</span>
+      <span class="favorites-section__arrow" aria-hidden="true">→</span>
+    </a>
+  </h2>
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
@@ -80,7 +90,12 @@ These are my all time favorite movies, tv shows and games.
 </section>
 
 <section class="favorites-section">
-  <h2>Games</h2>
+  <h2>
+    <a class="favorites-section__link" href="{{ '/favorites/games/' | relative_url }}">
+      <span>Games</span>
+      <span class="favorites-section__arrow" aria-hidden="true">→</span>
+    </a>
+  </h2>
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
