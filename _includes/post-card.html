@@ -6,6 +6,15 @@
   {% if micro_external_url %}
     {% assign micro_href = micro_external_url %}
   {% endif %}
+  {% assign micro_service_icon = "" %}
+  {% assign micro_service_label = "" %}
+  {% if micro_external_url contains "threads.net" %}
+    {% assign micro_service_icon = "fa-brands fa-threads" %}
+    {% assign micro_service_label = "Threads" %}
+  {% elsif micro_external_url contains "bsky.app" or micro_external_url contains "bluesky" %}
+    {% assign micro_service_icon = "fa-brands fa-bluesky" %}
+    {% assign micro_service_label = "Bluesky" %}
+  {% endif %}
   <article class="post-card post-card--micro">
     <p class="post-card__micro-label">Micropost...</p>
     <a class="post-card__micro-link" href="{{ micro_href }}"{% if micro_external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
@@ -25,6 +34,11 @@
         </footer>
       </div>
       <img class="post-card__micro-avatar" src="{{ micro_logo | relative_url }}" alt="">
+      {% if micro_service_icon %}
+        <span class="post-card__micro-source" aria-label="External post on {{ micro_service_label }}">
+          <i class="{{ micro_service_icon }}" aria-hidden="true"></i>
+        </span>
+      {% endif %}
     </a>
   </article>
 {% elsif post.type == "content" or post.type == "excerpt" %}

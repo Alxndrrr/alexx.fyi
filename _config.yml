@@ -48,3 +48,24 @@ nav:
     url: /favorites/
   - title: Colophon
     url: /colophon/
+
+mobile_nav:
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+  - title: Favorites
+    url: /favorites/
+  - title: Colophon
+    url: /colophon/
+
+social_links:
+  - title: Threads
+    url: "https://www.threads.net/"
+    icon: "fa-brands fa-threads"
+  - title: RSS
+    url: "/feed.xml"
+    icon: "fa-solid fa-rss"
+  - title: Mail
+    url: "mailto:hello@example.com"
+    icon: "fa-solid fa-envelope"

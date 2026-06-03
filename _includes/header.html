@@ -9,5 +9,36 @@
         <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endfor %}
     </nav>
+
+    <input class="menu-toggle" type="checkbox" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+    <label class="menu-button" for="mobile-menu-toggle" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <div class="mobile-menu" aria-label="Mobile menu">
+      <label class="mobile-menu__close" for="mobile-menu-toggle" aria-label="Close mobile menu">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </label>
+
+      <nav class="mobile-menu__nav" aria-label="Mobile main menu">
+        {% assign mobile_nav = site.mobile_nav | default: site.nav %}
+        {% for item in mobile_nav %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+
+      {% if site.social_links %}
+        <nav class="mobile-menu__social" aria-label="Social links">
+          {% for item in site.social_links %}
+            {% assign social_url_start = item.url | slice: 0, 4 %}
+            <a href="{% if social_url_start == 'http' or item.url contains 'mailto:' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" aria-label="{{ item.title }}">
+              <i class="{{ item.icon }}" aria-hidden="true"></i>
+            </a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+    </div>
   </div>
 </header>

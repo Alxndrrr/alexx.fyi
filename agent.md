@@ -193,3 +193,11 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added a dark pink currently box below the intro block with Font Awesome icons and one squared-off lower-left corner.
 - Changed the currently content to a single sentence with a small `// currently` system-style label.
 - Adjusted the intro/currently corner radii so the intro has a squared lower-right corner and the currently box has a squared upper-right corner.
+
+### Update: Mobile Menu and Micropost Sources
+
+- Added configurable `mobile_nav` and `social_links` entries to `_config.yml`.
+- Added a mobile-only hamburger menu that slides in full-width from the right and includes configured social links.
+- Reused `social_links` for the footer icons.
+- Added automatic Threads/Bluesky source icons for micropost cards when `external_url` points to those services.
+- Added a `1.5rem` lower-right cut corner to micropost boxes.

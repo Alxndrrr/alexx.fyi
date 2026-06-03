@@ -4,6 +4,16 @@ layout: default
 
 {% if page.type == "micropost" %}
   {% assign micro_logo = site.micro_logo | default: site.logo %}
+  {% assign micro_external_url = page.external_url | default: page.link %}
+  {% assign micro_service_icon = "" %}
+  {% assign micro_service_label = "" %}
+  {% if micro_external_url contains "threads.net" %}
+    {% assign micro_service_icon = "fa-brands fa-threads" %}
+    {% assign micro_service_label = "Threads" %}
+  {% elsif micro_external_url contains "bsky.app" or micro_external_url contains "bluesky" %}
+    {% assign micro_service_icon = "fa-brands fa-bluesky" %}
+    {% assign micro_service_label = "Bluesky" %}
+  {% endif %}
   <article class="article article--post article--micro">
     <p class="micro-box__label">Micropost...</p>
     <div class="micro-box">
@@ -23,6 +33,11 @@ layout: default
         </footer>
       </div>
       <img class="micro-box__avatar" src="{{ micro_logo | relative_url }}" alt="">
+      {% if micro_service_icon %}
+        <span class="micro-box__source" aria-label="External post on {{ micro_service_label }}">
+          <i class="{{ micro_service_icon }}" aria-hidden="true"></i>
+        </span>
+      {% endif %}
     </div>
   </article>
 {% else %}

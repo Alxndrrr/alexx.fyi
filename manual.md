@@ -79,6 +79,25 @@ nav:
 
 Add a new item when you want another page in the main menu.
 
+For the mobile hamburger menu, edit `mobile_nav` in `_config.yml`. It can use the same items as `nav`, or a different list:
+
+```yml
+mobile_nav:
+  - title: Blog
+    url: /blog/
+  - title: Colophon
+    url: /colophon/
+```
+
+Social icons in the mobile menu and footer come from `social_links`:
+
+```yml
+social_links:
+  - title: Threads
+    url: "https://www.threads.net/"
+    icon: "fa-brands fa-threads"
+```
+
 ## Change Colors, Fonts, and Width
 
 Open `_sass/_alexx.scss`.
@@ -177,6 +196,8 @@ Your short text goes here.
 ```
 
 The entire micropost block on the homepage links to the URL when `external_url:` is set. This is useful when the micropost also exists on Threads or somewhere else.
+
+Threads and Bluesky URLs automatically show a subtle service icon in the micropost box.
 
 If you leave `external_url:` out, the micropost block links to the full post page on this site.
 
