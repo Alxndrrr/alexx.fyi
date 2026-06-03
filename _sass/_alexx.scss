@@ -930,6 +930,76 @@ img {
   padding: 0.1rem 0.28rem;
 }
 
+/* Favorites page: poster grids for movies, shows, games, and more. */
+.favorites-section {
+  margin: 2.25rem 0;
+}
+
+.favorites-section > h2 {
+  margin-top: 0;
+}
+
+.favorites-grid {
+  align-items: end;
+  display: grid;
+  gap: 1rem 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.favorite-card {
+  display: grid;
+  gap: 0.55rem;
+  grid-template-rows: 1fr auto;
+  margin: 0;
+  min-width: 0;
+}
+
+.favorite-card__poster {
+  align-items: end;
+  display: flex;
+  min-height: 0;
+}
+
+.favorite-card__poster img {
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  box-shadow: 0 0.45rem 0 rgba(0, 0, 0, 0.18);
+  display: block;
+  width: 100%;
+}
+
+.favorite-card figcaption {
+  display: grid;
+  gap: 0.18rem;
+  min-width: 0;
+}
+
+.favorite-card strong {
+  color: var(--color-ink);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.favorite-card span {
+  color: var(--color-muted);
+  display: block;
+  font-family: var(--font-detail);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 /* Colophon page: compact two-column definition lists. */
 .colophon-section {
   --colophon-width: 28rem;
@@ -1213,5 +1283,10 @@ mark,
 
   .post-card {
     padding-bottom: 1.35rem;
+  }
+
+  .favorites-grid {
+    gap: 1.15rem 0.9rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }

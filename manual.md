@@ -268,6 +268,31 @@ That page will be available at `/contact/`.
 
 To add it to the menu, add it to `nav` in `_config.yml`.
 
+## Add Favorites Posters
+
+Edit `_pages/favorites.md`.
+
+Use one section per group and one `favorite-card` per poster:
+
+```html
+<section class="favorites-section">
+  <h2>Movies</h2>
+  <div class="favorites-grid">
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="/assets/img/favorites/movie-poster.jpg" alt="Movie title poster">
+      </div>
+      <figcaption>
+        <strong>Movie Title</strong>
+        <span>1999</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+```
+
+The grid shows up to 3 posters per row on mobile and 5 per row on desktop.
+
 ## Change the Homepage
 
 The homepage uses `_layouts/home.html`.

@@ -208,3 +208,9 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added `home_post_limit` to `_config.yml` and applied it to the homepage post loop.
 - Styled headings, bullet lists, numbered lists, and blockquotes inside post/page content.
 - Reworked the footer into two layers: a yellow pixel-font tagline above a copyright/social row.
+
+### Update: Favorites Poster Grid
+
+- Added reusable favorites sections and poster cards to `_pages/favorites.md`.
+- Styled favorites grids with 3 columns on mobile and 5 columns on desktop.
+- Added bottom-aligned posters, rounded poster corners, ellipsis titles, and metadata styling.
