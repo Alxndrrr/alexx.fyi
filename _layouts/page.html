@@ -5,10 +5,10 @@ layout: default
 <article class="article article--page{% if page.favorite_parent or page.favorite_index %} article--favorite{% endif %}">
   <header class="article__header">
     {% if page.favorite_index %}
-      <nav class="favorite-breadcrumb" aria-label="Breadcrumb">
+      <nav class="favorite-breadcrumb favorite-breadcrumb--index" aria-label="Breadcrumb">
         <h1>{{ page.title }}</h1>
-        <span aria-hidden="true">/</span>
-        <span aria-hidden="true">...</span>
+        <span class="favorite-breadcrumb__slash" aria-hidden="true">/</span>
+        <span class="favorite-breadcrumb__dots" aria-hidden="true">...</span>
       </nav>
     {% elsif page.favorite_parent %}
       <nav class="favorite-breadcrumb" aria-label="Breadcrumb">
