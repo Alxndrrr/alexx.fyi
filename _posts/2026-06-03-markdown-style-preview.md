@@ -43,6 +43,16 @@ This is a smaller heading. It should feel useful without yelling.
 >
 > This second paragraph inside the quote checks whether multiple paragraphs still look good together.
 
+## Highlighted Text
+
+This sentence uses the default <mark>pink highlight</mark>. You can also use <span class="highlight-purple">purple highlight</span> or <span class="highlight-yellow">yellow highlight</span> when you want a different emphasis.
+
+```html
+<mark>Pink highlight</mark>
+<span class="highlight-purple">Purple highlight</span>
+<span class="highlight-yellow">Yellow highlight</span>
+```
+
 ## Code Block
 
 ```html
