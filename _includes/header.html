@@ -22,6 +22,8 @@
         <i class="fa-solid fa-xmark" aria-hidden="true"></i>
       </label>
 
+      <a class="brand__name mobile-menu__brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
       <nav class="mobile-menu__nav" aria-label="Mobile main menu">
         {% assign mobile_nav = site.mobile_nav | default: site.nav %}
         {% for item in mobile_nav %}
