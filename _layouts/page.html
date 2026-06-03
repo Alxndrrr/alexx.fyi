@@ -17,7 +17,11 @@ layout: default
         <h1>{{ page.title }}</h1>
       </nav>
     {% else %}
-      <h1>{{ page.title }}</h1>
+      <nav class="favorite-breadcrumb favorite-breadcrumb--page" aria-label="Breadcrumb">
+        <h1>{{ page.title }}</h1>
+        <span class="favorite-breadcrumb__slash" aria-hidden="true">/</span>
+        <span class="favorite-breadcrumb__dots" aria-hidden="true">...</span>
+      </nav>
     {% endif %}
     {% if page.description %}
       <p>{{ page.description }}</p>
