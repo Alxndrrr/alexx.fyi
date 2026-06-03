@@ -1,6 +1,5 @@
 ---
 title: Colophon
-description: The hardware, software and apps I use day to day. Constantly tweaked, never finished.
 ---
 
 <section class="colophon-section">
