@@ -150,14 +150,14 @@ img {
 }
 
 .intro-block::after {
-  border-bottom: 1.3rem solid var(--color-paper);
   border-left: 1.3rem solid transparent;
-  bottom: 0;
+  border-top: 1.3rem solid var(--color-paper);
   content: "";
   height: 0;
   pointer-events: none;
   position: absolute;
   right: 0;
+  top: 0;
   width: 0;
 }
 
@@ -198,27 +198,16 @@ img {
   position: relative;
 }
 
-.currently-block::before,
 .currently-block::after {
+  border-bottom: 1.3rem solid var(--color-paper);
+  border-right: 1.3rem solid transparent;
+  bottom: 0;
   content: "";
   height: 0;
+  left: 0;
   pointer-events: none;
   position: absolute;
   width: 0;
-}
-
-.currently-block::before {
-  border-left: 1.3rem solid transparent;
-  border-top: 1.3rem solid var(--color-paper);
-  right: 0;
-  top: 0;
-}
-
-.currently-block::after {
-  border-bottom: 1.3rem solid var(--color-paper);
-  border-left: 1.3rem solid transparent;
-  bottom: 0;
-  right: 0;
 }
 
 .currently-label {
