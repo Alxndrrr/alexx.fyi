@@ -137,6 +137,8 @@ img {
 
 /* Intro block on the homepage. */
 .intro-block {
+  --cut-size: 1.3rem;
+  --cut-softness: 0.16rem;
   align-items: center;
   background: rgba(82, 0, 255, 0.22);
   border-radius: 8px;
@@ -149,9 +151,19 @@ img {
   text-align: left;
 }
 
+.intro-block::before {
+  background:
+    radial-gradient(circle at calc(100% - var(--cut-size)) 0, var(--color-paper) 0 var(--cut-softness), transparent calc(var(--cut-softness) + 0.02rem)),
+    radial-gradient(circle at 100% var(--cut-size), var(--color-paper) 0 var(--cut-softness), transparent calc(var(--cut-softness) + 0.02rem));
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
 .intro-block::after {
-  border-left: 1.3rem solid transparent;
-  border-top: 1.3rem solid var(--color-paper);
+  border-left: var(--cut-size) solid transparent;
+  border-top: var(--cut-size) solid var(--color-paper);
   content: "";
   height: 0;
   pointer-events: none;
@@ -191,6 +203,8 @@ img {
 }
 
 .currently-block {
+  --cut-size: 1.3rem;
+  --cut-softness: 0.16rem;
   background: rgba(255, 0, 115, 0.16);
   border-radius: 8px;
   margin-bottom: 2.25rem;
@@ -198,9 +212,19 @@ img {
   position: relative;
 }
 
+.currently-block::before {
+  background:
+    radial-gradient(circle at 0 calc(100% - var(--cut-size)), var(--color-paper) 0 var(--cut-softness), transparent calc(var(--cut-softness) + 0.02rem)),
+    radial-gradient(circle at var(--cut-size) 100%, var(--color-paper) 0 var(--cut-softness), transparent calc(var(--cut-softness) + 0.02rem));
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
 .currently-block::after {
-  border-bottom: 1.3rem solid var(--color-paper);
-  border-right: 1.3rem solid transparent;
+  border-bottom: var(--cut-size) solid var(--color-paper);
+  border-right: var(--cut-size) solid transparent;
   bottom: 0;
   content: "";
   height: 0;
