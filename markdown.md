@@ -1,6 +1,20 @@
 # Markdown Cheatsheet
 
-Een kort overzicht van Markdown-opmaak die je kunt gebruiken in posts en pagina's.
+### Type posts
+Dit zijn de type posts doe ik kan toevoegen
+- Content = volledige blog op homepage, tenzij <!--more--> gebruikt wordt
+- Micropost = een micropost of threads post
+
+### Standaard opmaak
+
+Headings = *, ** of ***
+Dik gedrukt = **dik gedrukt**
+Schuint = *schuin*
+Doorgestreept = ~~streep~~
+
+### Links
+[Linktekst](https://example.com)
+
 
 ## Koppen
 

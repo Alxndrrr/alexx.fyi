@@ -151,23 +151,23 @@ img {
 
 .intro-block::before,
 .intro-block::after {
-  border-right: 0.72rem solid transparent;
+  background: var(--color-paper);
+  border-radius: 0.2rem;
   content: "";
-  height: 0;
-  left: 0;
+  height: 1.35rem;
+  left: -0.68rem;
   pointer-events: none;
   position: absolute;
-  width: 0;
+  transform: rotate(45deg);
+  width: 1.35rem;
 }
 
 .intro-block::before {
-  border-top: 0.72rem solid var(--color-paper);
-  top: 0;
+  top: -0.68rem;
 }
 
 .intro-block::after {
-  border-bottom: 0.72rem solid var(--color-paper);
-  bottom: 0;
+  bottom: -0.68rem;
 }
 
 .intro-block__avatar {
@@ -209,25 +209,24 @@ img {
 
 .currently-block::before,
 .currently-block::after {
+  background: var(--color-paper);
+  border-radius: 0.2rem;
   content: "";
-  height: 0;
+  height: 1.35rem;
   pointer-events: none;
   position: absolute;
-  width: 0;
+  transform: rotate(45deg);
+  width: 1.35rem;
 }
 
 .currently-block::before {
-  border-right: 0.72rem solid transparent;
-  border-top: 0.72rem solid var(--color-paper);
-  left: 0;
-  top: 0;
+  left: -0.68rem;
+  top: -0.68rem;
 }
 
 .currently-block::after {
-  border-bottom: 0.72rem solid var(--color-paper);
-  border-left: 0.72rem solid transparent;
-  bottom: 0;
-  right: 0;
+  bottom: -0.68rem;
+  right: -0.68rem;
 }
 
 .currently-label {
