@@ -214,3 +214,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added reusable favorites sections and poster cards to `_pages/favorites.md`.
 - Styled favorites grids with 3 columns on mobile and 5 columns on desktop.
 - Added bottom-aligned posters, rounded poster corners, ellipsis titles, and metadata styling.
+
+### Experimental Update: Homepage Scroll Stack
+
+- Added `layout-{{ page.layout }}` to the `<body>` in `_layouts/default.html`, so CSS can target specific layouts.
+- Added a clearly marked CSS-only experiment in `_sass/_alexx.scss` between `Experimental homepage scroll stack: START` and `END`.
+- The homepage header, intro box, and currently box use `position: sticky` with layered z-index values so each block briefly sticks while the next block pushes over it.
+- To remove the experiment, delete the marked CSS block. If layout-specific body classes are no longer needed, the body class in `_layouts/default.html` can also be removed.

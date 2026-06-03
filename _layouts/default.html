@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% feed_meta %}
   </head>
-  <body>
+  <body class="layout-{{ page.layout | default: 'default' }}">
     <a class="skip-link" href="#content">Skip to content</a>
     {% include header.html %}
 
