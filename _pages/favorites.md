@@ -9,11 +9,29 @@ These are my all time favorite movies, tv shows and games.
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
-        <img src="/assets/img/favorites/movie-example.jpg" alt="Movie poster">
+        <img src="{{ '/assets/img/favorites/gladiator.jpg' | relative_url }}" alt="Gladiator poster">
       </div>
       <figcaption>
-        <strong>Movie Title That Is Very Long</strong>
-        <span>1999</span>
+        <strong>Gladiator</strong>
+        <span>2000</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/interstellar.jpg' | relative_url }}" alt="Interstellar poster">
+      </div>
+      <figcaption>
+        <strong>Interstellar</strong>
+        <span>2014</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/straight-outta-compton.jpg' | relative_url }}" alt="Straight Outta Compton poster">
+      </div>
+      <figcaption>
+        <strong>Straight Outta Compton</strong>
+        <span>2015</span>
       </figcaption>
     </figure>
   </div>
@@ -24,11 +42,38 @@ These are my all time favorite movies, tv shows and games.
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
-        <img src="/assets/img/favorites/show-example.jpg" alt="TV show poster">
+        <img src="{{ '/assets/img/favorites/game-of-thrones.jpg' | relative_url }}" alt="Game of Thrones poster">
       </div>
       <figcaption>
-        <strong>TV Show Title</strong>
-        <span>2013</span>
+        <strong>Game of Thrones</strong>
+        <span>2011-2019</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/warrior.jpg' | relative_url }}" alt="Warrior poster">
+      </div>
+      <figcaption>
+        <strong>Warrior</strong>
+        <span>2019-2023</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/1883.jpg' | relative_url }}" alt="1883 poster">
+      </div>
+      <figcaption>
+        <strong>1883</strong>
+        <span>2021</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/sons-of-anarchy.jpg' | relative_url }}" alt="Sons of Anarchy poster">
+      </div>
+      <figcaption>
+        <strong>Sons of Anarchy</strong>
+        <span>2008-2014</span>
       </figcaption>
     </figure>
   </div>
@@ -39,11 +84,11 @@ These are my all time favorite movies, tv shows and games.
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
-        <img src="/assets/img/favorites/game-example.jpg" alt="Game cover">
+        <img src="{{ '/assets/img/favorites/stardew-valley.png' | relative_url }}" alt="Stardew Valley cover">
       </div>
       <figcaption>
-        <strong>Game Title</strong>
-        <span>2020</span>
+        <strong>Stardew Valley</strong>
+        <span>2016</span>
       </figcaption>
     </figure>
   </div>
