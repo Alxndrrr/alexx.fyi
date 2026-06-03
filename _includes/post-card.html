@@ -44,6 +44,7 @@
 {% elsif post.type == "content" or post.type == "excerpt" %}
   {% assign content_parts = post.content | split: site.excerpt_separator %}
   <article class="post-card post-card--content">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
@@ -60,7 +61,6 @@
         {% endfor %}
       </ul>
     {% endif %}
-    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
   </article>
 {% else %}
   <article class="post-card">
