@@ -273,32 +273,42 @@ img {
    It only runs on the home layout and keeps the effect CSS-only. */
 @supports (position: sticky) {
   @media (prefers-reduced-motion: no-preference) {
-    .layout-home .site-header,
-    .layout-home .intro-block,
-    .layout-home .currently-block {
+    .layout-home .home-scroll-step {
+      position: relative;
+    }
+
+    .layout-home .home-scroll-step--header {
+      min-height: clamp(9rem, 30vh, 15rem);
+    }
+
+    .layout-home .home-scroll-step--intro {
+      min-height: clamp(10rem, 34vh, 17rem);
+    }
+
+    .layout-home .home-scroll-step--currently {
+      min-height: clamp(8rem, 28vh, 13rem);
+    }
+
+    .layout-home .home-scroll-step > .site-header,
+    .layout-home .home-scroll-step > .intro-block,
+    .layout-home .home-scroll-step > .currently-block {
       position: sticky;
-      top: 0;
+      top: 0.85rem;
       will-change: transform;
     }
 
-    .layout-home .site-header {
+    .layout-home .home-scroll-step > .site-header {
       background: linear-gradient(180deg, var(--color-paper) 82%, rgba(24, 23, 28, 0));
+      top: 0;
       z-index: 3;
     }
 
-    .layout-home .intro-block {
-      top: 0.85rem;
+    .layout-home .home-scroll-step > .intro-block {
       z-index: 4;
     }
 
-    .layout-home .currently-block {
-      top: 0.85rem;
+    .layout-home .home-scroll-step > .currently-block {
       z-index: 5;
-    }
-
-    .layout-home .post-list {
-      position: relative;
-      z-index: 6;
     }
   }
 }

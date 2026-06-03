@@ -28,7 +28,13 @@
   </head>
   <body class="layout-{{ page.layout | default: 'default' }}">
     <a class="skip-link" href="#content">Skip to content</a>
-    {% include header.html %}
+    {% if page.layout == "home" %}
+      <div class="home-scroll-step home-scroll-step--header">
+        {% include header.html %}
+      </div>
+    {% else %}
+      {% include header.html %}
+    {% endif %}
 
     <main id="content" class="site-main">
       {{ content }}

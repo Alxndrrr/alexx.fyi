@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<section class="intro-block" aria-label="About Alexx">
-  <img class="intro-block__avatar" src="{{ site.logo | relative_url }}" alt="">
-  <div class="intro-block__text">
-    {% include intro.html %}
-  </div>
-</section>
+<div class="home-scroll-step home-scroll-step--intro">
+  <section class="intro-block" aria-label="About Alexx">
+    <img class="intro-block__avatar" src="{{ site.logo | relative_url }}" alt="">
+    <div class="intro-block__text">
+      {% include intro.html %}
+    </div>
+  </section>
+</div>
 
-<section class="currently-block" aria-label="Currently">
-  {% capture currently_content %}{% include currently.md %}{% endcapture %}
-  {{ currently_content | markdownify }}
-</section>
+<div class="home-scroll-step home-scroll-step--currently">
+  <section class="currently-block" aria-label="Currently">
+    {% capture currently_content %}{% include currently.md %}{% endcapture %}
+    {{ currently_content | markdownify }}
+  </section>
+</div>
 
 <section class="post-list" aria-label="Blog posts">
   {% assign home_post_limit = site.home_post_limit | default: 10 %}
