@@ -26,15 +26,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% feed_meta %}
   </head>
-  <body class="layout-{{ page.layout | default: 'default' }}">
+  <body>
     <a class="skip-link" href="#content">Skip to content</a>
-    {% if page.layout == "home" %}
-      <div class="home-scroll-step home-scroll-step--header">
-        {% include header.html %}
-      </div>
-    {% else %}
-      {% include header.html %}
-    {% endif %}
+    {% include header.html %}
 
     <main id="content" class="site-main">
       {{ content }}

@@ -268,52 +268,6 @@ img {
   margin-left: 0.45rem;
 }
 
-/* Experimental homepage scroll stack: START
-   Remove this whole block to disable the sticky push effect.
-   It only runs on the home layout and keeps the effect CSS-only. */
-@supports (position: sticky) {
-  @media (prefers-reduced-motion: no-preference) {
-    .layout-home .home-scroll-step {
-      position: relative;
-    }
-
-    .layout-home .home-scroll-step--header {
-      padding-bottom: clamp(1.5rem, 8vh, 4rem);
-    }
-
-    .layout-home .home-scroll-step--intro {
-      padding-bottom: clamp(1.25rem, 7vh, 3.5rem);
-    }
-
-    .layout-home .home-scroll-step--currently {
-      padding-bottom: clamp(1rem, 6vh, 3rem);
-    }
-
-    .layout-home .home-scroll-step > .site-header,
-    .layout-home .home-scroll-step > .intro-block,
-    .layout-home .home-scroll-step > .currently-block {
-      position: sticky;
-      top: 0.85rem;
-      will-change: transform;
-    }
-
-    .layout-home .home-scroll-step > .site-header {
-      background: linear-gradient(180deg, var(--color-paper) 82%, rgba(24, 23, 28, 0));
-      top: 0;
-      z-index: 3;
-    }
-
-    .layout-home .home-scroll-step > .intro-block {
-      z-index: 4;
-    }
-
-    .layout-home .home-scroll-step > .currently-block {
-      z-index: 5;
-    }
-  }
-}
-/* Experimental homepage scroll stack: END */
-
 .section-title,
 .page-header h1,
 .article__header h1 {
