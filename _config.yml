@@ -7,7 +7,7 @@ lang: en
 author:
   name: Alex van der Weij
   email: "hi@alexx.fyi"
-  threads: "https://www.threads.net/@alxndrr.nl"
+  threads: "https://www.threads.net/@alexx.fyi"
 
 logo: "/assets/img/avatar.png"
 micro_logo: "/assets/img/avatar.png"
@@ -65,7 +65,7 @@ mobile_nav:
 
 social_links:
   - title: Threads
-    url: "https://www.threads.net/@alxndrr.nl"
+    url: "https://www.threads.net/@alexx.fyi"
     icon: "fa-brands fa-threads"
   - title: Bluesky
     url: "https://www.bsky.app/@alxndrr"
