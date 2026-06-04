@@ -28,6 +28,6 @@ But if I was going to blog in English, I might as well give my blog a fresh new 
 
 So I bought a new domain and set up shop on pika.page, which is great if you just want to blog. But then I thought to myself: nah, let’s design the whole thing myself since I’m basically a proper developer now!
 
-So here we are today: my custom-made, non-CMS blog. Back at Pika. 
+So here we are today: my custom-made, ~~non-CMS blog~~. ~~Back at Pika~~. A new new Jekyll blog. 
 
 Thank you very much, ADHD!
