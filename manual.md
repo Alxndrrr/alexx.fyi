@@ -144,6 +144,10 @@ logo: "/assets/img/avatar.png"
 
 Create a new Markdown file inside `_posts/`.
 
+You can copy `_templates/blogpost-template.md` as a starting point. Move the
+copy into `_posts/` and rename it using the filename pattern below. Jekyll
+does not publish the original template.
+
 The filename must use this pattern:
 
 ```text
