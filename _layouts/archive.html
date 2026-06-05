@@ -2,9 +2,13 @@
 layout: default
 ---
 
-<section class="page-header">
-  <h1>{{ page.title }}</h1>
-</section>
+<header class="archive-header">
+  <nav class="favorite-breadcrumb favorite-breadcrumb--page" aria-label="Breadcrumb">
+    <h1>{{ page.title }}</h1>
+    <span class="favorite-breadcrumb__slash" aria-hidden="true">/</span>
+    <span class="favorite-breadcrumb__dots" aria-hidden="true">...</span>
+  </nav>
+</header>
 
 <section class="archive-list" aria-label="Blog archive">
   {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}

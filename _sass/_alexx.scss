@@ -496,6 +496,18 @@ img {
   text-align: left;
 }
 
+.archive-header {
+  margin-bottom: 1.5rem;
+}
+
+.archive-header .favorite-breadcrumb h1 {
+  color: var(--color-accent-yellow);
+}
+
+.archive-header .favorite-breadcrumb__dots {
+  color: var(--color-accent);
+}
+
 /* Archive page: compact yearly list of posts. */
 .archive-list {
   display: grid;
