@@ -5,8 +5,8 @@ categories:
   - Games
 tags:
   - Games
-description: “A nostalgic blog about my first console.”
-image: "/assets/img/posts/two controllers no wifi.png”
+description: "A nostalgic blog about my first console."
+image: "/assets/img/posts/two controllers no wifi.png"
 homepage_type: standard
 blogpost_type: standard
 ---

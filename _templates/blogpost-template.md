@@ -1,6 +1,8 @@
 ---
 title: "Title of the blogpost"
 date: YYYY-MM-DD
+homepage_type: standard
+blogpost_type: standard
 categories:
   - Blog
 description: "A short description for search engines and social previews."
