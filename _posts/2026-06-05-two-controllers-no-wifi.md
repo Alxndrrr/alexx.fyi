@@ -1,5 +1,5 @@
 ---
-title: “Two Controllers, No WiFi”
+title: Two Controllers, No WiFi
 date: 2026-06-05
 categories:
   - Games
