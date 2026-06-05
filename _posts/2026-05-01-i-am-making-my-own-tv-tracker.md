@@ -7,7 +7,7 @@ date: 2026-05-01
 categories:
   - Tech
 ---
-I’ve tried countless TV and movie tracking apps, but none really worked for me. So I built Remake: a TV tracker designed for binge-watchers.
+**I’ve tried countless TV and movie tracking apps**, but none really worked for me. So I built Remake: a TV tracker designed for binge-watchers.
 Add shows and movies, decide when to watch them, and keep track of everything in one place.
 
 You can get the Testflight [here](https://testflight.apple.com/join/TnEs1mAw).
