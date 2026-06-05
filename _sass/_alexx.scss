@@ -1427,3 +1427,91 @@ mark,
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
+
+/* Standalone 404 test card. Scoped so it never affects the regular site. */
+.error-page {
+  background: #050505;
+  min-height: 100dvh;
+  overflow-x: clip;
+}
+
+.error-page__main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.75rem, 2vw, 1.5rem);
+  justify-content: center;
+  margin: 0;
+  min-height: 100dvh;
+  padding: clamp(0.75rem, 3vw, 2rem);
+  width: 100%;
+}
+
+.testcard {
+  aspect-ratio: 4 / 3;
+  border-radius: 0.4rem;
+  box-shadow:
+    0 0 0 1px #1a1a1a,
+    0 30px 80px -20px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  position: relative;
+  width: min(100%, 64rem);
+}
+
+.testcard svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.testcard::after {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.18) 0,
+    rgba(0, 0, 0, 0.18) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  content: "";
+  inset: 0;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  position: absolute;
+}
+
+.testcard-link {
+  color: #9a9a9a;
+  font-family: var(--font-micro);
+  font-size: clamp(0.78rem, 1.6vw, 0.95rem);
+  letter-spacing: 0.18em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.testcard-link a {
+  color: var(--color-accent-yellow);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.testcard-link a:hover,
+.testcard-link a:focus {
+  color: #ffffff;
+}
+
+.testcard-link a::before {
+  animation: error-page-blink 1.4s steps(2, end) infinite;
+  content: "▸ ";
+}
+
+@keyframes error-page-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0.2;
+  }
+}
