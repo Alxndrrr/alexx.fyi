@@ -325,6 +325,20 @@ home_post_limit: 10
 
 GitHub Pages will build the site automatically.
 
+## Social Share Images
+
+Posts automatically use their first content image when shared on social media. If a post has no image, the site uses:
+
+```yml
+social_share_image: "/assets/img/social-share.png"
+```
+
+To override the automatic choice for a specific post or page, add this to its front matter:
+
+```yml
+image: "/assets/img/posts/example.jpg"
+```
+
 ## Custom Domain
 
 This site is configured for the custom GitHub Pages domain:

@@ -1,0 +1,39 @@
+{% assign social_image = nil %}
+{% assign social_image_managed_by_seo_tag = false %}
+
+{% if page.image.path %}
+  {% assign social_image = page.image.path %}
+  {% assign social_image_managed_by_seo_tag = true %}
+{% elsif page.image %}
+  {% assign social_image = page.image %}
+  {% assign social_image_managed_by_seo_tag = true %}
+{% endif %}
+
+{% if social_image == nil and page.collection == "posts" %}
+  {% assign rendered_images = content | split: '<img ' %}
+  {% if rendered_images.size > 1 %}
+    {% assign first_rendered_image = rendered_images[1] %}
+    {% assign image_src_parts = first_rendered_image | split: 'src="' %}
+    {% if image_src_parts.size > 1 %}
+      {% assign candidate_image = image_src_parts[1] | split: '"' | first %}
+      {% unless candidate_image contains site.logo or candidate_image contains site.micro_logo %}
+        {% assign social_image = candidate_image %}
+      {% endunless %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% assign social_image = social_image | default: site.social_share_image %}
+{% if social_image and social_image_managed_by_seo_tag == false %}
+  {% assign social_image_start = social_image | slice: 0, 4 %}
+  {% if social_image_start == "http" %}
+    {% assign social_image_url = social_image %}
+  {% else %}
+    {% assign social_image_url = social_image | absolute_url %}
+  {% endif %}
+  <meta property="og:image" content="{{ social_image_url }}">
+  <meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ social_image_url }}">
+  <meta name="twitter:image:alt" content="{{ page.title | default: site.title | escape }}">
+{% endif %}

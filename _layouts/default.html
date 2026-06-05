@@ -9,7 +9,9 @@
       html, body { background: #18171c; color: #e8e8e8; }
       body { margin: 0; }
     </style>
-    {% seo %}
+    {% capture seo_tags %}{% seo %}{% endcapture %}
+    {{ seo_tags | replace: '<meta name="twitter:card" content="summary" />', '' }}
+    {% include social-image-meta.html %}
     <link rel="icon" type="image/png" href="{{ site.logo | default: '/assets/img/avatar.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ site.logo | default: '/assets/img/avatar.png' | relative_url }}">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
