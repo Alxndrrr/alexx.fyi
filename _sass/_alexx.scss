@@ -584,7 +584,7 @@ img {
 
 .moments-list {
   display: grid;
-  gap: 0.45rem;
+  gap: 0.2rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -592,19 +592,18 @@ img {
 
 .moment-item {
   align-items: baseline;
-  background: rgba(232, 232, 232, 0.04);
-  border: 1px solid rgba(232, 232, 232, 0.06);
-  border-radius: 8px;
+  border-bottom: 1px solid rgba(232, 232, 232, 0.08);
   display: grid;
-  gap: 0.4rem;
-  grid-template-columns: auto 2ch minmax(0, 1fr) auto;
-  padding: 0.62rem 0.7rem;
+  gap: 0.55rem;
+  grid-template-columns: 1rem 2.2ch minmax(0, 1fr) auto;
+  padding: 0.42rem 0;
 }
 
 .moment-item__icon {
   color: var(--color-accent-yellow);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   line-height: 1;
+  text-align: center;
 }
 
 .moment-item--tv .moment-item__icon {
@@ -622,31 +621,28 @@ img {
 .moment-item__day,
 .moment-item__meta {
   color: var(--color-muted);
-  font-family: var(--font-detail);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0;
   line-height: 1;
-  text-transform: uppercase;
 }
 
 .moment-item__title {
   color: var(--color-ink);
-  font-size: 0.98rem;
-  font-weight: 600;
+  font-size: 0.96rem;
+  font-weight: 500;
   line-height: 1.25;
   min-width: 0;
   overflow-wrap: anywhere;
-  text-decoration: none;
-}
-
-.moment-item__title:hover,
-.moment-item__title:focus {
-  color: var(--color-accent-yellow);
 }
 
 .moments-years {
+  background: var(--color-panel-soft);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
   margin: 2.4rem 0 0;
+  padding: 0.9rem;
 }
 
 .moments-years h2 {
@@ -663,29 +659,37 @@ img {
 .moments-years ul {
   display: grid;
   gap: 0.45rem;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .moments-years a {
-  background: var(--color-panel-soft);
+  background: rgba(24, 23, 28, 0.55);
   border: 1px solid var(--color-line);
   border-radius: 8px;
   color: var(--color-accent);
   display: block;
   font-family: var(--font-detail);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  padding: 0.65rem 0.75rem;
+  padding: 0.5rem 0.4rem;
+  text-align: center;
   text-decoration: none;
 }
 
 .moments-years a:hover,
 .moments-years a:focus {
   color: var(--color-accent-yellow);
-  transform: translateX(0.2rem);
+  transform: translateY(-0.08rem);
+}
+
+@media (min-width: 42rem) {
+  .moments-years ul {
+    grid-template-columns: repeat(auto-fit, minmax(4.5rem, 1fr));
+  }
 }
 
 /* Blog cards: date above title, categories below title. */
