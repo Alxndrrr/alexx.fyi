@@ -52,6 +52,8 @@ nav:
     url: /about/
   - title: Favorites
     url: /favorites/
+  - title: Now
+    url: /now/
   - title: Colophon
     url: /colophon/
 
@@ -62,6 +64,8 @@ mobile_nav:
     url: /about/
   - title: Favorites
     url: /favorites/
+  - title: Now
+    url: /now/
   - title: Colophon
     url: /colophon/
 

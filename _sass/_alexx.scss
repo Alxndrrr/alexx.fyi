@@ -1139,6 +1139,126 @@ img {
   white-space: nowrap;
 }
 
+/* Now page: modular status cards for what is currently in rotation. */
+.now-page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.now-hero {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.now-hero p {
+  color: var(--color-muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.now-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.now-card {
+  --now-card-bg: rgba(82, 0, 255, 0.22);
+  --now-card-icon: var(--color-accent-yellow);
+  background: var(--now-card-bg);
+  border: 1px solid rgba(232, 232, 232, 0.07);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.95rem;
+  grid-template-columns: auto 1fr;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+}
+
+.now-card::after {
+  border-bottom: 1.15rem solid var(--color-paper);
+  border-left: 1.15rem solid transparent;
+  bottom: 0;
+  content: "";
+  height: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  width: 0;
+}
+
+.now-card__icon {
+  align-items: center;
+  background: rgba(24, 23, 28, 0.32);
+  border: 1px solid rgba(232, 232, 232, 0.08);
+  border-radius: 50%;
+  color: var(--now-card-icon);
+  display: inline-flex;
+  font-size: 1.15rem;
+  height: 2.65rem;
+  justify-content: center;
+  line-height: 1;
+  width: 2.65rem;
+}
+
+.now-card__body {
+  min-width: 0;
+}
+
+.now-card__label {
+  color: var(--now-card-icon);
+  font-family: var(--font-micro);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  margin: 0 0 0.45rem;
+  text-transform: uppercase;
+}
+
+.now-card h2 {
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 7vw, 1.8rem);
+  font-weight: 400;
+  line-height: 0.95;
+  margin: 0 0 0.55rem;
+  text-transform: uppercase;
+}
+
+.now-card p:last-child {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.now-card--movies {
+  --now-card-bg: rgba(255, 189, 55, 0.15);
+  --now-card-icon: var(--color-accent-yellow);
+}
+
+.now-card--tv {
+  --now-card-bg: rgba(255, 0, 115, 0.16);
+  --now-card-icon: var(--color-accent);
+}
+
+.now-card--games {
+  --now-card-bg: rgba(82, 0, 255, 0.22);
+  --now-card-icon: #b7a7ff;
+}
+
+.now-card--books {
+  --now-card-bg: rgba(46, 44, 55, 0.92);
+  --now-card-icon: var(--color-accent-yellow);
+}
+
+.now-card--audio {
+  --now-card-bg: rgba(82, 0, 255, 0.16);
+  --now-card-icon: var(--color-accent);
+}
+
 /* Colophon page: compact two-column definition lists. */
 .colophon-section {
   --colophon-width: 28rem;
