@@ -16,12 +16,13 @@ social_share_image: "/assets/img/social-share.png"
 theme_color: "#18171c"
 accent_color: "#ff0073"
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 excerpt_separator: "<!--more-->"
 home_post_limit: 10
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
 

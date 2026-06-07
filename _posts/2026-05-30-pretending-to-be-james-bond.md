@@ -6,6 +6,8 @@ blogpost_type: standard
 date: 2026-05-30
 categories:
   - Blog
+redirect_from:
+  - /blog/2026/05/30/pretending-to-be-james-bond/
 ---
 
 Yes, I just bought the new James Bond game: 007 First Light. It’s the first Bond-game i’ve played since 2000’s The World Is Not Enough on the original Playstation.

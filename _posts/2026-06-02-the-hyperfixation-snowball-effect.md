@@ -6,6 +6,8 @@ blogpost_type: standard
 date: 2026-05-31
 categories:
   - Blog
+redirect_from:
+  - /blog/2026/05/31/the-hyperfixation-snowball-effect/
 ---
 
 If you follow me on social media, you’ve probably noticed I have a habit of rebuilding my website every few months. I did that again. In flawed English this time.

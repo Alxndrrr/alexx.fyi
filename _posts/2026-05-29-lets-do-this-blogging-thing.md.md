@@ -6,6 +6,10 @@ blogpost_type: standard
 date: 2026-05-29
 categories:
   - Blog
+permalink: /lets-do-this-blogging-thing/
+redirect_from:
+  - /blog/2026/05/29/lets-do-this-blogging-thing/
+  - /blog/2026/05/29/lets-do-this-blogging-thing-md/
 ---
 
 I’ve renewed my blog so many times, I feel like I’m a 90s sitcom. But here I am, yet again. Thinking about blogging again. 

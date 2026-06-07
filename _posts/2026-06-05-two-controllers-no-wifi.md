@@ -9,6 +9,8 @@ description: "A nostalgic blog about my first console."
 image: "/assets/img/posts/two controllers no wifi.png"
 homepage_type: content
 blogpost_type: standard
+redirect_from:
+  - /blog/2026/06/05/two-controllers-no-wifi/
 ---
 
 I was [reading _Ready Player One_](https://www.threads.com/@alexx.fyi/post/DZEi3DHiId-) last night when I hit a chapter where the protagonist was playing video games on an old school console. That made me think about my very first console.
