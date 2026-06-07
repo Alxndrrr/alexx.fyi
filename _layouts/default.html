@@ -29,7 +29,7 @@
     <script defer src="https://knowing-anteater.pikapod.net/script.js" data-website-id="69c577ca-bacf-49da-8edb-aeec2c382808"></script>
     {% feed_meta %}
   </head>
-  <body>
+  <body class="layout-{{ page.layout | default: 'default' }}">
     <a class="skip-link" href="#content">Skip to content</a>
     {% include header.html %}
 
