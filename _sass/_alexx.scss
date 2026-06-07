@@ -559,6 +559,135 @@ img {
   color: var(--color-accent-yellow);
 }
 
+/* Moments page: running log of watched, read, and played things. */
+.moments-intro {
+  color: var(--color-muted);
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0 0 1.65rem;
+}
+
+.moments-month {
+  margin: 2rem 0;
+}
+
+.moments-month h2 {
+  color: var(--color-accent-yellow);
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 6vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0 0 0.8rem;
+  text-transform: uppercase;
+}
+
+.moments-list {
+  display: grid;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.moment-item {
+  align-items: baseline;
+  background: rgba(232, 232, 232, 0.04);
+  border: 1px solid rgba(232, 232, 232, 0.06);
+  border-radius: 8px;
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: auto 2ch minmax(0, 1fr) auto;
+  padding: 0.62rem 0.7rem;
+}
+
+.moment-item__icon {
+  color: var(--color-accent-yellow);
+  font-size: 0.86rem;
+  line-height: 1;
+}
+
+.moment-item--tv .moment-item__icon {
+  color: var(--color-accent);
+}
+
+.moment-item--game .moment-item__icon {
+  color: var(--color-accent-purple);
+}
+
+.moment-item--book .moment-item__icon {
+  color: var(--color-muted);
+}
+
+.moment-item__day,
+.moment-item__meta {
+  color: var(--color-muted);
+  font-family: var(--font-detail);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.moment-item__title {
+  color: var(--color-ink);
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.25;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.moment-item__title:hover,
+.moment-item__title:focus {
+  color: var(--color-accent-yellow);
+}
+
+.moments-years {
+  margin: 2.4rem 0 0;
+}
+
+.moments-years h2 {
+  color: var(--color-accent-yellow);
+  font-family: var(--font-detail);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  margin: 0 0 0.7rem;
+  text-transform: uppercase;
+}
+
+.moments-years ul {
+  display: grid;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.moments-years a {
+  background: var(--color-panel-soft);
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  color: var(--color-accent);
+  display: block;
+  font-family: var(--font-detail);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.65rem 0.75rem;
+  text-decoration: none;
+}
+
+.moments-years a:hover,
+.moments-years a:focus {
+  color: var(--color-accent-yellow);
+  transform: translateX(0.2rem);
+}
+
 /* Blog cards: date above title, categories below title. */
 .post-list {
   display: grid;
@@ -1157,179 +1286,6 @@ img {
   text-overflow: ellipsis;
   text-transform: uppercase;
   white-space: nowrap;
-}
-
-/* Now page: modular status cards for what is currently in rotation. */
-.now-page {
-  display: grid;
-  gap: 1.25rem;
-}
-
-.now-hero {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.now-hero .favorite-breadcrumb h1 {
-  color: var(--color-accent-yellow);
-}
-
-.now-hero .favorite-breadcrumb__dots {
-  color: var(--color-accent);
-}
-
-.now-grid {
-  display: grid;
-  gap: 0.9rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-@media (min-width: 42rem) {
-  .now-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-.now-card {
-  --now-card-bg: rgba(82, 0, 255, 0.22);
-  --now-card-cut: 1.15rem;
-  --now-card-icon: var(--color-accent-yellow);
-  background: var(--now-card-bg);
-  border-radius: 8px;
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--now-card-cut)), calc(100% - var(--now-card-cut)) 100%, 0 100%);
-  display: grid;
-  gap: 0.58rem;
-  grid-template-rows: auto auto auto auto;
-  overflow: hidden;
-  padding: 0.72rem;
-  position: relative;
-}
-
-.now-card::after {
-  background: rgba(232, 232, 232, 0.08);
-  clip-path: inherit;
-  content: "";
-  inset: 0;
-  pointer-events: none;
-  position: absolute;
-  z-index: 0;
-}
-
-.now-card::before {
-  background: var(--now-card-bg);
-  clip-path: inherit;
-  content: "";
-  inset: 1px;
-  pointer-events: none;
-  position: absolute;
-  z-index: 0;
-}
-
-.now-card > * {
-  position: relative;
-  z-index: 1;
-}
-
-.now-card:nth-child(even) {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, var(--now-card-cut) 100%, 0 calc(100% - var(--now-card-cut)));
-}
-
-.now-card__poster {
-  background: transparent;
-  border-radius: 7px;
-  margin: 0;
-  overflow: hidden;
-}
-
-.now-card__poster img {
-  height: auto;
-  width: 100%;
-}
-
-.now-card__header {
-  align-items: center;
-  display: flex;
-  gap: 0.48rem;
-  min-width: 0;
-}
-
-.now-card__icon {
-  align-items: center;
-  background: rgba(24, 23, 28, 0.32);
-  border: 1px solid rgba(232, 232, 232, 0.08);
-  border-radius: 50%;
-  color: var(--now-card-icon);
-  display: inline-flex;
-  flex: 0 0 auto;
-  font-size: 0.78rem;
-  height: 1.75rem;
-  justify-content: center;
-  line-height: 1;
-  width: 1.75rem;
-}
-
-.now-card h2 {
-  color: var(--now-card-icon);
-  font-family: var(--font-micro);
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  line-height: 1.1;
-  margin: 0;
-  min-width: 0;
-  text-transform: uppercase;
-}
-
-.now-card__title {
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.15;
-  margin: 0;
-}
-
-.now-card__meta,
-.now-card__rating {
-  color: var(--color-muted);
-  font-family: var(--font-detail);
-  font-size: 0.78rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  line-height: 1.1;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.now-card__rating {
-  color: var(--color-accent-yellow);
-  display: flex;
-  gap: 0.14rem;
-  letter-spacing: 0;
-}
-
-.now-card--movies {
-  --now-card-bg: rgba(255, 189, 55, 0.15);
-  --now-card-icon: var(--color-accent-yellow);
-}
-
-.now-card--tv {
-  --now-card-bg: rgba(255, 0, 115, 0.16);
-  --now-card-icon: var(--color-accent);
-}
-
-.now-card--games {
-  --now-card-bg: rgba(82, 0, 255, 0.22);
-  --now-card-icon: #b7a7ff;
-}
-
-.now-card--books {
-  --now-card-bg: rgba(46, 44, 55, 0.92);
-  --now-card-icon: var(--color-accent-yellow);
-}
-
-.now-card--audio {
-  --now-card-bg: rgba(82, 0, 255, 0.16);
-  --now-card-icon: var(--color-accent);
 }
 
 /* Colophon page: compact two-column definition lists. */

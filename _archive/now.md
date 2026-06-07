@@ -3,6 +3,7 @@ layout: now
 title: Now
 description: "What I am currently watching, playing, reading and listening to."
 permalink: /now/
+archived: true
 ---
 
 <section class="now-card now-card--movies">
