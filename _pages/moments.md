@@ -8,197 +8,245 @@ permalink: /moments/
 
 <section class="moments-month" aria-labelledby="moments-2026-06">
   <h2 id="moments-2026-06">June</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-06-08">8</time>
-      <span class="moment-item__title">WarGames</span>
-      <span class="moment-item__meta">1983 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">WarGames</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-06-05">5</time>
-      <span class="moment-item__title">M3GAN 2.0</span>
-      <span class="moment-item__meta">2025 · 3.5/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">M3GAN 2.0</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-05">
   <h2 id="moments-2026-05">May</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-31">31</time>
-      <span class="moment-item__title">Lee Cronin&#x27;s The Mummy</span>
-      <span class="moment-item__meta">2026 · 3.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Lee Cronin&#x27;s The Mummy</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-20">20</time>
-      <span class="moment-item__title">Your Place or Mine</span>
-      <span class="moment-item__meta">2023 · 2.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Your Place or Mine</span>
+        <span class="moment-item__rating" aria-label="2.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-18">18</time>
-      <span class="moment-item__title">Caught Stealing</span>
-      <span class="moment-item__meta">2025 · 2.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Caught Stealing</span>
+        <span class="moment-item__rating" aria-label="2.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-17">17</time>
-      <span class="moment-item__title">Ready or Not 2: Here I Come</span>
-      <span class="moment-item__meta">2026 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Ready or Not 2: Here I Come</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-14">14</time>
-      <span class="moment-item__title">Life As We Know It</span>
-      <span class="moment-item__meta">2010 · 3.5/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Life As We Know It</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-04">
   <h2 id="moments-2026-04">April</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-27">27</time>
-      <span class="moment-item__title">Thrash</span>
-      <span class="moment-item__meta">2026 · 2/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Thrash</span>
+        <span class="moment-item__rating" aria-label="2 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-25">25</time>
-      <span class="moment-item__title">Apex</span>
-      <span class="moment-item__meta">2026 · 3.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Apex</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-22">22</time>
-      <span class="moment-item__title">Scream 7</span>
-      <span class="moment-item__meta">2026 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Scream 7</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-22">22</time>
-      <span class="moment-item__title">Crime 101</span>
-      <span class="moment-item__meta">2026 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Crime 101</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-12">12</time>
-      <span class="moment-item__title">Wild Things</span>
-      <span class="moment-item__meta">1998 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Wild Things</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-04">4</time>
-      <span class="moment-item__title">One Battle After Another</span>
-      <span class="moment-item__meta">2025 · 2/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">One Battle After Another</span>
+        <span class="moment-item__rating" aria-label="2 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-03">3</time>
-      <span class="moment-item__title">Project Hail Mary</span>
-      <span class="moment-item__meta">2026 · 3.5/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Project Hail Mary</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-03">
   <h2 id="moments-2026-03">March</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-28">28</time>
-      <span class="moment-item__title">Send Help</span>
-      <span class="moment-item__meta">2026 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Send Help</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-24">24</time>
-      <span class="moment-item__title">The Bluff</span>
-      <span class="moment-item__meta">2026 · 3.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Bluff</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-13">13</time>
-      <span class="moment-item__title">War Machine</span>
-      <span class="moment-item__meta">2026 · 3.5/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">War Machine</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-02">
   <h2 id="moments-2026-02">February</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-02-28">28</time>
-      <span class="moment-item__title">Primate</span>
-      <span class="moment-item__meta">2025 · 3.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Primate</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-02-28">28</time>
-      <span class="moment-item__title">Freakier Friday</span>
-      <span class="moment-item__meta">2025 · 3.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">Freakier Friday</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-02-02">2</time>
-      <span class="moment-item__title">The Family Plan 2</span>
-      <span class="moment-item__meta">2025 · 3/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Family Plan 2</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-01">
   <h2 id="moments-2026-01">January</h2>
-  <ul class="moments-list">
-    <li class="moment-item moment-item--movie">
+  <div class="moments-list">
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-25">25</time>
-      <span class="moment-item__title">The Devil Wears Prada</span>
-      <span class="moment-item__meta">2006 · 2.5/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Devil Wears Prada</span>
+        <span class="moment-item__rating" aria-label="2.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-24">24</time>
-      <span class="moment-item__title">The Housemaid</span>
-      <span class="moment-item__meta">2025 · 3/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Housemaid</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-19">19</time>
-      <span class="moment-item__title">The Rip</span>
-      <span class="moment-item__meta">2026 · 4/5</span>
-    </li>
-    <li class="moment-item moment-item--movie">
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Rip</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-10">10</time>
-      <span class="moment-item__title">Nuremberg</span>
-      <span class="moment-item__meta">2025 · 3.5/5</span>
-    </li>
-  </ul>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Nuremberg</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+  </div>
 </section>
 
 <nav class="moments-years" aria-label="Moments archive years">
   <h2>Previous years</h2>
-  <ul>
-    <li><a href="{{ '/moments/2025/' | relative_url }}">2025</a></li>
-    <li><a href="{{ '/moments/2024/' | relative_url }}">2024</a></li>
-    <li><a href="{{ '/moments/2023/' | relative_url }}">2023</a></li>
-    <li><a href="{{ '/moments/2022/' | relative_url }}">2022</a></li>
-    <li><a href="{{ '/moments/2021/' | relative_url }}">2021</a></li>
-    <li><a href="{{ '/moments/2020/' | relative_url }}">2020</a></li>
-    <li><a href="{{ '/moments/2019/' | relative_url }}">2019</a></li>
-    <li><a href="{{ '/moments/2018/' | relative_url }}">2018</a></li>
-    <li><a href="{{ '/moments/2017/' | relative_url }}">2017</a></li>
-    <li><a href="{{ '/moments/2016/' | relative_url }}">2016</a></li>
-    <li><a href="{{ '/moments/2015/' | relative_url }}">2015</a></li>
-  </ul>
+  <div class="moments-years__links">
+    <a href="{{ '/moments/2025/' | relative_url }}">2025</a>
+    <a href="{{ '/moments/2024/' | relative_url }}">2024</a>
+    <a href="{{ '/moments/2023/' | relative_url }}">2023</a>
+    <a href="{{ '/moments/2022/' | relative_url }}">2022</a>
+    <a href="{{ '/moments/2021/' | relative_url }}">2021</a>
+    <a href="{{ '/moments/2020/' | relative_url }}">2020</a>
+    <a href="{{ '/moments/2019/' | relative_url }}">2019</a>
+    <a href="{{ '/moments/2018/' | relative_url }}">2018</a>
+    <a href="{{ '/moments/2017/' | relative_url }}">2017</a>
+    <a href="{{ '/moments/2016/' | relative_url }}">2016</a>
+    <a href="{{ '/moments/2015/' | relative_url }}">2015</a>
+  </div>
 </nav>
