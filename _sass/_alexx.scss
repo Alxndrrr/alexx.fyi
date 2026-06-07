@@ -1161,19 +1161,7 @@ img {
 .now-grid {
   display: grid;
   gap: 0.9rem;
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 34rem) {
-  .now-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 48rem) {
-  .now-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .now-card {
@@ -1217,11 +1205,10 @@ img {
 }
 
 .now-card:nth-child(even) {
-  clip-path: polygon(var(--now-card-cut) 0, 100% 0, 100% 100%, 0 100%, 0 var(--now-card-cut));
+  clip-path: polygon(0 0, 100% 0, 100% 100%, var(--now-card-cut) 100%, 0 calc(100% - var(--now-card-cut)));
 }
 
 .now-card__poster {
-  aspect-ratio: 2 / 3;
   background: rgba(24, 23, 28, 0.28);
   border-radius: 7px;
   margin: 0;
@@ -1229,8 +1216,7 @@ img {
 }
 
 .now-card__poster img {
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   width: 100%;
 }
 

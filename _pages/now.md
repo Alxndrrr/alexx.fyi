@@ -15,12 +15,10 @@ permalink: /now/
   </header>
   <p class="now-card__title">WarGames</p>
   <p class="now-card__meta">1983</p>
-  <p class="now-card__rating" aria-label="Rating: 4.5 out of 5 stars">
+  <p class="now-card__rating" aria-label="Rating: 3 out of 5 stars">
     <i class="fa-solid fa-star" aria-hidden="true"></i>
     <i class="fa-solid fa-star" aria-hidden="true"></i>
     <i class="fa-solid fa-star" aria-hidden="true"></i>
-    <i class="fa-solid fa-star" aria-hidden="true"></i>
-    <i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i>
   </p>
 </section>
 
