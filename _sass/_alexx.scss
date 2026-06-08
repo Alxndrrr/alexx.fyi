@@ -574,7 +574,7 @@ img {
 .moments-month h2 {
   color: var(--color-accent-yellow);
   font-family: var(--font-display);
-  font-size: clamp(1.25rem, 5vw, 1.7rem);
+  font-size: clamp(1.08rem, 4.4vw, 1.45rem);
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1;
@@ -656,10 +656,10 @@ img {
 
 .moment-item__rating {
   flex: 0 0 auto;
-  color: var(--color-accent-yellow);
+  color: var(--color-accent);
   display: inline-flex;
   gap: 0.12rem;
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   line-height: 1;
 }
 
@@ -668,7 +668,7 @@ img {
 }
 
 .moments-years h2 {
-  color: var(--color-accent-yellow);
+  color: var(--color-accent-purple);
   font-family: var(--font-detail);
   font-size: 0.82rem;
   font-weight: 700;
@@ -699,7 +699,13 @@ img {
   padding: 0.5rem 0.4rem;
   text-align: center;
   text-decoration: none;
+  text-decoration-line: none;
   transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.article__content .moments-years a {
+  text-decoration: none;
+  text-decoration-line: none;
 }
 
 .moments-years a:hover,

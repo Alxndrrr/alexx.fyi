@@ -4,7 +4,7 @@ description: "A running list of all things watched, read and played."
 permalink: /moments/
 ---
 
-<p class="moments-intro">A running list of all things watched, read and played.</p>
+<p class="moments-intro">A running list of all things watched, read and played. Also check out my <a href="{{ '/favorites/' | relative_url }}">favorites</a>.</p>
 
 <section class="moments-month" aria-labelledby="moments-2026-06">
   <h2 id="moments-2026-06">June</h2>
