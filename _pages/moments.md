@@ -39,6 +39,14 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--audio">
+      <span class="moment-item__icon" aria-label="Audiobook"><i class="fa-solid fa-headphones" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-05-23">23</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Harry Potter and the Prisoner of Azkaban</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-20">20</time>
@@ -71,6 +79,14 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--book">
+      <span class="moment-item__icon" aria-label="Book"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-05-02">2</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">De Countdown Killer</span>
+        <span class="moment-item__rating" aria-label="5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--tv">
       <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-01">1</time>
@@ -99,6 +115,14 @@ permalink: /moments/
       <span class="moment-item__text">
         <span class="moment-item__title">Apex</span>
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--audio">
+      <span class="moment-item__icon" aria-label="Audiobook"><i class="fa-solid fa-headphones" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-25">25</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Harry Potter and the Chamber of Secrets</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
     <div class="moment-item moment-item--movie">
@@ -173,12 +197,28 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--book">
+      <span class="moment-item__icon" aria-label="Book"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-02">2</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Project Hail Mary</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
   </div>
 </section>
 
 <section class="moments-month" aria-labelledby="moments-2026-03">
   <h2 id="moments-2026-03">March</h2>
   <div class="moments-list">
+    <div class="moment-item moment-item--audio">
+      <span class="moment-item__icon" aria-label="Audiobook"><i class="fa-solid fa-headphones" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-31">31</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Harry Potter and the Philosopher's Stone (full-cast)</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-28">28</time>
@@ -239,6 +279,14 @@ permalink: /moments/
       <span class="moment-item__text">
         <span class="moment-item__title">Freakier Friday</span>
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--book">
+      <span class="moment-item__icon" aria-label="Book"><i class="fa-solid fa-book-open" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-02-08">8</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">De Poppenmeester</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
     <div class="moment-item moment-item--tv">
