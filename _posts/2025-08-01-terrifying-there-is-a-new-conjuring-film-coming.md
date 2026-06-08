@@ -16,7 +16,7 @@ redirect_from:
 
 I do not find films with serial killers scary at all. You know, slasher films like **Scream**. I love that stuff. Sitting on the couch with a bowl of popcorn while blood splashes across the screen.
 
-https://www.youtube.com/embed/d5af-1n9Vco?feature=oembed
+{% include youtube.html id="d5af-1n9Vco" %}
 
 But as soon as ghosts and that kind of thing get involved, you can scrape me off the floor.
 

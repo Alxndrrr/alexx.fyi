@@ -20,7 +20,7 @@ I am probably going to sound like a _boomer_ now, but Saturdays in the nineties 
 
 That feeling is coming back completely.
 
-## A Fixed Ritual
+### A Fixed Ritual
 
 The arrival of streaming services has changed TV a lot. Now you watch what you want, when you want, and you also have a hundred million options. We did not have that back then.
 
@@ -28,7 +28,7 @@ You had to set your alarm and make sure you were in front of the TV by half past
 
 It was also something you watched "together." At school you talked about episodes of _Pokemon_, _Dragon Ball Z_ and _Digimon_. And there was always someone talking about rumours they had heard from a cousin. Nobody knew whether they were true, but in your head you hoped they were.
 
-## Pure Nostalgia
+### Pure Nostalgia
 
 These are good times for adults who want to reach back to better days. Recent cartoons like _X-Men '97_ and _Your Friendly Neighborhood Spider-Man_ give you great animated entertainment again. There are also shows like _Invincible_, _My Adventures with Superman_ and of course _Rick and Morty_.
 

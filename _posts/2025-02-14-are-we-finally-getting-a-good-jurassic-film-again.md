@@ -20,7 +20,7 @@ Since then, five sequels have been released, but honestly, most of them were not
 
 But no, the rest was bad.
 
-https://www.youtube.com/embed/jan5CFWs9ic?feature=oembed
+{% include youtube.html id="jan5CFWs9ic" %}
 
 Still, they are going to try again, and this year the sixth film will be released: **Jurassic World: Rebirth**.
 

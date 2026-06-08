@@ -60,9 +60,19 @@ layout: default
 
     {% if page.translation_notice %}
       <aside class="translation-notice" aria-label="Translation notice">
-        <p class="translation-notice__label">Archive translation</p>
-        <p>This post was automatically translated from Dutch to English. I kept the original meaning and tone intact, but small quirks from the old version may remain.</p>
+        <p>Originally posted on Alxndrr.nl in Dutch. This post was automatically translated, so some mistakes may have slipped through.</p>
       </aside>
+    {% endif %}
+
+    {% if page.archive_disclaimer %}
+      <aside class="archive-disclaimer" aria-label="Archive disclaimer">
+        <p class="archive-disclaimer__label">Old archive post</p>
+        <p>{{ page.archive_disclaimer }}</p>
+      </aside>
+    {% endif %}
+
+    {% if page.translation_notice and page.image %}
+      <img class="article__featured-image" src="{{ page.image | relative_url }}" alt="">
     {% endif %}
 
     <div class="article__content">

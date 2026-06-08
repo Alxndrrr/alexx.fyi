@@ -11,13 +11,12 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /pinkpop-2009-here-we-come/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 Only one more week and [Pinkpop 2009](https://web.archive.org/web/20090527215149/http://www.pinkpop.nl/) will be real for me. It is the first time I am going to this festival, and unfortunately I am only going for one day.
 
 That makes my music summer a little thin, because I am also not going to **Lowlands 2009**. But that does not mean I will not enjoy myself extra next Monday.
-
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
 
 Of course it is a shame I will not be there for the whole weekend, but I can live with it because Monday simply has the best line-up. It does mean I have to leave very early by bus to get to Landgraaf on time. But that is no problem thanks to the excellent service of [Event Travel](https://web.archive.org/web/20090527215149/http://www.eventtravel.nl/evenement/19/4/pinkpop_maandag/).
 

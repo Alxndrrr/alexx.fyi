@@ -12,11 +12,10 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /de-ipad-2-is-teleurstellend-maar-toch-wil-ik-hem-hebben/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 After an almost endless stream of rumours, the iPad 2 was finally presented to the public last night. One of those rumours was that the iPad 2 would merely be an in-between model. Unfortunately, that rumour turned out to be true.
-
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
 
 With a design upgrade, a faster processor and two cameras, the iPad 2 is basically nothing more than the iPad 1.5.
 

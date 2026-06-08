@@ -20,7 +20,7 @@ Because now there is some kind of spin-off of _The Office (US)_, also known as [
 
 _The Paper_ is about the newsroom of an American newspaper that is struggling badly. The documentary crew from **The Office** will be documenting these events this time.
 
-https://www.youtube.com/embed/c5v4LJJkvUU?feature=oembed
+{% include youtube.html id="c5v4LJJkvUU" %}
 
 When I watch **The Office**, I burst out laughing multiple times. Again and again, even though I have seen the entire series several times. But when I watch the trailer for **The Paper**, I can barely manage a smile.
 

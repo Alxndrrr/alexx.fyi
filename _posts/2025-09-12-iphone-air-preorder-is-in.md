@@ -25,7 +25,7 @@ But this year?
 
 The very thin dark side, to be precise: I had to have the [iPhone Air](https://www.apple.com/nl/iphone-air/).
 
-## An Open Secret
+### An Open Secret
 
 Last Tuesday, the [new iPhones were announced](https://www.apple.com/apple-events/) during the annual keynote. I watch that every year. And those shows used to be exciting. Sure, you read rumours everywhere, but you still had to wait and see whether they were actually true.
 
@@ -43,7 +43,7 @@ No, my darling looks fantastic.
 
 <!--more-->
 
-## Forever Team Mini
+### Forever Team Mini
 
 **I am forever team iPhone Mini** - rest in peace, little friend - and I prefer my phone to be as small as possible.
 
@@ -53,7 +53,7 @@ That thin body. That clean design.
 
 Lovely, man. What a phone.
 
-## Waiting Takes Forever
+### Waiting Takes Forever
 
 I had been able to renew my subscription for a while, so today at 14:00 I was ready to grab that preorder.
 

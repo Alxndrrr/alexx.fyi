@@ -21,7 +21,7 @@ But for me, the best news was [the announcement of Pokemon Pokopia](https://www.
 
 _A cosy Pokemon game!? How cool is that!_
 
-## Pokemon x Minecraft x Animal Crossing?
+### Pokemon x Minecraft x Animal Crossing?
 
 The [trailer has a bit of a Smile vibe](https://www.youtube.com/watch?v=BcDK7lkzzsU), because _Ditto_ turns into a creepy human, and with the help of other Pokemon you then start shaping your island. You can use _Bulbasaur_ to grow plants, for example, and then give them enough water with _Squirtle_.
 
@@ -33,11 +33,11 @@ A life sim like this on Switch obviously immediately makes you think of **Animal
 
 Coincidentally, Pokemon is also one of my favourite things, so this is basically a golden combination, right?
 
-https://www.youtube.com/embed/6_bYri9p1Uk?feature=oembed
+{% include youtube.html id="6_bYri9p1Uk" %}
 
 <!--more-->
 
-## This Is Why I Want A Switch 2
+### This Is Why I Want A Switch 2
 
 Yes, and now the less fun news: _Pokemon Pokopia is only coming to Switch 2._
 

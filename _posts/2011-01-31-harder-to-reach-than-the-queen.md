@@ -11,6 +11,7 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /moeilijker-bereikbaar-dan-de-koningin/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 On an average day I get about 20 text messages, 50 [emails](https://web.archive.org/web/20110322043655/http://www.alxndr.nl/contact) - excluding social network emails - and I am contacted about 10 times on WhatsApp.
@@ -22,8 +23,6 @@ Enough ways to stalk me.
 So why am I harder to reach than the Queen?
 
 BECAUSE ALL THAT STUFF MAKES NOISE!
-
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
 
 My life mainly happens at night, and during the day I do little more than sleep in and be lazy. And that is a good little life. Still, two beloved little nuisances make sure I rarely get any peace: my iPhone and iPad.
 

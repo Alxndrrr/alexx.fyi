@@ -20,7 +20,7 @@ And when I go somewhere, I like to be prepared. That is why I almost always carr
 
 I throw it into my work bag, sports bag or regular backpack, and I always have everything I need within reach.
 
-## A Colourful Collection
+### A Colourful Collection
 
 The most important things inside are two power banks. For [my iPhone Air](https://www.alexx.fyi/the-iphone-air-is-for-people-who-use-their-phone-without-a-case/) I mainly use Apple's MagSafe battery. Click it onto the back and off you go.
 
@@ -36,7 +36,7 @@ A little box with allergy medication and ibuprofen is essential too. Same goes f
 
 <!--more-->
 
-## The Full List
+### The Full List
 
 - Anker power bank
 - MagSafe battery

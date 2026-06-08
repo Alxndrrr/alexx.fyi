@@ -18,7 +18,7 @@ Everyone and their mother is hyped for _GTA VI_, even though we still have to wa
 
 But if I am honest... can _GTA V_ even be matched, let alone surpassed?
 
-## The Hype For GTA VI Is Huge
+### The Hype For GTA VI Is Huge
 
 This is really going to be a thing, and when I watch the new trailer, that is with good reason. The graphics, the sort-of Bonnie and Clyde story, the huge open world. GTA VI is going to be _the_ game of the next ten years.
 
@@ -26,9 +26,9 @@ And I am ridiculously excited for it. So excited that I have already requested t
 
 But still, watching the trailer did not give me the feeling I get every time I play GTA V again.
 
-https://www.youtube.com/embed/VQRLujxTm3c?feature=oembed
+{% include youtube.html id="VQRLujxTm3c" %}
 
-## GTA V Had The Most Iconic Characters Ever
+### GTA V Had The Most Iconic Characters Ever
 
 Making a game with one good main character can already be difficult, but GTA V delivered three. Michael, Trevor and Franklin: the best trio since Frodo, Sam and Gollum.
 
@@ -38,7 +38,7 @@ Michael, cynical and neurotic. Trevor, everyone's favourite redneck. Franklin, t
 
 They are all so different, but also so very much the same. You could switch perfectly between the characters during missions and immediately see their different approaches. I thought that was incredibly cool.
 
-## It Works Because It Does Not Work
+### It Works Because It Does Not Work
 
 What I love so much about that trio is the chemistry.
 

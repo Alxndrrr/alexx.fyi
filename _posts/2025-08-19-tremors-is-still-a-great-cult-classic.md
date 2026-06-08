@@ -24,7 +24,7 @@ There is no deep investigation into the worms, where they came from or why they 
 
 They do not make films like this anymore. These days everything has to be explained in great depth. Shame.
 
-https://www.youtube.com/embed/Tlzvh0cR9q4?feature=oembed
+{% include youtube.html id="Tlzvh0cR9q4" %}
 
 Then there is Kevin Bacon.
 

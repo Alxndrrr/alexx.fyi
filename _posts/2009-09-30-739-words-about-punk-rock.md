@@ -11,6 +11,7 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /739-woorden-over-punkrock/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 Ever since I really started loving music, punk rock has been one of my favourite genres. It all started when I got a CD from the drummer in my brother's band. It was Blink-182's live album _The Mark, Tom and Travis Show_.
@@ -20,8 +21,6 @@ I was instantly in love. Music with lots of guitar and drums, but still with a c
 Soon I started listening to other bands, like Green Day and Sum 41, who at that time were having their big breakthrough in Europe with their hit "Fat Lip." But what is _real_ punk rock? I really hate boxes. If something is good, it is simply good. Why stick a label on it? That does not change the feeling the music gives you. At least not for me.
 
 For me, only the music counts.
-
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
 
 Although I can also really enjoy hip-hop and house, I will always prefer a solid punk rock song. In recent years there has been plenty of choice. But people love labels, and labels blur. So you make new ones. That is why you increasingly hear terms like "pop rock" and "power pop."
 

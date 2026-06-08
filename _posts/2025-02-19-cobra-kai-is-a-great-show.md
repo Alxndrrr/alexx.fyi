@@ -20,13 +20,13 @@ There, those are quite some statements from me. But I stand by them.
 
 Cobra Kai is incredibly fun. Maybe not the very best show ever made, but if you were making [a list of entertaining shows](https://www.alexx.fyi/the-ten-best-tv-shows-ever/), it should definitely be in the top ten.
 
-## Cobra Kai
+### Cobra Kai
 
 For those who do not know: Cobra Kai is a sequel series to the legendary eighties film _The Karate Kid_. And I absolutely loved that film, so of course I had to watch this.
 
 The series follows the bad guy from the first film: _Johnny Lawrence_, who, 34 years later, has fallen pretty far. To turn things around, he takes a boy under his wing and reopens Cobra Kai, the Karate Kid dojo of his former sensei Kreese.
 
-## A Feast Of Recognition
+### A Feast Of Recognition
 
 Johnny is not the only one in Cobra Kai. Over the course of six seasons, many old characters return. Including Daniel LaRusso, of course. They already had a pretty fierce rivalry in the film, and you see that again in Cobra Kai.
 

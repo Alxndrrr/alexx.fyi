@@ -38,7 +38,7 @@ I created four different timelines and pinned them to the bottom menu:
 - **YouTube:** the YouTube app is rubbish, right? In this timeline I follow my favourite channels and only watch what I actually want, without disappearing into the depths of YouTube for hours.
 - **Updates:** posts from favourite app developers, updates from makers of gadgets I like, and news from the football club I play for.
 
-## Your Zelf Bepils
+### Your Zelf Bepils
 
 Because I decide what I read in Tapestry, it gives me a lot of peace. I do not have to get angry at some stupid take because an algorithm decided I might enjoy being annoyed.
 
@@ -51,6 +51,8 @@ On Threads I already mute everyone and their mother, so naturally I love this ki
 Muting is also a gift from the heavens. There are some topics I do want to read about, just not right now. Last week half the internet was crying about the death of someone in a certain show, and of course that meant spoilers were suddenly everywhere. Solution: mute that stuff.
 
 It still appears in the timeline, but the post is collapsed. That way I can decide later whether I want to read it or not.
+
+Muting certain topics is really nice.
 
 That is why a timeline app like this has so many advantages. It has become a real alternative to social media apps for me. You decide what you read. Not a hundred billion posts. Just a handful of sources.
 

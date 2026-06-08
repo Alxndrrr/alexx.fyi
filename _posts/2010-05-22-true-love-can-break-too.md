@@ -11,6 +11,7 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /ware-liefde-kan-ook-breken/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 "This is as good as it gets." You realise something like that sometimes. You arrive at a point in your life where you are content with the current situation. This is perfect, it cannot get better, I can grow old and happy with this.
@@ -24,8 +25,6 @@ Have you been fooling yourself all this time? Were you afraid to take a risk? Yo
 At such a moment, you have to be honest with yourself, but especially with your "true" love.
 
 Still, there is sadness. Because you know that even true love can break.
-
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
 
 Last Tuesday, [Spotify](https://web.archive.org/web/20110322043650/http://www.spotify.com/nl/open-user/) was released in the Netherlands. Since then, I have opened iTunes, my former true love, only once.
 

@@ -18,7 +18,7 @@ I do not actually need more LEGO, because the unbuilt sets are literally piling 
 
 But every few weeks a new set appears that I simply MUST have. And today, here we go again...
 
-## A New Category Of LEGO Sets
+### A New Category Of LEGO Sets
 
 LEGO has been releasing sets for years in different lines I really love. Especially the Harry Potter and other pop culture sets are must-haves for me.
 
@@ -28,7 +28,7 @@ But [from today you can preorder a Lord of the Rings book nook](https://www.lego
 
 And yes, sorry, but that one simply has to come home.
 
-## Take My Money!
+### Take My Money!
 
 You can preorder it now for EUR119.99, which is on the pricey side. The set has 1,201 pieces.
 

@@ -22,7 +22,7 @@ Over the past few weeks we have regularly rewatched older films at home, and sud
 
 And secretly, I think many of them are better than what has been released in recent years.
 
-## Pace And Runtime
+### Pace And Runtime
 
 Since the rise and huge success of franchise films in the 2000s, film runtimes have also increased a lot. These days you can barely find a film that is not at least two hours long, but in the nineties you could simply sit back for an hour and a half and be entertained by a massive action film.
 
@@ -30,7 +30,7 @@ The pace of those films was therefore much higher too. There was not much room f
 
 Lovely.
 
-## The Nineties Had Great Films
+### The Nineties Had Great Films
 
 This week we watched **Twister**, **Dante's Peak** and **Armageddon**, among others. All great blockbuster films that you can still watch perfectly well today.
 

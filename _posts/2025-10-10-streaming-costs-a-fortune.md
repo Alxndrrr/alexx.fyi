@@ -25,7 +25,7 @@ But in 2025, that promised land mostly feels like endlessly jumping between stre
 
 <!--more-->
 
-## Prices Are Getting Ridiculous
+### Prices Are Getting Ridiculous
 
 In the Netherlands we now have a lot of streaming services. Every big media company seems to have its own app. Here, the big ones are _Netflix_, _Disney+_, _Videoland_, _Apple TV+_, _SkyShowtime_ and _HBO Max_. Between them you can watch things like **The Last of Us**, **Ted Lasso**, **MobLand**, **The Mandalorian** and **Stranger Things**. Something for everyone.
 
@@ -37,7 +37,7 @@ Prices have been rising for years. Last week, Disney+ and HBO raised their price
 
 But when prices rise by an average of 33%, we are not talking about inflation anymore. That is just squeezing your customers because you know they need your service to watch their favourite show.
 
-## The Power Of Originals
+### The Power Of Originals
 
 Back in the day, you just watched whatever was on TV. Or you went to the video store and picked a few films. These days, the choice is endless. Not everything is on one service anymore. Content is scattered across all these different platforms.
 
@@ -49,7 +49,7 @@ Of course it is great that so many good shows are being made. But originals give
 
 And they can do that, because everyone and their mother wants to finally see how that story ends.
 
-## Just Call Me Jack Sparrow
+### Just Call Me Jack Sparrow
 
 I am done. I am not doing it anymore. I am not paying that much money every month for all those services.
 

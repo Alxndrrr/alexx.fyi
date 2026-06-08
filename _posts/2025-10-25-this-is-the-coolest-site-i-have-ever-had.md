@@ -19,7 +19,7 @@ I have been building websites for a very long time, and by now I have gone throu
 
 And all thanks to AI.
 
-## Vibe Coding Is Definitely A Thing
+### Vibe Coding Is Definitely A Thing
 
 Well, a lot thanks to AI. I still had to do plenty myself to get everything right. But _vibe coding_ - building websites with AI - is becoming a real thing, and for good reason.
 
@@ -33,7 +33,7 @@ Vibe coding is seriously cool.
 
 <!--more-->
 
-## But I Almost Threw My MacBook At The Wall
+### But I Almost Threw My MacBook At The Wall
 
 Of course, not everything is sunshine and roses. Cursor can be pretty dumb at times. It wrote code based on functionality that does not exist at all in [Ghost, the CMS I used for this site](https://ghost.org). And when something did not work and the proposed fix did not help either, I had to make sure Cursor actually tried a different solution. Otherwise it would just keep alternating between two broken options.
 
@@ -45,7 +45,7 @@ Two days of work gone.
 
 At that point, throwing my MacBook at the wall felt very tempting.
 
-## But Everything Is Good Now
+### But Everything Is Good Now
 
 Of course it all worked out. The next day I simply started again, armed with the lessons I had learned. And the result is pretty great.
 

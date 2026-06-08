@@ -21,7 +21,7 @@ I cannot remember the last time I used a case on my phone full-time. Of course a
 
 The iPhone experience is not just the software. It is also how your phone feels when you take it out of your pocket.
 
-## The Most Beautiful iPhone In Years
+### The Most Beautiful iPhone In Years
 
 That is why the iPhone Air fits me perfectly.
 
@@ -33,7 +33,7 @@ Big enough to do everything you want, but still so light you can use it for hour
 
 <!--more-->
 
-## There Is Always Criticism
+### There Is Always Criticism
 
 Such a beautiful and thin design does come with a few caveats. So what do you give up? Let us go through the critical points:
 

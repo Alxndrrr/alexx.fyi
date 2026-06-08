@@ -18,7 +18,7 @@ My [girlfriend](https://www.maaikeschaap.nl) often says I enjoy tinkering with m
 
 I recognise that. Over the past few years I have redesigned my site so many times. And now, once again...
 
-## Previously On Alxndrr.nl
+### Previously On Alxndrr.nl
 
 The [last time I wrote about this](https://www.alexx.fyi/this-is-the-coolest-site-i-have-ever-had/), I proudly said this had become the coolest website I had ever had. Last year I used vibe coding to adjust everything exactly the way I wanted. I could publish reviews with their own unique design, and I could post short bits of text without immediately turning them into a full blog post.
 
@@ -34,7 +34,7 @@ So I decided to get back to work with AI, Cursor and a few weeks of proper vibe 
 
 <!--more-->
 
-## Happy With The Result
+### Happy With The Result
 
 I took my time, and I am really happy with how it turned out.
 
@@ -42,7 +42,7 @@ Once again, I can say this is the coolest website I have ever had. The TV Top 10
 
 When I watch a film, I can easily share my [Letterboxd](https://letterboxd.com/alxndrr/) review here. That looks pretty great too. But if I wrote a blog about that film myself, the site simply opens that instead of sending you to Letterboxd.
 
-## Now I Just Need To Blog
+### Now I Just Need To Blog
 
 My girlfriend is right, of course: I really enjoy tinkering with a website. But once it finally works the way I want, the dopamine fades a little.
 

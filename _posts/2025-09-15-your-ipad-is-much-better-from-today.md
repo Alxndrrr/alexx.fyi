@@ -19,7 +19,7 @@ For years people have said Apple does not do enough with the iPad. That changes 
 
 [iPadOS 26 - yes, they skipped a few versions - is out today](https://www.apple.com/nl/os/ipados/), and it is the biggest iPad update in years.
 
-## Lots Of Glass On Your Screen
+### Lots Of Glass On Your Screen
 
 First of all, your iPad looks different thanks to a new design. Apple's new design for iPadOS and [iOS](https://www.apple.com/nl/os/ios/) is called "Liquid Glass." That is because many elements are transparent and bend with the light, making it look as if there is liquid glass on your screen.
 
@@ -29,7 +29,7 @@ It is not always great for readability, but I do think it looks modern and beaut
 
 <!--more-->
 
-## The Biggest Update In Years
+### The Biggest Update In Years
 
 And then there is the really big feature.
 
@@ -41,11 +41,11 @@ Yep, your iPad now basically works almost like a MacBook. Add a little keyboard 
 
 Apps now also have a menu bar at the top of the screen. Again, just like on a MacBook. That makes using big iPad apps easier too.
 
-## Others Can Explain This Much Better
+### Others Can Explain This Much Better
 
 There are people on the internet who can explain all of this much better than I can. Watch YouTuber Chris Lawley's video, for example, or read Federico Viticci's review on MacStories.
 
-https://www.youtube.com/embed/rzqWgOAejUQ?feature=oembed
+{% include youtube.html id="rzqWgOAejUQ" %}
 
 [iOS and iPadOS 26: The MacStories Review](https://www.macstories.net/stories/ios-and-ipados-26-the-macstories-review/)
 

@@ -20,7 +20,7 @@ I have enough interests and hobbies to keep myself busy for hours. Whether it is
 
 But over the past year I have rediscovered an old hobby, and I am incredibly happy it is back in my life.
 
-## Growing Up In The Nineties
+### Growing Up In The Nineties
 
 I had the pleasure of growing up in the nineties, and I often look back on that time with a lot of love and nostalgia.
 
@@ -36,7 +36,7 @@ Birthday? I would get a book from every grandparent, uncle and aunt.
 
 Reading was my thing. I devoured books like oxygen.
 
-## Discovering The Internet
+### Discovering The Internet
 
 Then secondary school happened. We got a computer at home, unlimited internet from @Home, and there went my reading peace.
 
@@ -46,7 +46,7 @@ Not because I did not want to. Not because I did not enjoy it. Mostly because I 
 
 Because of the internet, films and TV shows, I had become too lazy to sit still for an hour and make the effort to discover a story.
 
-## An Old Hobby Rediscovered
+### An Old Hobby Rediscovered
 
 But since Maaike and I started living together, reading has returned to my life.
 

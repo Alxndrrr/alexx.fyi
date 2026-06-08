@@ -19,7 +19,7 @@ Well, not literally stolen, obviously. But it kind of feels that way.
 
 I managed to buy a second-hand **Nintendo Switch Lite** for a ridiculously good price. Seriously, the price was lower than whatever number just popped into your head.
 
-## What Are You Even Doing With A Switch Lite In 2025?
+### What Are You Even Doing With A Switch Lite In 2025?
 
 The **Nintendo Switch 2** has been out for a few months, so why would I buy an older model now?
 
@@ -33,7 +33,7 @@ But the real reason I bought it?
 
 **Hollow Knight!**
 
-## Late To The Party
+### Late To The Party
 
 I am basically always late to the party when it comes to playing the latest games. Last year, for example, I finally finished [Red Dead Redemption 2](https://www.alexx.fyi/red-dead-redemption-2-lets-me-be-an-outlaw/) for the first time, six years after it came out.
 

@@ -12,6 +12,7 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /billy-joe-made-me-fucking-stage-dive/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 There you are, after waiting more than seven hours in the cold and rain, standing at the front for your favourite band with 10,000 people behind you. After a few great songs, the singer comes close to the crowd and points around a little, clearly looking for someone.
@@ -20,9 +21,7 @@ Then he looks at you with big eyes and, while pointing at you, shouts loudly int
 
 "You! YOU!"
 
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
-
-https://www.youtube.com/embed/1ztIgxMeNCo?feature=oembed
+{% include youtube.html id="1ztIgxMeNCo" %}
 
 Before you even understand what he means, a huge security guard pushes you onto the stage, and suddenly you are standing next to your idol, face to face with thousands of fans.
 

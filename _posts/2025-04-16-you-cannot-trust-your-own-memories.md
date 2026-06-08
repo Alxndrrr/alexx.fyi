@@ -32,7 +32,7 @@ Turns out, that song is not by Cat Stevens at all. It is by Harry Chapin.
 
 Damn it, can I not even trust my own memories anymore?
 
-https://www.youtube.com/embed/5u-KWa3tL-0?feature=oembed
+{% include youtube.html id="5u-KWa3tL-0" %}
 
 Strange how something can sit in your head and memory with such conviction, while simply not being true at all.
 

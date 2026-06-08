@@ -11,15 +11,14 @@ blogpost_type: standard
 translation_notice: true
 redirect_from:
   - /theres-a-story-at-the-bottom-of-the-bottle-and-im-the-pen/
+archive_disclaimer: "This is an old blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025."
 ---
 
 About three weeks. That is how long it has been since I last delivered a blog post. I have had gaps like this between my writings before, and usually they can be attributed to the fact of "being lazy." It is a fact because it is true. Being lazy is one of my strongest qualities.
 
 But this time it is because of a mix of laziness and busyness. A summary of adventures, myths and legends.
 
-> **Big disclaimer:** this is an ancient blog post I found again. I thought it would be fun to put it back on my site. Please keep in mind that this was written by a younger, naive version of myself, and that it may contain opinions and remarks I no longer stand behind in 2025.
-
-## October Tour!
+### October Tour!
 
 On Thursday, October 15, my "Rocktober tour" began with a trip to Zeeland. Zeeland, which I had missed quite a lot over the past few months. Unfortunately it was only a short visit, because the next morning we were already on our way to Rotterdam.
 
@@ -33,11 +32,11 @@ Awesome guitarist, though.
 
 Sunday was time for goodbye. My friends went home, while I honoured Amsterdam with a short visit. **James Morrison** was performing, and I had to be there. I was actually too exhausted to really enjoy the show, but nevertheless it was a good performance.
 
-## The Rejects
+### The Rejects
 
 Tuesday, October 27, was a good day. The All-American Rejects performance was less good. Maybe it was me, maybe it was the audience, but it definitely was not the band itself. Even though the frontman made questionable decisions on stage, The Rejects played a very good set. It just did not fully come across.
 
-## Do You Want To Go To The Seaside?
+### Do You Want To Go To The Seaside?
 
 I thought my weekend in October could not be topped. Definitely not this year. But actually, I was wrong.
 
@@ -47,7 +46,7 @@ We can say with certainty that we did absolutely nothing useful all week. But it
 
 Top weekend. Thanks dudes.
 
-## She Looks Into The Past And Sees How Bright Our Cloudy Future Is!
+### She Looks Into The Past And Sees How Bright Our Cloudy Future Is!
 
 Plenty happened, then. But the future brings plenty of fun things too. On Monday, November 16, we will visit Milow, who is performing here in the high north. Exactly one month later, we are going to Racoon, again in Groningen.
 

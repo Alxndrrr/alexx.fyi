@@ -22,7 +22,7 @@ The film was, of course, a huge success, and for years people speculated about a
 
 You would think I would be jumping for joy, but nothing could be further from the truth. **Gladiator II** might be the best film I actually do not want to see.
 
-## Surely This Can Only Disappoint?
+### Surely This Can Only Disappoint?
 
 Why does the original need a sequel? The ending was good and complete. A sequel feels forced somehow, especially in an era where Hollywood is not exactly overflowing with original ideas.
 
@@ -30,7 +30,7 @@ Besides, sequels are rarely as good as their predecessors. Add a whole load of C
 
 Surely this can only disappoint?
 
-## It Does Look Fantastic, Though
+### It Does Look Fantastic, Though
 
 The first trailer for **Gladiator II** was released this week, and honestly, it does look fantastic again. This could very well become a massive hit. It seems to have everything the original had, but with all the modern filmmaking techniques.
 
