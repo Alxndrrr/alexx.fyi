@@ -18,6 +18,8 @@ My [girlfriend](https://www.maaikeschaap.nl) often says I enjoy tinkering with m
 
 I recognise that. Over the past few years I have redesigned my site so many times. And now, once again...
 
+<!--more-->
+
 ### Previously On Alxndrr.nl
 
 The [last time I wrote about this](https://www.alexx.fyi/this-is-the-coolest-site-i-have-ever-had/), I proudly said this had become the coolest website I had ever had. Last year I used vibe coding to adjust everything exactly the way I wanted. I could publish reviews with their own unique design, and I could post short bits of text without immediately turning them into a full blog post.
@@ -32,7 +34,6 @@ Because I want a website that is shaped around what I actually want to post: som
 
 So I decided to get back to work with AI, Cursor and a few weeks of proper vibe coding. Back to good old WordPress, and with the help of AI and Cursor, I built a site that works the way I want it to. Complete with a nice mobile-first design and my own custom plugins to show my content as well as possible.
 
-<!--more-->
 
 ### Happy With The Result
 

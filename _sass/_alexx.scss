@@ -441,6 +441,7 @@ img {
   clip-path: none;
   display: block;
   margin: 0.95rem 0 0;
+  max-height: 18rem;
   max-width: 100%;
   object-fit: cover;
   width: 100%;
@@ -1586,6 +1587,11 @@ mark,
 }
 
 @media (max-width: 41.99rem) {
+  .article__content.micro-box__content p > img,
+  .post-card__micro-content p > img {
+    max-height: 14rem;
+  }
+
   html:has(.menu-toggle:checked),
   body:has(.menu-toggle:checked) {
     overflow: hidden;
