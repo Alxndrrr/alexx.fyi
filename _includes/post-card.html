@@ -64,7 +64,16 @@
 {% elsif homepage_type == "content" or homepage_type == "excerpt" %}
   {% assign content_parts = post.content | split: site.excerpt_separator %}
   <article class="post-card post-card--content">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
+    <div class="post-card__meta">
+      {% if post.categories %}
+        <ul class="tag-list" aria-label="Categories">
+          {% for category in post.categories %}
+            <li>{{ category }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
+    </div>
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
@@ -74,26 +83,21 @@
     {% if post.content contains site.excerpt_separator %}
       <a class="continue-reading-link" href="{{ post.url | relative_url }}">Continue reading</a>
     {% endif %}
-    {% if post.categories %}
-      <ul class="tag-list" aria-label="Categories">
-        {% for category in post.categories %}
-          <li>{{ category }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
   </article>
 {% else %}
   <article class="post-card">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
+    <div class="post-card__meta">
+      {% if post.categories %}
+        <ul class="tag-list" aria-label="Categories">
+          {% for category in post.categories %}
+            <li>{{ category }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{% include date.html date=post.date %}</time>
+    </div>
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h2>
-    {% if post.categories %}
-      <ul class="tag-list" aria-label="Categories">
-        {% for category in post.categories %}
-          <li>{{ category }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
   </article>
 {% endif %}
