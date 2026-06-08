@@ -9,9 +9,17 @@ permalink: /moments/
 <section class="moments-month" aria-labelledby="moments-2026-06">
   <h2 id="moments-2026-06">June</h2>
   <div class="moments-list">
+      <div class="moment-item moment-item--movie">
+      <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-06-08">7</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Hokum</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
-      <time class="moment-item__day" datetime="2026-06-08">8</time>
+      <time class="moment-item__day" datetime="2026-06-08">7</time>
       <span class="moment-item__text">
         <span class="moment-item__title">WarGames</span>
         <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
