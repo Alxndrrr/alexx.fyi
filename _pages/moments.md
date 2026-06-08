@@ -43,7 +43,7 @@ permalink: /moments/
       <span class="moment-item__icon" aria-label="Audiobook"><i class="fa-solid fa-headphones" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-23">23</time>
       <span class="moment-item__text">
-        <span class="moment-item__title">Harry Potter and the Prisoner of Azkaban</span>
+        <span class="moment-item__title">Harry Potter and the Prisoner of Azkaban (full-cast)</span>
         <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
@@ -71,6 +71,14 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-05-15">15</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Diablo 4 - Lord of Hatred DLC</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-05-14">14</time>
@@ -93,6 +101,14 @@ permalink: /moments/
       <span class="moment-item__text">
         <span class="moment-item__title">Unsere Mutter, Unsere Vatter</span>
         <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-05-01">1</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">No Man's Sky</span>
+        <span class="moment-item__rating" aria-label="4.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i></span>
       </span>
     </div>
   </div>
@@ -121,7 +137,7 @@ permalink: /moments/
       <span class="moment-item__icon" aria-label="Audiobook"><i class="fa-solid fa-headphones" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-25">25</time>
       <span class="moment-item__text">
-        <span class="moment-item__title">Harry Potter and the Chamber of Secrets</span>
+        <span class="moment-item__title">Harry Potter and the Chamber of Secrets (full-cast)</span>
         <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
@@ -219,6 +235,14 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-31">31</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Vampire Survivors</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-28">28</time>
@@ -259,6 +283,30 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-12">12</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Pokémon Pokopia</span>
+        <span class="moment-item__rating" aria-label="5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-05">5</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Red Dead Redemption 2</span>
+        <span class="moment-item__rating" aria-label="5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-01">1</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Pokémon LeafGreen</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
   </div>
 </section>
 
@@ -278,6 +326,14 @@ permalink: /moments/
       <time class="moment-item__day" datetime="2026-02-28">28</time>
       <span class="moment-item__text">
         <span class="moment-item__title">Freakier Friday</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--game">
+      <span class="moment-item__icon" aria-label="Game"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-02-27">27</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Pokémon FireAsh</span>
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
