@@ -71,6 +71,14 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-05-01">1</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Unsere Mutter, Unsere Vatter</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
   </div>
 </section>
 
@@ -109,12 +117,44 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-19">19</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Pitt</span>
+        <span class="moment-item__rating" aria-label="5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-14">14</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Parks and Recreation</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-04-12">12</time>
       <span class="moment-item__text">
         <span class="moment-item__title">Wild Things</span>
         <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-12">12</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Yellowstone</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-04-06">6</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Paradise</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
     <div class="moment-item moment-item--movie">
@@ -155,6 +195,22 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-22">22</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Een Van Ons</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-03-16">16</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Diplomat</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-03-13">13</time>
@@ -185,6 +241,22 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-02-07">7</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Girl Taken</span>
+        <span class="moment-item__rating" aria-label="3 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-02-06">6</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">1923</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-02-02">2</time>
@@ -199,6 +271,14 @@ permalink: /moments/
 <section class="moments-month" aria-labelledby="moments-2026-01">
   <h2 id="moments-2026-01">January</h2>
   <div class="moments-list">
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-01-29">29</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">1883</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-25">25</time>
@@ -223,12 +303,44 @@ permalink: /moments/
         <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-01-17">17</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">MobLand</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-01-17">17</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">His &amp; Hers</span>
+        <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
     <div class="moment-item moment-item--movie">
       <span class="moment-item__icon" aria-label="Movie"><i class="fa-solid fa-film" aria-hidden="true"></i></span>
       <time class="moment-item__day" datetime="2026-01-10">10</time>
       <span class="moment-item__text">
         <span class="moment-item__title">Nuremberg</span>
         <span class="moment-item__rating" aria-label="3.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-01-08">8</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">The Abandons</span>
+        <span class="moment-item__rating" aria-label="4 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+      </span>
+    </div>
+    <div class="moment-item moment-item--tv">
+      <span class="moment-item__icon" aria-label="TV show"><i class="fa-solid fa-tv" aria-hidden="true"></i></span>
+      <time class="moment-item__day" datetime="2026-01-01">1</time>
+      <span class="moment-item__text">
+        <span class="moment-item__title">Man vs. Baby</span>
+        <span class="moment-item__rating" aria-label="2.5 out of 5 stars"><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star-half-stroke" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i><i class="fa-regular fa-star" aria-hidden="true"></i></span>
       </span>
     </div>
   </div>
