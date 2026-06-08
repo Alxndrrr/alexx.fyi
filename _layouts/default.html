@@ -9,8 +9,27 @@
       html, body { background: #18171c; color: #e8e8e8; }
       body { margin: 0; }
     </style>
+    {% if page.url == "/" %}
+      {% assign page_meta_title = site.title %}
+    {% elsif page.collection == "posts" %}
+      {% assign page_meta_title = page.title %}
+    {% elsif page.title %}
+      {% capture page_meta_title %}{{ site.title }} / {{ page.title }}{% endcapture %}
+    {% else %}
+      {% assign page_meta_title = site.title %}
+    {% endif %}
+    {% assign page_meta_title = page_meta_title | strip %}
     {% capture seo_tags %}{% seo %}{% endcapture %}
-    {{ seo_tags | replace: '<meta name="twitter:card" content="summary" />', '' }}
+    {% assign seo_tag_lines = seo_tags | split: "
+" %}
+    {% for seo_tag_line in seo_tag_lines %}
+      {% unless seo_tag_line contains "<title>" or seo_tag_line contains 'property="og:title"' or seo_tag_line contains 'name="twitter:title"' or seo_tag_line contains '<meta name="twitter:card" content="summary" />' %}
+        {{ seo_tag_line }}
+      {% endunless %}
+    {% endfor %}
+    <title>{{ page_meta_title | escape }}</title>
+    <meta property="og:title" content="{{ page_meta_title | escape }}">
+    <meta name="twitter:title" content="{{ page_meta_title | escape }}">
     {% include social-image-meta.html %}
     <link rel="icon" type="image/png" href="{{ site.logo | default: '/assets/img/avatar.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ site.logo | default: '/assets/img/avatar.png' | relative_url }}">
