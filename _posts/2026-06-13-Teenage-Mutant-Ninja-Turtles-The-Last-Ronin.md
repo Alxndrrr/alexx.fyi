@@ -4,7 +4,7 @@ homepage_type: micropost
 blogpost_type: micropost
 date: 2026-06-13
 categories:
-  - Books
+  - Comics
 ---
 
 I bought this banger graphic novel for an absolute steal. Heard such good things about TMNT: The Last Ronin. Can’t wait to read it!
