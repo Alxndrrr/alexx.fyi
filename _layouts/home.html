@@ -18,7 +18,7 @@ layout: default
   </section>
 {% endif %}
 
-<section class="post-list" aria-label="Blog posts">
+<section class="post-list{% if site.show_currently_box == false %} post-list--without-currently{% endif %}" aria-label="Blog posts">
   {% assign home_post_limit = site.home_post_limit | default: 10 %}
   {% for post in site.posts limit: home_post_limit %}
     {% include post-card.html post=post %}
