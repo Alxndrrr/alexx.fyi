@@ -19,6 +19,8 @@ accent_color: "#ff0073"
 permalink: /:title/
 excerpt_separator: "<!--more-->"
 home_post_limit: 10
+show_intro_box: true
+show_currently_box: false
 
 plugins:
   - jekyll-feed
