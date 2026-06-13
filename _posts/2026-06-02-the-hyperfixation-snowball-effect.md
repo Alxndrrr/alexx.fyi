@@ -1,7 +1,7 @@
 ---
 title: The Hyperfixation Snowball Effect
 description: "A blogpost about rebuilding websites, hyperfixation and the snowball effect of new hobbies."
-homepage_type: standard
+homepage_type: content
 blogpost_type: standard
 date: 2026-05-31
 categories:

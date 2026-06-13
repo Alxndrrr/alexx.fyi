@@ -49,6 +49,12 @@ You can use regular HTML in that file:
 
 The homepage automatically loads that file into the intro box.
 
+You can hide or show the intro box in `_config.yml`:
+
+```yaml
+show_intro_box: true
+```
+
 ## Change the Currently Box
 
 Edit `_includes/currently.md`.
@@ -62,6 +68,12 @@ This file controls the small currently box below the homepage intro. It uses a s
 {: .currently-sentence}
 <i class="fa-solid fa-book-open" aria-hidden="true"></i>
 Currently reading **Ready Player One**.
+```
+
+You can hide or show the currently box in `_config.yml`:
+
+```yaml
+show_currently_box: true
 ```
 
 ## Change the Menu

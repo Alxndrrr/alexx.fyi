@@ -2,21 +2,33 @@
 layout: default
 ---
 
-<section class="intro-block" aria-label="About Alexx">
-  <img class="intro-block__avatar" src="{{ site.logo | relative_url }}" alt="">
-  <div class="intro-block__text">
-    {% include intro.html %}
-  </div>
-</section>
+{% if site.show_intro_box != false %}
+  <section class="intro-block" aria-label="About Alexx">
+    <img class="intro-block__avatar" src="{{ site.logo | relative_url }}" alt="">
+    <div class="intro-block__text">
+      {% include intro.html %}
+    </div>
+  </section>
+{% endif %}
 
-<section class="currently-block" aria-label="Currently">
-  {% capture currently_content %}{% include currently.md %}{% endcapture %}
-  {{ currently_content | markdownify }}
-</section>
+{% if site.show_currently_box != false %}
+  <section class="currently-block" aria-label="Currently">
+    {% capture currently_content %}{% include currently.md %}{% endcapture %}
+    {{ currently_content | markdownify }}
+  </section>
+{% endif %}
 
-<section class="post-list" aria-label="Blog posts">
+<section class="post-list{% if site.show_currently_box == false %} post-list--without-currently{% endif %}" aria-label="Blog posts">
   {% assign home_post_limit = site.home_post_limit | default: 10 %}
   {% for post in site.posts limit: home_post_limit %}
     {% include post-card.html post=post %}
   {% endfor %}
 </section>
+
+{% if site.home_menu %}
+  <nav class="home-menu" aria-label="More pages">
+    {% for item in site.home_menu %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+{% endif %}
