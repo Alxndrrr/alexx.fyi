@@ -68,6 +68,10 @@ mobile_nav:
     url: /moments/
 
 home_menu:
+  - title: About
+    url: /about/
+  - title: Moments
+    url: /moments/
   - title: Colophon
     url: /colophon/
   - title: Contact

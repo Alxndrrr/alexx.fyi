@@ -746,10 +746,10 @@ img {
 }
 
 .home-menu a {
-  background: rgba(24, 23, 28, 0.55);
-  border: 1px solid var(--color-line);
+  background: rgba(82, 0, 255, 0.18);
+  border: 1px solid var(--color-accent-purple);
   border-radius: 8px;
-  color: var(--color-accent);
+  color: var(--color-accent-yellow);
   display: block;
   font-family: var(--font-body);
   font-size: 0.95rem;
@@ -763,9 +763,9 @@ img {
 
 .home-menu a:hover,
 .home-menu a:focus {
-  background: rgba(82, 0, 255, 0.18);
-  border-color: var(--color-accent-purple);
-  color: var(--color-accent-yellow);
+  background: rgba(255, 194, 61, 0.16);
+  border-color: var(--color-accent-yellow);
+  color: #ffffff;
   transform: translateY(-0.08rem);
 }
 
