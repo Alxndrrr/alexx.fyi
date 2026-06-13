@@ -440,11 +440,12 @@ img {
   box-shadow: none;
   clip-path: none;
   display: block;
+  height: auto;
   margin: 0.95rem 0 0;
   max-height: 18rem;
   max-width: 100%;
-  object-fit: cover;
-  width: 100%;
+  object-fit: contain;
+  width: auto;
 }
 
 .micro-box__content a,
