@@ -43,15 +43,6 @@ These are my all time favorite movies, tv shows and games.
     </figure>
     <figure class="favorite-card">
       <div class="favorite-card__poster">
-        <img src="{{ '/assets/img/favorites/straight-outta-compton.webp' | relative_url }}" alt="Straight Outta Compton poster">
-      </div>
-      <figcaption>
-        <strong>Straight Outta Compton</strong>
-        <span>2015</span>
-      </figcaption>
-    </figure>
-    <figure class="favorite-card">
-      <div class="favorite-card__poster">
         <img src="{{ '/assets/img/favorites/warrior.webp' | relative_url }}" alt="Warrior poster">
       </div>
       <figcaption>
