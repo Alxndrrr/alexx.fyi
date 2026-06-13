@@ -953,6 +953,11 @@ img {
   padding-bottom: 1.15rem;
 }
 
+.post-card--content .post-card__meta,
+.post-card--excerpt .post-card__meta {
+  margin-bottom: 0.85rem;
+}
+
 .post-card--content h2,
 .post-card--excerpt h2 {
   margin: 0 0 0.85rem;
