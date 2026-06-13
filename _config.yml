@@ -56,8 +56,6 @@ nav:
     url: /favorites/
   - title: Moments
     url: /moments/
-  - title: Colophon
-    url: /colophon/
 
 mobile_nav:
   - title: Blog
@@ -68,8 +66,14 @@ mobile_nav:
     url: /favorites/
   - title: Moments
     url: /moments/
+
+home_menu:
   - title: Colophon
     url: /colophon/
+  - title: Contact
+    url: /contact/
+  - title: Ratings
+    url: /ratings/
 
 social_links:
   - title: Threads

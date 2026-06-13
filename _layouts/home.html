@@ -24,3 +24,11 @@ layout: default
     {% include post-card.html post=post %}
   {% endfor %}
 </section>
+
+{% if site.home_menu %}
+  <nav class="home-menu" aria-label="More pages">
+    {% for item in site.home_menu %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+{% endif %}
