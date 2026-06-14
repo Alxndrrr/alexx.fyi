@@ -10,7 +10,7 @@ I like tinkering with code and creating my own websites, perhaps even more than 
 I believe the internet should be a more positive place, so I mostly write about the things that bring me joy. **Movies** and **TV shows** I watch, games I try to be good at but fail at horribly, books I can’t put down at night, **LEGO**, tech and whatever else happens to take over my brain that week. Check out [some of my favorites](https://www.alexx.fyi/favorites/). 
 
 ### Offline life
-I live in the Netherlands with my ~~girlfriend~~ fiancée and our four cats: *Númenor*, *Dixie*, *Nacho* and *Pixel*. Yes, four. They run the house, but they’re kind enough to let us live there too.
+I live in the Netherlands with my ~~girlfriend~~ [fiancée](https://www.maaikeschaap.nl) and our four cats: *Númenor*, *Dixie*, *Nacho* and *Pixel*. Yes, four. They run the house, but they’re kind enough to let us live there too.
 
 To pay for all my LEGO, I work in IT for the government. It mostly involves systems, problem-solving and trying to make digital things slightly less frustrating.
 
