@@ -27,7 +27,7 @@ intro_box:
   avatar: "/assets/img/avatar.png"
   link_url: "/about/"
   link_label: "Read more about Alex"
-  background_color: "#ffbd37"
+  background_color: "#5200ff"
   text_color: "auto"
   link_color: "auto"
   link_hover_color: "auto"
