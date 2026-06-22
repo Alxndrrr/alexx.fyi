@@ -2,9 +2,18 @@
 layout: default
 ---
 
-{% if site.show_intro_box != false %}
-  <section class="intro-block" aria-label="About Alexx">
-    <img class="intro-block__avatar" src="{{ site.logo | relative_url }}" alt="">
+{% assign intro_box = site.intro_box %}
+{% if site.show_intro_box != false and intro_box.visible != false %}
+  {% assign intro_avatar = intro_box.avatar | default: site.logo %}
+  {% assign intro_link_color = intro_box.link_color | default: site.accent_color %}
+  <section
+    class="intro-block"
+    aria-label="About Alexx"
+    style="--intro-bg: {{ intro_box.background_color | default: 'rgba(82, 0, 255, 0.22)' }}; --intro-text: {{ intro_box.text_color | default: '#ffffff' }}; --intro-link: {{ intro_link_color | default: '#ff0073' }}; --intro-link-hover: {{ intro_box.link_hover_color | default: '#ffbd37' }}; --intro-avatar-border: {{ intro_box.avatar_border_color | default: 'var(--color-line)' }}; --intro-cutout: {{ intro_box.cutout_color | default: 'var(--color-paper)' }};"
+  >
+    {% if intro_box.show_avatar != false and intro_avatar %}
+      <img class="intro-block__avatar" src="{{ intro_avatar | relative_url }}" alt="">
+    {% endif %}
     <div class="intro-block__text">
       {% include intro.html %}
     </div>

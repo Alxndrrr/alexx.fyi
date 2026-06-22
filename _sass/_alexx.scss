@@ -168,7 +168,7 @@ img {
 /* Intro block on the homepage. */
 .intro-block {
   align-items: center;
-  background: rgba(82, 0, 255, 0.22);
+  background: var(--intro-bg, rgba(82, 0, 255, 0.22));
   border-radius: 8px;
   display: grid;
   gap: 1rem;
@@ -181,7 +181,7 @@ img {
 
 .intro-block::after {
   border-left: 1.6rem solid transparent;
-  border-top: 1.6rem solid var(--color-paper);
+  border-top: 1.6rem solid var(--intro-cutout, var(--color-paper));
   content: "";
   height: 0;
   pointer-events: none;
@@ -192,7 +192,7 @@ img {
 }
 
 .intro-block__avatar {
-  border: 1px solid var(--color-line);
+  border: 1px solid var(--intro-avatar-border, var(--color-line));
   border-radius: 50%;
   height: clamp(4rem, 16vw, 5rem);
   object-fit: cover;
@@ -207,17 +207,17 @@ img {
 }
 
 .intro-block__text p {
-  color: #ffffff;
+  color: var(--intro-text, #ffffff);
 }
 
 .intro-block__text a {
-  color: var(--color-accent);
+  color: var(--intro-link, var(--color-accent));
   text-decoration: none;
 }
 
 .intro-block__text a:hover,
 .intro-block__text a:focus {
-  color: var(--color-accent-yellow);
+  color: var(--intro-link-hover, var(--color-accent-yellow));
 }
 
 .currently-block {

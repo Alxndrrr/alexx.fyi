@@ -227,3 +227,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added `jekyll-sitemap` to `_config.yml` so GitHub Pages can generate `/sitemap.xml`.
 - Added `robots.txt` with a sitemap reference generated through `absolute_url`.
 - Added `description` front matter to existing pages and posts for better snippets and social metadata through `jekyll-seo-tag`.
+
+### Update: Configurable Intro Box
+
+- Added an `intro_box` block to `_config.yml` for controlling homepage intro visibility, avatar visibility/image, background color, text color, link color, hover link color, avatar border color, and clipped-corner color.
+- Updated `_layouts/home.html` to pass those settings to the intro block as CSS custom properties, while keeping the old `show_intro_box` flag as a backwards-compatible fallback.
+- Updated `_sass/_alexx.scss` so the intro box reads its colors from those CSS custom properties.
+- Updated `manual.md` with the new intro box configuration example.
