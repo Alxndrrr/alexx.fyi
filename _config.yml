@@ -25,7 +25,7 @@ intro_box:
   visible: true
   show_avatar: true
   avatar: "/assets/img/avatar.png"
-  background_color: "rgba(82, 0, 255, 0.22)"
+  background_color: "#ffbd37"
   text_color: "#ffffff"
   link_color: "#ff0073"
   link_hover_color: "#ffbd37"
