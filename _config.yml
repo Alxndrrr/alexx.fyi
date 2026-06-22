@@ -25,11 +25,12 @@ intro_box:
   visible: true
   show_avatar: true
   avatar: "/assets/img/avatar.png"
+  link_url: "/about/"
+  link_label: "Read more about Alex"
   background_color: "#ffbd37"
-  text_color: "#ffffff"
+  text_color: "auto"
   link_color: "#ff0073"
   link_hover_color: "#ffbd37"
-  avatar_border_color: "#2e2c37"
   cutout_color: "#18171c"
 
 plugins:

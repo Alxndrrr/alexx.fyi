@@ -5,11 +5,18 @@ layout: default
 {% assign intro_box = site.intro_box %}
 {% if site.show_intro_box != false and intro_box.visible != false %}
   {% assign intro_avatar = intro_box.avatar | default: site.logo %}
+  {% assign intro_text_color = intro_box.text_color | default: 'auto' %}
   {% assign intro_link_color = intro_box.link_color | default: site.accent_color %}
+  {% assign has_intro_link = false %}
+  {% if intro_box.link_url and intro_box.link_url != "" %}
+    {% assign has_intro_link = true %}
+  {% endif %}
   <section
     class="intro-block"
     aria-label="About Alexx"
-    style="--intro-bg: {{ intro_box.background_color | default: 'rgba(82, 0, 255, 0.22)' }}; --intro-text: {{ intro_box.text_color | default: '#ffffff' }}; --intro-link: {{ intro_link_color | default: '#ff0073' }}; --intro-link-hover: {{ intro_box.link_hover_color | default: '#ffbd37' }}; --intro-avatar-border: {{ intro_box.avatar_border_color | default: 'var(--color-line)' }}; --intro-cutout: {{ intro_box.cutout_color | default: 'var(--color-paper)' }};"
+    {% if has_intro_link %}role="link" tabindex="0" data-intro-link="{{ intro_box.link_url | relative_url }}" data-intro-link-label="{{ intro_box.link_label | default: 'Open intro link' | escape }}"{% endif %}
+    {% if intro_text_color == 'auto' %}data-auto-text-color="true"{% endif %}
+    style="--intro-bg: {{ intro_box.background_color | default: 'rgba(82, 0, 255, 0.22)' }}; --intro-text: {% if intro_text_color == 'auto' %}var(--intro-auto-text, #ffffff){% else %}{{ intro_text_color }}{% endif %}; --intro-link: {{ intro_link_color | default: '#ff0073' }}; --intro-link-hover: {{ intro_box.link_hover_color | default: '#ffbd37' }}; --intro-cutout: {{ intro_box.cutout_color | default: 'var(--color-paper)' }};"
   >
     {% if intro_box.show_avatar != false and intro_avatar %}
       <img class="intro-block__avatar" src="{{ intro_avatar | relative_url }}" alt="">
@@ -18,6 +25,66 @@ layout: default
       {% include intro.html %}
     </div>
   </section>
+  <script>
+    (() => {
+      const introBlocks = document.querySelectorAll(".intro-block");
+
+      const parseColor = (value) => {
+        const match = value.match(/rgba?\(([^)]+)\)/);
+        if (!match) return null;
+
+        const [r, g, b, a = 1] = match[1].split(",").map((part) => Number.parseFloat(part.trim()));
+        return { r, g, b, a };
+      };
+
+      const blend = (foreground, background) => ({
+        r: foreground.r * foreground.a + background.r * (1 - foreground.a),
+        g: foreground.g * foreground.a + background.g * (1 - foreground.a),
+        b: foreground.b * foreground.a + background.b * (1 - foreground.a),
+        a: 1,
+      });
+
+      const luminance = ({ r, g, b }) => {
+        const channels = [r, g, b].map((channel) => {
+          const normalized = channel / 255;
+          return normalized <= 0.03928
+            ? normalized / 12.92
+            : ((normalized + 0.055) / 1.055) ** 2.4;
+        });
+
+        return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+      };
+
+      introBlocks.forEach((block) => {
+        if (block.dataset.autoTextColor === "true") {
+          const blockColor = parseColor(getComputedStyle(block).backgroundColor);
+          const pageColor = parseColor(getComputedStyle(document.documentElement).backgroundColor) || { r: 24, g: 23, b: 28, a: 1 };
+          const color = blockColor && blockColor.a < 1 ? blend(blockColor, pageColor) : blockColor;
+
+          if (color) {
+            block.style.setProperty("--intro-auto-text", luminance(color) > 0.45 ? "#18171c" : "#ffffff");
+          }
+        }
+
+        if (block.dataset.introLink) {
+          block.setAttribute("aria-label", block.dataset.introLinkLabel || "Open intro link");
+
+          block.addEventListener("click", (event) => {
+            if (!event.target.closest("a")) {
+              window.location.href = block.dataset.introLink;
+            }
+          });
+
+          block.addEventListener("keydown", (event) => {
+            if ((event.key === "Enter" || event.key === " ") && !event.target.closest("a")) {
+              event.preventDefault();
+              window.location.href = block.dataset.introLink;
+            }
+          });
+        }
+      });
+    })();
+  </script>
 {% endif %}
 
 {% if site.show_currently_box != false %}

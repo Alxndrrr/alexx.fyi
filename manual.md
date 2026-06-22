@@ -56,13 +56,16 @@ intro_box:
   visible: true
   show_avatar: true
   avatar: "/assets/img/avatar.png"
+  link_url: "/about/"
+  link_label: "Read more about Alex"
   background_color: "rgba(82, 0, 255, 0.22)"
-  text_color: "#ffffff"
+  text_color: "auto"
   link_color: "#ff0073"
   link_hover_color: "#ffbd37"
-  avatar_border_color: "#2e2c37"
   cutout_color: "#18171c"
 ```
+
+Use `text_color: "auto"` when the intro text should switch between dark and light based on the box background. Set `link_url` to make the whole intro box clickable, or remove it when the box should not link anywhere.
 
 `cutout_color` should usually match the page background so the clipped corner blends into the site.
 

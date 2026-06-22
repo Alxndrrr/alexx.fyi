@@ -230,7 +230,14 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 ### Update: Configurable Intro Box
 
-- Added an `intro_box` block to `_config.yml` for controlling homepage intro visibility, avatar visibility/image, background color, text color, link color, hover link color, avatar border color, and clipped-corner color.
+- Added an `intro_box` block to `_config.yml` for controlling homepage intro visibility, avatar visibility/image, background color, text color, link color, hover link color, and clipped-corner color.
 - Updated `_layouts/home.html` to pass those settings to the intro block as CSS custom properties, while keeping the old `show_intro_box` flag as a backwards-compatible fallback.
 - Updated `_sass/_alexx.scss` so the intro box reads its colors from those CSS custom properties.
 - Updated `manual.md` with the new intro box configuration example.
+
+### Update: Intro Box Link and Auto Text Color
+
+- Removed the visible border from the homepage intro avatar.
+- Added `link_url` and `link_label` to `intro_box` so the whole intro box can link to a configured page while preserving links inside the intro text.
+- Added `text_color: "auto"` support through a small homepage script that picks dark or light intro text based on the configured box background color.
+- Updated the intro box focus/cursor styles for keyboard and pointer users.
