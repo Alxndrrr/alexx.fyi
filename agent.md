@@ -252,4 +252,4 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 ### Update: Shorter Homepage Intro Copy
 
 - Replaced the homepage intro copy in `_includes/intro.html` with a shorter, more scannable English paragraph based on the About page.
-- Updated the intro copy to bold Alex's name and use the existing highlight/mark styles for the topics he writes about.
+- Updated the intro copy to bold Alex's name.
