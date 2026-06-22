@@ -60,12 +60,12 @@ intro_box:
   link_label: "Read more about Alex"
   background_color: "rgba(82, 0, 255, 0.22)"
   text_color: "auto"
-  link_color: "#ff0073"
-  link_hover_color: "#ffbd37"
+  link_color: "auto"
+  link_hover_color: "auto"
   cutout_color: "#18171c"
 ```
 
-Use `text_color: "auto"` when the intro text should switch between dark and light based on the box background. Set `link_url` to make the whole intro box clickable, or remove it when the box should not link anywhere.
+Use `text_color: "auto"`, `link_color: "auto"`, and `link_hover_color: "auto"` when the intro text and links should switch between dark and light based on the box background. Set `link_url` to make the whole intro box clickable, or remove it when the box should not link anywhere.
 
 `cutout_color` should usually match the page background so the clipped corner blends into the site.
 

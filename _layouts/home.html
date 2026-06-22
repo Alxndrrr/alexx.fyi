@@ -7,6 +7,7 @@ layout: default
   {% assign intro_avatar = intro_box.avatar | default: site.logo %}
   {% assign intro_text_color = intro_box.text_color | default: 'auto' %}
   {% assign intro_link_color = intro_box.link_color | default: site.accent_color %}
+  {% assign intro_link_hover_color = intro_box.link_hover_color | default: 'auto' %}
   {% assign has_intro_link = false %}
   {% if intro_box.link_url and intro_box.link_url != "" %}
     {% assign has_intro_link = true %}
@@ -16,7 +17,9 @@ layout: default
     aria-label="About Alexx"
     {% if has_intro_link %}role="link" tabindex="0" data-intro-link="{{ intro_box.link_url | relative_url }}" data-intro-link-label="{{ intro_box.link_label | default: 'Open intro link' | escape }}"{% endif %}
     {% if intro_text_color == 'auto' %}data-auto-text-color="true"{% endif %}
-    style="--intro-bg: {{ intro_box.background_color | default: 'rgba(82, 0, 255, 0.22)' }}; --intro-text: {% if intro_text_color == 'auto' %}var(--intro-auto-text, #ffffff){% else %}{{ intro_text_color }}{% endif %}; --intro-link: {{ intro_link_color | default: '#ff0073' }}; --intro-link-hover: {{ intro_box.link_hover_color | default: '#ffbd37' }}; --intro-cutout: {{ intro_box.cutout_color | default: 'var(--color-paper)' }};"
+    {% if intro_link_color == 'auto' %}data-auto-link-color="true"{% endif %}
+    {% if intro_link_hover_color == 'auto' %}data-auto-link-hover-color="true"{% endif %}
+    style="--intro-bg: {{ intro_box.background_color | default: 'rgba(82, 0, 255, 0.22)' }}; --intro-text: {% if intro_text_color == 'auto' %}var(--intro-auto-text, #ffffff){% else %}{{ intro_text_color }}{% endif %}; --intro-link: {% if intro_link_color == 'auto' %}var(--intro-auto-link, #ffbd37){% else %}{{ intro_link_color | default: '#ff0073' }}{% endif %}; --intro-link-hover: {% if intro_link_hover_color == 'auto' %}var(--intro-auto-link-hover, #ffffff){% else %}{{ intro_link_hover_color }}{% endif %}; --intro-cutout: {{ intro_box.cutout_color | default: 'var(--color-paper)' }};"
   >
     {% if intro_box.show_avatar != false and intro_avatar %}
       <img class="intro-block__avatar" src="{{ intro_avatar | relative_url }}" alt="">
@@ -56,13 +59,23 @@ layout: default
       };
 
       introBlocks.forEach((block) => {
-        if (block.dataset.autoTextColor === "true") {
-          const blockColor = parseColor(getComputedStyle(block).backgroundColor);
-          const pageColor = parseColor(getComputedStyle(document.documentElement).backgroundColor) || { r: 24, g: 23, b: 28, a: 1 };
-          const color = blockColor && blockColor.a < 1 ? blend(blockColor, pageColor) : blockColor;
+        const blockColor = parseColor(getComputedStyle(block).backgroundColor);
+        const pageColor = parseColor(getComputedStyle(document.documentElement).backgroundColor) || { r: 24, g: 23, b: 28, a: 1 };
+        const color = blockColor && blockColor.a < 1 ? blend(blockColor, pageColor) : blockColor;
 
-          if (color) {
-            block.style.setProperty("--intro-auto-text", luminance(color) > 0.45 ? "#18171c" : "#ffffff");
+        if (color) {
+          const isLight = luminance(color) > 0.45;
+
+          if (block.dataset.autoTextColor === "true") {
+            block.style.setProperty("--intro-auto-text", isLight ? "#18171c" : "#ffffff");
+          }
+
+          if (block.dataset.autoLinkColor === "true") {
+            block.style.setProperty("--intro-auto-link", isLight ? "#5200ff" : "#ffbd37");
+          }
+
+          if (block.dataset.autoLinkHoverColor === "true") {
+            block.style.setProperty("--intro-auto-link-hover", isLight ? "#18171c" : "#ffffff");
           }
         }
 

@@ -29,8 +29,8 @@ intro_box:
   link_label: "Read more about Alex"
   background_color: "#ffbd37"
   text_color: "auto"
-  link_color: "#ff0073"
-  link_hover_color: "#ffbd37"
+  link_color: "auto"
+  link_hover_color: "auto"
   cutout_color: "#18171c"
 
 plugins:

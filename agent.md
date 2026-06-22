@@ -241,3 +241,10 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Added `link_url` and `link_label` to `intro_box` so the whole intro box can link to a configured page while preserving links inside the intro text.
 - Added `text_color: "auto"` support through a small homepage script that picks dark or light intro text based on the configured box background color.
 - Updated the intro box focus/cursor styles for keyboard and pointer users.
+
+### Update: Micropost Emphasis and Intro Auto Link Colors
+
+- Made bold text inside homepage and individual microposts much heavier so Markdown emphasis is clearly visible.
+- Changed the `Micropost...` label color to yellow `#ffbd37` on both homepage cards and individual micropost pages.
+- Added `link_color: "auto"` and `link_hover_color: "auto"` support for the homepage intro box so link colors respond to the configured background color.
+- Removed the focus outline from the clickable intro box so clicks no longer leave a temporary border.

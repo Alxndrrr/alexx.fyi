@@ -183,9 +183,9 @@ img {
   cursor: pointer;
 }
 
-.intro-block[role="link"]:focus {
-  outline: 2px solid var(--intro-link, var(--color-accent));
-  outline-offset: 0.2rem;
+.intro-block[role="link"]:focus,
+.intro-block[role="link"]:focus-visible {
+  outline: 0;
 }
 
 .intro-block::after {
@@ -395,7 +395,7 @@ img {
 }
 
 .micro-box__label {
-  color: var(--color-accent-purple);
+  color: #ffbd37;
   font-family: var(--font-detail);
   font-size: 0.78rem;
   font-weight: 500;
@@ -435,6 +435,14 @@ img {
 
 .micro-box__content p + p {
   margin-top: 0.75rem;
+}
+
+.micro-box__content strong,
+.micro-box__content b,
+.post-card__micro-content strong,
+.post-card__micro-content b {
+  color: #ffffff;
+  font-weight: 900;
 }
 
 .micro-box__content p:has(img),
@@ -839,7 +847,7 @@ img {
 }
 
 .post-card__micro-label {
-  color: var(--color-accent-purple);
+  color: #ffbd37;
   font-family: var(--font-detail);
   font-size: 0.78rem;
   font-weight: 500;
