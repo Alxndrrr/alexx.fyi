@@ -248,3 +248,7 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 - Changed the `Micropost...` label color to yellow `#ffbd37` on both homepage cards and individual micropost pages.
 - Added `link_color: "auto"` and `link_hover_color: "auto"` support for the homepage intro box so link colors respond to the configured background color.
 - Removed the focus outline from the clickable intro box so clicks no longer leave a temporary border.
+
+### Update: Shorter Homepage Intro Copy
+
+- Replaced the homepage intro copy in `_includes/intro.html` with a shorter, more scannable English paragraph based on the About page.
