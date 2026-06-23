@@ -263,3 +263,5 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Reworked `_pages/favorites/games.md` into console sections for PlayStation, PlayStation 4, Nintendo Gameboy, and Mac.
 - Added Tony Hawk's Pro Skater 2, Grand Theft Auto V, Red Dead Redemption 2, Pokemon Red Version, and Stardew Valley to their requested console sections.
+- Added more favorite games to the games subpage, including Minecraft, Need for Speed: Underground, Pokemon Silver Version, Cyberpunk 2077, Call of Duty, Tekken 3, Medal of Honor, Marvel's Spider-Man: Miles Morales, Hogwarts Legacy, Crash Team Racing, Age of Empires II: Definitive Edition, and Dino Crisis.
+- Added PlayStation 2, PlayStation 5, and PC sections to keep the expanded game list grouped by platform.
