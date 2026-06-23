@@ -72,20 +72,38 @@ These are my all time favorite movies, tv shows and games.
   <div class="favorites-grid">
     <figure class="favorite-card">
       <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/the shield.webp' | relative_url }}" alt="The Shield poster">
+      </div>
+      <figcaption>
+        <strong>The Shield</strong>
+        <span>2002-2008</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/the pitt.webp' | relative_url }}" alt="The Pitt poster">
+      </div>
+      <figcaption>
+        <strong>The Pitt</strong>
+        <span>2025-</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/californication.webp' | relative_url }}" alt="Californication poster">
+      </div>
+      <figcaption>
+        <strong>Californication</strong>
+        <span>2007-2014</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
         <img src="{{ '/assets/img/favorites/game-of-thrones.jpg' | relative_url }}" alt="Game of Thrones poster">
       </div>
       <figcaption>
         <strong>Game of Thrones</strong>
         <span>2011-2019</span>
-      </figcaption>
-    </figure>
-    <figure class="favorite-card">
-      <div class="favorite-card__poster">
-        <img src="{{ '/assets/img/favorites/1883.jpg' | relative_url }}" alt="1883 poster">
-      </div>
-      <figcaption>
-        <strong>1883</strong>
-        <span>2021</span>
       </figcaption>
     </figure>
     <figure class="favorite-card">
