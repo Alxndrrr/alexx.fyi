@@ -7,4 +7,4 @@ categories:
   - Games
 ---
 
-**The Steam Machine is finally here**, but it’s very pricey. Blame AI, but Valve’s gaming PC starts at € 1039. Which is quite more than I hoped for. 
+**The Steam Machine is finally here**, but it’s very pricey. Blame AI, but Valve’s gaming PC starts at €1,039. Which is quite a bit more than I hoped for.
