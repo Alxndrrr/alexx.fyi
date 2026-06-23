@@ -253,3 +253,13 @@ The homepage shows the logo at the top, the site name beside it, the menu below,
 
 - Replaced the homepage intro copy in `_includes/intro.html` with a shorter, more scannable English paragraph based on the About page.
 - Updated the intro copy to bold Alex's name.
+
+### Update: Favorites Homepage Games
+
+- Added Grand Theft Auto V, Red Dead Redemption 2, Pokemon Red Version, and Tony Hawk's Pro Skater 2 to the games section on the main Favorites page.
+- Copied the supplied game cover images into `assets/img/favorites/`.
+
+### Update: Favorite Games Subpage
+
+- Reworked `_pages/favorites/games.md` into console sections for PlayStation, PlayStation 4, Nintendo Gameboy, and Mac.
+- Added Tony Hawk's Pro Skater 2, Grand Theft Auto V, Red Dead Redemption 2, Pokemon Red Version, and Stardew Valley to their requested console sections.

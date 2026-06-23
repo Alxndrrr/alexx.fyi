@@ -117,5 +117,41 @@ These are my all time favorite movies, tv shows and games.
         <span>2016</span>
       </figcaption>
     </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/grand-theft-auto-v.jpg' | relative_url }}" alt="Grand Theft Auto V cover">
+      </div>
+      <figcaption>
+        <strong>Grand Theft Auto V</strong>
+        <span>2013</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/red-dead-redemption-2.jpg' | relative_url }}" alt="Red Dead Redemption 2 cover">
+      </div>
+      <figcaption>
+        <strong>Red Dead Redemption 2</strong>
+        <span>2018</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/pokemon-red-version.jpg' | relative_url }}" alt="Pokemon Red Version cover">
+      </div>
+      <figcaption>
+        <strong>Pokemon Red Version</strong>
+        <span>1996</span>
+      </figcaption>
+    </figure>
+    <figure class="favorite-card">
+      <div class="favorite-card__poster">
+        <img src="{{ '/assets/img/favorites/tony-hawks-pro-skater-2.jpg' | relative_url }}" alt="Tony Hawk's Pro Skater 2 cover">
+      </div>
+      <figcaption>
+        <strong>Tony Hawk's Pro Skater 2</strong>
+        <span>2000</span>
+      </figcaption>
+    </figure>
   </div>
 </section>
